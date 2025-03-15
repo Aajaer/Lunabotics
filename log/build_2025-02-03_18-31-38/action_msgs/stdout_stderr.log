@@ -1,0 +1,288 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 1.2.1 (/home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found unique_identifier_msgs: 2.2.1 (/home/aajaer/microros_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake)
+-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/action_msgs
+[  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  1%] Built target action_msgs__cpp
+[  1%] Built target ament_cmake_python_symlink_action_msgs
+[  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[  5%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_msgs/msg/detail/goal_info__type_support.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_msgs/srv/detail/cancel_goal__type_support.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_msgs/msg/detail/goal_status_array__type_support.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_msgs/msg/detail/goal_status__type_support.cpp.o[0m
+[ 12%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 12%] Built target action_msgs__rosidl_typesupport_introspection_cpp
+running egg_info
+creating action_msgs.egg-info
+writing action_msgs.egg-info/PKG-INFO
+writing dependency_links to action_msgs.egg-info/dependency_links.txt
+writing top-level names to action_msgs.egg-info/top_level.txt
+writing manifest file 'action_msgs.egg-info/SOURCES.txt'
+reading manifest file 'action_msgs.egg-info/SOURCES.txt'
+writing manifest file 'action_msgs.egg-info/SOURCES.txt'
+[ 12%] Built target ament_cmake_python_build_action_msgs_egg
+[ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_msgs/msg/detail/dds_fastrtps/goal_info__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_msgs/srv/detail/dds_fastrtps/cancel_goal__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_msgs/msg/detail/dds_fastrtps/goal_status_array__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_msgs/msg/detail/dds_fastrtps/goal_status__type_support.cpp.o[0m
+[ 23%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 23%] Built target action_msgs__rosidl_typesupport_fastrtps_cpp
+[ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/msg/goal_info__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/srv/cancel_goal__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/msg/goal_status_array__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/msg/goal_status__type_support.cpp.o[0m
+[ 34%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_cpp.so[0m
+[ 34%] Built target action_msgs__rosidl_typesupport_cpp
+[ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[ 38%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_info__functions.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/srv/detail/cancel_goal__functions.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_status_array__functions.c.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_status__functions.c.o[0m
+[ 45%] [32m[1mLinking C shared library libaction_msgs__rosidl_generator_c.so[0m
+[ 45%] Built target action_msgs__rosidl_generator_c
+[ 47%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_msgs/msg/detail/goal_info__type_support_c.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_msgs/srv/detail/cancel_goal__type_support_c.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_msgs/msg/detail/goal_status_array__type_support_c.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_msgs/msg/detail/goal_status__type_support_c.cpp.o[0m
+[ 56%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 56%] Built target action_msgs__rosidl_typesupport_fastrtps_c
+[ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/msg/goal_info__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/srv/cancel_goal__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/msg/goal_status_array__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/msg/goal_status__type_support.cpp.o[0m
+[ 67%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_c.so[0m
+[ 67%] Built target action_msgs__rosidl_typesupport_c
+[ 69%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 70%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_msgs/msg/detail/goal_info__type_support.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_msgs/srv/detail/cancel_goal__type_support.c.o[0m
+[ 74%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_msgs/msg/detail/goal_status_array__type_support.c.o[0m
+[ 76%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_msgs/msg/detail/goal_status__type_support.c.o[0m
+[ 78%] [32m[1mLinking C shared library libaction_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 78%] Built target action_msgs__rosidl_typesupport_introspection_c
+[ 78%] Built target action_msgs
+[ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 80%] Built target action_msgs__py
+[ 81%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_py.dir/rosidl_generator_py/action_msgs/msg/_goal_info_s.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_py.dir/rosidl_generator_py/action_msgs/srv/_cancel_goal_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_py.dir/rosidl_generator_py/action_msgs/msg/_goal_status_array_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_py.dir/rosidl_generator_py/action_msgs/msg/_goal_status_s.c.o[0m
+[ 89%] [32m[1mLinking C shared library rosidl_generator_py/action_msgs/libaction_msgs__rosidl_generator_py.so[0m
+[ 89%] Built target action_msgs__rosidl_generator_py
+[ 90%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_msgs/_action_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 92%] [32m[1mLinking C shared library rosidl_generator_py/action_msgs/action_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 92%] Built target action_msgs__rosidl_typesupport_fastrtps_c__pyext
+[ 94%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_msgs/_action_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/action_msgs/action_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 96%] Built target action_msgs__rosidl_typesupport_c__pyext
+[ 98%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_msgs/_action_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/action_msgs/action_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[100%] Built target action_msgs__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/ament_index/resource_index/rosidl_interfaces/action_msgs
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__functions.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/goal_info.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/goal_status.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/goal_status_array.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/srv/cancel_goal.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/environment/library_path.sh
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/environment/library_path.dsv
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__builder.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/goal_info.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/goal_status.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/goal_status_array.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/srv/cancel_goal.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/environment/pythonpath.sh
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/environment/pythonpath.dsv
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs-1.2.1-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs-1.2.1-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs-1.2.1-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs-1.2.1-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/__init__.py
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/_action_msgs_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/_action_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/_action_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/action_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/action_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/action_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/libaction_msgs__rosidl_generator_py.so
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/__init__.py
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/_goal_info.py
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/_goal_info_s.c
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/_goal_status.py
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/_goal_status_array.py
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/_goal_status_array_s.c
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/_goal_status_s.c
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/srv/__init__.py
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/srv/_cancel_goal.py
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/srv/_cancel_goal_s.c
+-- Up-to-date symlink: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/action_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date symlink: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/action_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date symlink: /home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/action_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/msg/GoalInfo.idl
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/msg/GoalStatus.idl
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/msg/GoalStatusArray.idl
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/srv/CancelGoal.idl
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/msg/GoalInfo.msg
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/msg/GoalStatus.msg
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/msg/GoalStatusArray.msg
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/srv/CancelGoal.srv
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/srv/CancelGoal_Request.msg
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/srv/CancelGoal_Response.msg
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/ament_index/resource_index/package_run_dependencies/action_msgs
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/ament_index/resource_index/parent_prefix_path/action_msgs
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/environment/ament_prefix_path.sh
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/environment/ament_prefix_path.dsv
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/environment/path.sh
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/environment/path.dsv
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/local_setup.bash
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/local_setup.sh
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/local_setup.zsh
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/local_setup.dsv
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/package.dsv
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/ament_index/resource_index/packages/action_msgs
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/action_msgsConfig.cmake
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/action_msgsConfig-version.cmake
+-- Symlinking: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/package.xml
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_generator_c.so
+-- Set runtime path of "/home/aajaer/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_generator_c.so" to ""
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/aajaer/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/aajaer/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/aajaer/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/home/aajaer/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_c.so" to ""
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/aajaer/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/aajaer/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_cpp.so" to ""
+Listing '/home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs'...
+Compiling '/home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/__init__.py'...
+Listing '/home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg'...
+Compiling '/home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/__init__.py'...
+Compiling '/home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/_goal_info.py'...
+Compiling '/home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/_goal_status.py'...
+Compiling '/home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/msg/_goal_status_array.py'...
+Listing '/home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/srv'...
+Compiling '/home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/srv/__init__.py'...
+Compiling '/home/aajaer/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages/action_msgs/srv/_cancel_goal.py'...
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_generator_py.so
+-- Set runtime path of "/home/aajaer/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_generator_py.so" to ""
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /home/aajaer/microros_ws/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_generator_pyExport-noconfig.cmake

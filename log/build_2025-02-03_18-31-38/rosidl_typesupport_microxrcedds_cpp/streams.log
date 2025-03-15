@@ -1,0 +1,98 @@
+[0.074s] Invoking command in '/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_cpp': AMENT_PREFIX_PATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/aajaer/microros_ws/install/microcdr:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aajaer/microros_ws/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp
+[0.989s] -- The CXX compiler identification is GNU 11.4.0
+[0.989s] -- Detecting CXX compiler ABI info
+[0.989s] -- Detecting CXX compiler ABI info - done
+[0.990s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.990s] -- Detecting CXX compile features
+[0.990s] -- Detecting CXX compile features - done
+[0.990s] -- Found ament_cmake_python: 1.3.11 (/opt/ros/humble/share/ament_cmake_python/cmake)
+[0.990s] -- Found rosidl_runtime_c: 3.1.6 (/opt/ros/humble/share/rosidl_runtime_c/cmake)
+[0.990s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.054s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.126s] -- Found rosidl_typesupport_microxrcedds_c: 3.0.1 (/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake)
+[1.144s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.376s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.584s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.588s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.588s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/aajaer/microros_ws/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_cpp/include>
+[1.588s] -- Configured cppcheck exclude dirs and/or files: 
+[1.592s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.592s] -- Configured cpplint exclude dirs and/or files: 
+[1.593s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.595s] -- Added test 'lint_cmake' to check CMake code style
+[1.596s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.599s] -- Added test 'uncrustify' to check C / C++ code style
+[1.600s] -- Configured uncrustify additional arguments: 
+[1.601s] -- Added test 'xmllint' to check XML markup files
+[1.623s] -- Configuring done
+[1.631s] -- Generating done
+[1.631s] -- Build files have been written to: /home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_cpp
+[1.687s] Invoked command in '/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_cpp' returned '0': AMENT_PREFIX_PATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/aajaer/microros_ws/install/microcdr:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aajaer/microros_ws/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp
+[1.688s] Invoking command in '/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_cpp': AMENT_PREFIX_PATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/aajaer/microros_ws/install/microcdr:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_cpp -- -j8 -l8
+[1.830s] [  0%] Built target ament_cmake_python_symlink_rosidl_typesupport_microxrcedds_cpp
+[1.873s] [ 50%] [32mBuilding CXX object CMakeFiles/rosidl_typesupport_microxrcedds_cpp.dir/src/identifier.cpp.o[0m
+[1.918s] [100%] [32m[1mLinking CXX static library librosidl_typesupport_microxrcedds_cpp.a[0m
+[2.072s] [100%] Built target rosidl_typesupport_microxrcedds_cpp
+[2.660s] running egg_info
+[2.662s] creating rosidl_typesupport_microxrcedds_cpp.egg-info
+[2.662s] writing rosidl_typesupport_microxrcedds_cpp.egg-info/PKG-INFO
+[2.663s] writing dependency_links to rosidl_typesupport_microxrcedds_cpp.egg-info/dependency_links.txt
+[2.663s] writing top-level names to rosidl_typesupport_microxrcedds_cpp.egg-info/top_level.txt
+[2.664s] writing manifest file 'rosidl_typesupport_microxrcedds_cpp.egg-info/SOURCES.txt'
+[2.669s] reading manifest file 'rosidl_typesupport_microxrcedds_cpp.egg-info/SOURCES.txt'
+[2.672s] writing manifest file 'rosidl_typesupport_microxrcedds_cpp.egg-info/SOURCES.txt'
+[2.780s] [100%] Built target ament_cmake_python_build_rosidl_typesupport_microxrcedds_cpp_egg
+[2.813s] Invoked command in '/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_cpp' returned '0': AMENT_PREFIX_PATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/aajaer/microros_ws/install/microcdr:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_cpp -- -j8 -l8
+[2.814s] Invoking command in '/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_cpp': AMENT_PREFIX_PATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/aajaer/microros_ws/install/microcdr:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_cpp
+[4.475s] -- Install configuration: ""
+[4.475s] -- Execute custom install script
+[4.475s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/environment/pythonpath.sh
+[4.475s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/environment/pythonpath.dsv
+[4.475s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_cpp-3.0.1-py3.10.egg-info/PKG-INFO
+[4.476s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_cpp-3.0.1-py3.10.egg-info/SOURCES.txt
+[4.476s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_cpp-3.0.1-py3.10.egg-info/dependency_links.txt
+[4.476s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_cpp-3.0.1-py3.10.egg-info/top_level.txt
+[4.476s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_cpp/__init__.py
+[4.476s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/environment/library_path.sh
+[4.476s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/environment/library_path.dsv
+[4.476s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/ament_index/resource_index/rosidl_typesupport_cpp/rosidl_typesupport_microxrcedds_cpp
+[4.477s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_microxrcedds_cpp
+[4.477s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_microxrcedds_cpp
+[4.477s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/environment/ament_prefix_path.sh
+[4.477s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/environment/ament_prefix_path.dsv
+[4.477s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/environment/path.sh
+[4.477s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/environment/path.dsv
+[4.477s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/local_setup.bash
+[4.477s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/local_setup.sh
+[4.477s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/local_setup.zsh
+[4.478s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/local_setup.dsv
+[4.478s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/package.dsv
+[4.478s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/ament_index/resource_index/packages/rosidl_typesupport_microxrcedds_cpp
+[4.478s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake/rosidl_typesupport_microxrcedds_cpp-extras.cmake
+[4.478s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.478s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.478s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake/ament_cmake_export_libraries-extras.cmake
+[4.478s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake/ament_cmake_export_targets-extras.cmake
+[4.479s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake/rosidl_typesupport_microxrcedds_cppConfig.cmake
+[4.479s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake/rosidl_typesupport_microxrcedds_cppConfig-version.cmake
+[4.479s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/package.xml
+[4.479s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/rosidl_typesupport_microxrcedds_cpp/rosidl_typesupport_microxrcedds_cpp
+[4.480s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake/rosidl_typesupport_microxrcedds_cpp_generate_interfaces.cmake
+[4.480s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/idl__rosidl_typesupport_microxrcedds_cpp.hpp.em
+[4.480s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/idl__type_support_cpp.cpp.em
+[4.480s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/msg__rosidl_typesupport_microxrcedds_cpp.hpp.em
+[4.480s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/msg__type_support_cpp.cpp.em
+[4.480s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/rosidl_typesupport_microxrcedds_cpp__visibility_control.h.in
+[4.480s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/srv__rosidl_typesupport_microxrcedds_cpp.hpp.em
+[4.480s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/srv__type_support_cpp.cpp.em
+[4.481s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/include/rosidl_typesupport_microxrcedds_cpp/identifier.h
+[4.481s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/include/rosidl_typesupport_microxrcedds_cpp/identifier.hpp
+[4.481s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/include/rosidl_typesupport_microxrcedds_cpp/message_type_support_decl.hpp
+[4.481s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/include/rosidl_typesupport_microxrcedds_cpp/service_type_support_decl.hpp
+[4.481s] -- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/include/rosidl_typesupport_microxrcedds_cpp/visibility_control.h
+[4.481s] Listing '/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_cpp'...
+[4.481s] Compiling '/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_cpp/__init__.py'...
+[4.481s] -- Installing: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake/rosidl_typesupport_microxrcedds_cppExport.cmake
+[4.482s] -- Installing: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake/rosidl_typesupport_microxrcedds_cppExport-noconfig.cmake
+[4.482s] -- Installing: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/librosidl_typesupport_microxrcedds_cpp.a
+[4.541s] Invoked command in '/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_cpp' returned '0': AMENT_PREFIX_PATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/aajaer/microros_ws/install/microcdr:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_cpp

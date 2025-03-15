@@ -1,0 +1,519 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 1.2.1 (/home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 4.2.4 (/home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found sensor_msgs: 4.2.4 (/home/aajaer/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake)
+-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/visualization_msgs
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_symlink_visualization_msgs
+running egg_info
+creating visualization_msgs.egg-info
+writing visualization_msgs.egg-info/PKG-INFO
+writing dependency_links to visualization_msgs.egg-info/dependency_links.txt
+writing top-level names to visualization_msgs.egg-info/top_level.txt
+writing manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+reading manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+writing manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+[  1%] Built target ament_cmake_python_build_visualization_msgs_egg
+[  1%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker__functions.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/image_marker__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_feedback__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_control__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_init__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_pose__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_update__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker_array__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/menu_entry__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/uv_coordinate__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/srv/detail/get_interactive_markers__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/mesh_file__functions.c.o[0m
+[ 12%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_generator_c.so[0m
+[ 12%] Built target visualization_msgs__cpp
+[ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 14%] Built target visualization_msgs__rosidl_generator_c
+[ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/image_marker__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_control__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_feedback__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/image_marker__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_init__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/image_marker__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_control__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_feedback__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_init__type_support.cpp.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/image_marker__type_support.c.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_pose__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/image_marker__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_pose__type_support.cpp.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker__type_support.c.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_update__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/marker__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_update__type_support.cpp.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_control__type_support.c.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/image_marker__type_support_c.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/marker_array__type_support.cpp.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/menu_entry__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/mesh_file__type_support.cpp.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_init__type_support.c.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_control__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/uv_coordinate__type_support.cpp.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/marker__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/srv/get_interactive_markers__type_support.cpp.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_update__type_support.c.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/marker_array__type_support.cpp.o[0m
+[ 46%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_c.so[0m
+[ 46%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/marker__type_support.c.o[0m
+[ 46%] Built target visualization_msgs__rosidl_typesupport_c
+[ 47%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker__type_support.cpp.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/marker_array__type_support.c.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker__type_support_c.cpp.o[0m
+[ 49%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/menu_entry__type_support.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/mesh_file__type_support.c.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/menu_entry__type_support.cpp.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/uv_coordinate__type_support.c.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/srv/detail/get_interactive_markers__type_support.c.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/mesh_file__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/uv_coordinate__type_support.cpp.o[0m
+[ 56%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 56%] Built target visualization_msgs__rosidl_typesupport_introspection_c
+[ 56%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/srv/get_interactive_markers__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_init__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_control__type_support_c.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_feedback__type_support_c.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_pose__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_update__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_control__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/marker__type_support.cpp.o[0m
+[ 63%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_cpp.so[0m
+[ 63%] Built target visualization_msgs__rosidl_typesupport_cpp
+[ 64%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/marker_array__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_init__type_support_c.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_pose__type_support_c.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/menu_entry__type_support.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_feedback__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/mesh_file__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/uv_coordinate__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_update__type_support_c.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/srv/detail/get_interactive_markers__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/marker__type_support_c.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/marker_array__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_init__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/menu_entry__type_support_c.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/uv_coordinate__type_support_c.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/mesh_file__type_support_c.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/srv/detail/get_interactive_markers__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_pose__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_update__type_support.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/marker_array__type_support.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/menu_entry__type_support.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/mesh_file__type_support.cpp.o[0m
+[ 81%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/uv_coordinate__type_support.cpp.o[0m
+[ 82%] Built target visualization_msgs__rosidl_typesupport_fastrtps_c
+[ 83%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/srv/detail/dds_fastrtps/get_interactive_markers__type_support.cpp.o[0m
+[ 84%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 84%] Built target visualization_msgs__rosidl_typesupport_introspection_cpp
+[ 84%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 84%] Built target visualization_msgs__rosidl_typesupport_fastrtps_cpp
+[ 84%] Built target visualization_msgs
+[ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 85%] Built target visualization_msgs__py
+[ 86%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_s.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_init_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_feedback_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_image_marker_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_control_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_update_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_pose_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_marker_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_marker_array_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_menu_entry_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_mesh_file_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_uv_coordinate_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/srv/_get_interactive_markers_s.c.o[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/visualization_msgs/libvisualization_msgs__rosidl_generator_py.so[0m
+[ 96%] Built target visualization_msgs__rosidl_generator_py
+[ 99%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 99%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 99%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 99%] [32m[1mLinking C shared library rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 99%] [32m[1mLinking C shared library rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[100%] Built target visualization_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target visualization_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target visualization_msgs__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/ament_index/resource_index/rosidl_interfaces/visualization_msgs
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__functions.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__struct.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__functions.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__struct.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__functions.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__struct.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__functions.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__struct.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__functions.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__struct.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__functions.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__struct.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__functions.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__struct.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__functions.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__functions.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__functions.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__struct.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__functions.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__functions.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/image_marker.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_control.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_feedback.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_init.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_pose.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_update.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker_array.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/menu_entry.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/mesh_file.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/uv_coordinate.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__functions.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__struct.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/get_interactive_markers.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/library_path.sh
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/library_path.dsv
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__builder.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__struct.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__traits.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__builder.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__struct.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__traits.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__builder.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__struct.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__traits.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__builder.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__struct.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__traits.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__builder.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__struct.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__traits.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__builder.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__struct.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__traits.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__builder.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__struct.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__traits.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__builder.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__builder.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__builder.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__struct.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__traits.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__builder.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__builder.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/image_marker.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_control.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_feedback.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_init.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_pose.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_update.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/menu_entry.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/mesh_file.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/uv_coordinate.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__builder.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__struct.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__traits.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/get_interactive_markers.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/pythonpath.sh
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/pythonpath.dsv
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs-4.2.4-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs-4.2.4-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs-4.2.4-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs-4.2.4-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/__init__.py
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/libvisualization_msgs__rosidl_generator_py.so
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/__init__.py
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_image_marker.py
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_image_marker_s.c
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker.py
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_control.py
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_control_s.c
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_feedback.py
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_feedback_s.c
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_init.py
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_init_s.c
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_pose.py
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_pose_s.c
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_s.c
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_update.py
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_update_s.c
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker.py
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker_array.py
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker_array_s.c
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker_s.c
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_menu_entry.py
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_menu_entry_s.c
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_mesh_file.py
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_mesh_file_s.c
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_uv_coordinate.py
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_uv_coordinate_s.c
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv/__init__.py
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv/_get_interactive_markers.py
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv/_get_interactive_markers_s.c
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date symlink: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date symlink: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date symlink: /home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/ImageMarker.idl
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarker.idl
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerControl.idl
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerFeedback.idl
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerInit.idl
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerPose.idl
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerUpdate.idl
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/Marker.idl
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/MarkerArray.idl
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/MenuEntry.idl
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/MeshFile.idl
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/UVCoordinate.idl
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers.idl
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/ImageMarker.msg
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarker.msg
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerControl.msg
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerFeedback.msg
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerInit.msg
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerPose.msg
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerUpdate.msg
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/Marker.msg
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/MarkerArray.msg
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/MenuEntry.msg
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/MeshFile.msg
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/UVCoordinate.msg
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers.srv
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers_Request.msg
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers_Response.msg
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/ament_index/resource_index/package_run_dependencies/visualization_msgs
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/ament_index/resource_index/parent_prefix_path/visualization_msgs
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/ament_prefix_path.sh
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/ament_prefix_path.dsv
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/path.sh
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/path.dsv
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/local_setup.bash
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/local_setup.sh
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/local_setup.zsh
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/local_setup.dsv
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/package.dsv
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/ament_index/resource_index/packages/visualization_msgs
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgsConfig.cmake
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgsConfig-version.cmake
+-- Symlinking: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/package.xml
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_c.so
+-- Set runtime path of "/home/aajaer/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_c.so" to ""
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/aajaer/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/aajaer/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/aajaer/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/home/aajaer/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_c.so" to ""
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/aajaer/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/aajaer/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_cpp.so" to ""
+Listing '/home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs'...
+Compiling '/home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/__init__.py'...
+Listing '/home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg'...
+Compiling '/home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/__init__.py'...
+Compiling '/home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_image_marker.py'...
+Compiling '/home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker.py'...
+Compiling '/home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_control.py'...
+Compiling '/home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_feedback.py'...
+Compiling '/home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_init.py'...
+Compiling '/home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_pose.py'...
+Compiling '/home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_update.py'...
+Compiling '/home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker.py'...
+Compiling '/home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker_array.py'...
+Compiling '/home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_menu_entry.py'...
+Compiling '/home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_mesh_file.py'...
+Compiling '/home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_uv_coordinate.py'...
+Listing '/home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv'...
+Compiling '/home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv/__init__.py'...
+Compiling '/home/aajaer/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv/_get_interactive_markers.py'...
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_py.so
+-- Set runtime path of "/home/aajaer/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_py.so" to ""
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_pyExport-noconfig.cmake

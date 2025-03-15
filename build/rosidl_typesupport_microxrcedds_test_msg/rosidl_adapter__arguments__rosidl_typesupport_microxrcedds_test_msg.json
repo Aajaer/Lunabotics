@@ -1,0 +1,13 @@
+{
+  "package_name": "rosidl_typesupport_microxrcedds_test_msg",
+  "non_idl_tuples": [
+    "/home/aajaer/microros_ws/src/uros/rosidl_typesupport_microxrcedds/test/msg:msg/UnboundedString.msg",
+    "/home/aajaer/microros_ws/src/uros/rosidl_typesupport_microxrcedds/test/msg:msg/Primitive.msg",
+    "/home/aajaer/microros_ws/src/uros/rosidl_typesupport_microxrcedds/test/msg:msg/NotEnoughtMemoryTest.msg",
+    "/home/aajaer/microros_ws/src/uros/rosidl_typesupport_microxrcedds/test/msg:msg/Sequence.msg",
+    "/home/aajaer/microros_ws/src/uros/rosidl_typesupport_microxrcedds/test/msg:msg/Compound.msg",
+    "/home/aajaer/microros_ws/src/uros/rosidl_typesupport_microxrcedds/test/msg:msg/BasicPrimitive.msg",
+    "/home/aajaer/microros_ws/src/uros/rosidl_typesupport_microxrcedds/test/msg:msg/Regression10.msg",
+    "/home/aajaer/microros_ws/src/uros/rosidl_typesupport_microxrcedds/test/msg:msg/Regression11.msg"
+  ]
+}

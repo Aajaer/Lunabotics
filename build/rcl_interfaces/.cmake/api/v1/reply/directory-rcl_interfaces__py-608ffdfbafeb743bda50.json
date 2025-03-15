@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rcl_interfaces__py",
+		"source" : "/home/aajaer/microros_ws/build/rcl_interfaces/rcl_interfaces__py"
+	}
+}

@@ -1,0 +1,16 @@
+msg/BasicPrimitive.idl
+msg/BasicPrimitive.msg
+msg/Compound.idl
+msg/Compound.msg
+msg/NotEnoughtMemoryTest.idl
+msg/NotEnoughtMemoryTest.msg
+msg/Primitive.idl
+msg/Primitive.msg
+msg/Regression10.idl
+msg/Regression10.msg
+msg/Regression11.idl
+msg/Regression11.msg
+msg/Sequence.idl
+msg/Sequence.msg
+msg/UnboundedString.idl
+msg/UnboundedString.msg

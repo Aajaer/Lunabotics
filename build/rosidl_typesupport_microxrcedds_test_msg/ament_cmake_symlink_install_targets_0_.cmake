@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_test_msg/librosidl_typesupport_microxrcedds_test_msg__rosidl_typesupport_microxrcedds_c.a" "TARGETS" "rosidl_typesupport_microxrcedds_test_msg__rosidl_typesupport_microxrcedds_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "lifecycle_msgs__py",
+		"source" : "/home/aajaer/microros_ws/build/lifecycle_msgs/lifecycle_msgs__py"
+	}
+}

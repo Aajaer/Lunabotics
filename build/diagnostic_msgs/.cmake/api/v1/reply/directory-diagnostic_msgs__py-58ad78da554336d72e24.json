@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "diagnostic_msgs__py",
+		"source" : "/home/aajaer/microros_ws/build/diagnostic_msgs/diagnostic_msgs__py"
+	}
+}

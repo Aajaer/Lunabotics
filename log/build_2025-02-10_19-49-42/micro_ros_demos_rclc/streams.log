@@ -1,0 +1,319 @@
+[0.134s] Invoking command in '/home/aajaer/microros_ws/build/micro_ros_demos_rclc': CMAKE_PREFIX_PATH=/home/aajaer/microros_ws/install/visualization_msgs:/home/aajaer/microros_ws/install/rclc_parameter:/home/aajaer/microros_ws/install/sensor_msgs:/home/aajaer/microros_ws/install/rmw_microxrcedds:/home/aajaer/microros_ws/install/rclc:/home/aajaer/microros_ws/install/test_msgs:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/aajaer/microros_ws/install/geometry_msgs:/home/aajaer/microros_ws/install/example_interfaces:/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/aajaer/microros_ws/install/rcl_interfaces:/home/aajaer/microros_ws/install/microxrcedds_client:/home/aajaer/microros_ws/install/complex_msgs:/home/aajaer/microros_ws/install/action_msgs:/home/aajaer/microros_ws/install/unique_identifier_msgs:/home/aajaer/microros_ws/install/microcdr:/home/aajaer/microros_ws/install/micro_ros_utilities:/home/aajaer/microros_ws/install/micro_ros_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:/home/aajaer/microros_ws/install/micro_ros_demos_rclc:/home/aajaer/microros_ws/install/common_interfaces:/home/aajaer/microros_ws/install/trajectory_msgs:/home/aajaer/microros_ws/install/stereo_msgs:/home/aajaer/microros_ws/install/sllidar_ros2:/home/aajaer/microros_ws/install/std_srvs:/home/aajaer/microros_ws/install/shape_msgs:/home/aajaer/microros_ws/install/nav_msgs:/home/aajaer/microros_ws/install/diagnostic_msgs:/home/aajaer/microros_ws/install/actionlib_msgs:/home/aajaer/microros_ws/install/statistics_msgs:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/aajaer/microros_ws/install/rosgraph_msgs:/home/aajaer/microros_ws/install/composition_interfaces:/home/aajaer/microros_ws/install/micro_ros_setup:/home/aajaer/microros_ws/install/micro_ros_agent:/home/aajaer/microros_ws/install/lifecycle_msgs:/opt/ros/humble:/opt/ros/humble:/home/aajaer/microros_ws/install/sensor_msgs_py:/home/aajaer/microros_ws/install/motor_control_pkg LD_LIBRARY_PATH=/home/aajaer/microros_ws/install/visualization_msgs/lib:/home/aajaer/microros_ws/install/sensor_msgs/lib:/home/aajaer/microros_ws/install/rmw_microxrcedds/lib:/home/aajaer/microros_ws/install/rclc/lib:/home/aajaer/microros_ws/install/test_msgs/lib:/home/aajaer/microros_ws/install/geometry_msgs/lib:/home/aajaer/microros_ws/install/example_interfaces/lib:/home/aajaer/microros_ws/install/std_msgs/lib:/home/aajaer/microros_ws/install/rcl_interfaces/lib:/home/aajaer/microros_ws/install/complex_msgs/lib:/home/aajaer/microros_ws/install/action_msgs/lib:/home/aajaer/microros_ws/install/unique_identifier_msgs/lib:/home/aajaer/microros_ws/install/micro_ros_msgs/lib:/home/aajaer/microros_ws/install/builtin_interfaces/lib:/home/aajaer/microros_ws/install/trajectory_msgs/lib:/home/aajaer/microros_ws/install/stereo_msgs/lib:/home/aajaer/microros_ws/install/std_srvs/lib:/home/aajaer/microros_ws/install/shape_msgs/lib:/home/aajaer/microros_ws/install/nav_msgs/lib:/home/aajaer/microros_ws/install/diagnostic_msgs/lib:/home/aajaer/microros_ws/install/actionlib_msgs/lib:/home/aajaer/microros_ws/install/statistics_msgs/lib:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg/lib:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/aajaer/microros_ws/install/rosgraph_msgs/lib:/home/aajaer/microros_ws/install/rclc_parameter/lib:/home/aajaer/microros_ws/install/composition_interfaces/lib:/home/aajaer/microros_ws/install/micro_ros_utilities/lib:/home/aajaer/microros_ws/install/micro_ros_agent/lib:/home/aajaer/microros_ws/install/lifecycle_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aajaer/microros_ws/build/micro_ros_demos_rclc -- -j8 -l8
+[0.268s] [  1%] [34m[1mPerforming build step for 'graph_visualizer'[0m
+[0.280s] [  1%] [34m[1mPerforming build step for 'int32_publisher'[0m
+[0.292s] [  1%] [34m[1mPerforming build step for 'publisher_count'[0m
+[0.296s] [  2%] [34m[1mPerforming build step for 'configured_subscriber'[0m
+[0.299s] [  2%] [34m[1mPerforming build step for 'subscription_count'[0m
+[0.322s] [  3%] [34m[1mPerforming build step for 'configured_publisher'[0m
+[0.325s] [  3%] [34m[1mPerforming build step for 'addtwoints_server'[0m
+[0.325s] [  4%] [34m[1mPerforming build step for 'int32_subscriber'[0m
+[0.455s] [100%] Built target graph_visualizer
+[0.459s] [100%] Built target int32_publisher
+[0.487s] [100%] Built target subscription_count
+[0.487s] [100%] Built target publisher_count
+[0.499s] [100%] Built target int32_subscriber
+[0.503s] [100%] Built target configured_subscriber
+[0.505s] [100%] Built target addtwoints_server
+[0.508s] [  4%] [34m[1mPerforming install step for 'graph_visualizer'[0m
+[0.522s] [100%] Built target configured_publisher
+[0.548s] [  5%] [34m[1mPerforming install step for 'int32_publisher'[0m
+[0.562s] [  6%] [34m[1mPerforming install step for 'publisher_count'[0m
+[0.568s] [  6%] [34m[1mPerforming install step for 'subscription_count'[0m
+[0.577s] [  6%] [34m[1mPerforming install step for 'int32_subscriber'[0m
+[0.577s] [  7%] [34m[1mPerforming install step for 'addtwoints_server'[0m
+[0.578s] [  7%] [34m[1mPerforming install step for 'configured_publisher'[0m
+[0.605s] [  7%] [34m[1mPerforming install step for 'configured_subscriber'[0m
+[0.723s] [100%] Built target graph_visualizer
+[0.745s] [100%] Built target int32_subscriber
+[0.800s] [100%] Built target configured_subscriber
+[0.806s] [100%] Built target addtwoints_server
+[0.807s] [100%] Built target int32_publisher
+[0.814s] [100%] Built target publisher_count
+[0.815s] [100%] Built target configured_publisher
+[0.828s] [36mInstall the project...[0m
+[0.831s] [36mInstall the project...[0m
+[0.832s] [100%] Built target subscription_count
+[0.859s] -- Install configuration: ""
+[0.859s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber
+[0.867s] -- Install configuration: ""
+[0.867s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer
+[0.888s] [36mInstall the project...[0m
+[0.898s] [36mInstall the project...[0m
+[0.898s] [36mInstall the project...[0m
+[0.911s] [36mInstall the project...[0m
+[0.913s] [36mInstall the project...[0m
+[0.922s] -- Install configuration: ""
+[0.922s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber
+[0.928s] [36mInstall the project...[0m
+[0.936s] -- Install configuration: ""
+[0.936s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server
+[0.941s] -- Install configuration: ""
+[0.942s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher
+[0.946s] -- Install configuration: ""
+[0.947s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher
+[0.950s] -- Install configuration: ""
+[0.950s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count
+[0.954s] [  7%] [34m[1mCompleted 'int32_subscriber'[0m
+[0.958s] -- Install configuration: ""
+[0.959s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count
+[0.968s] [  7%] [34m[1mCompleted 'graph_visualizer'[0m
+[0.988s] [  7%] [34m[1mCompleted 'configured_subscriber'[0m
+[0.992s] [  8%] [34m[1mCompleted 'addtwoints_server'[0m
+[1.005s] [  9%] [34m[1mCompleted 'subscription_count'[0m
+[1.010s] [  9%] [34m[1mCompleted 'configured_publisher'[0m
+[1.030s] [ 10%] [34m[1mCompleted 'int32_publisher'[0m
+[1.033s] [ 11%] [34m[1mCompleted 'publisher_count'[0m
+[1.098s] [ 13%] Built target addtwoints_server
+[1.111s] [ 15%] Built target int32_subscriber
+[1.111s] [ 18%] Built target configured_publisher
+[1.111s] [ 21%] Built target subscription_count
+[1.123s] [ 23%] Built target configured_subscriber
+[1.123s] [ 26%] Built target graph_visualizer
+[1.133s] [ 28%] Built target int32_publisher
+[1.153s] [ 30%] Built target publisher_count
+[1.182s] [ 30%] [34m[1mPerforming build step for 'fibonacci_action_client'[0m
+[1.182s] [ 30%] [34m[1mPerforming build step for 'addtwoints_client'[0m
+[1.189s] [ 31%] [34m[1mPerforming build step for 'int32_multinode'[0m
+[1.203s] [ 32%] [34m[1mPerforming build step for 'fibonacci_action_server'[0m
+[1.213s] [ 33%] [34m[1mPerforming build step for 'ping_pong'[0m
+[1.225s] [ 33%] [34m[1mPerforming build step for 'fragmented_publication'[0m
+[1.229s] [ 33%] [34m[1mPerforming build step for 'int32_publisher_subscriber'[0m
+[1.244s] [ 34%] [34m[1mPerforming build step for 'ping_uros_agent'[0m
+[1.342s] [100%] Built target addtwoints_client
+[1.354s] [100%] Built target fibonacci_action_client
+[1.365s] [100%] Built target int32_multinode
+[1.382s] [100%] Built target fibonacci_action_server
+[1.388s] [100%] Built target ping_pong
+[1.392s] [100%] Built target fragmented_publication
+[1.411s] [ 35%] [34m[1mPerforming install step for 'addtwoints_client'[0m
+[1.420s] [ 35%] [34m[1mPerforming install step for 'fibonacci_action_client'[0m
+[1.425s] [ 35%] [34m[1mPerforming install step for 'int32_multinode'[0m
+[1.426s] [100%] Built target int32_publisher_subscriber
+[1.427s] [100%] Built target ping_uros_agent
+[1.443s] [ 35%] [34m[1mPerforming install step for 'ping_pong'[0m
+[1.468s] [ 35%] [34m[1mPerforming install step for 'fibonacci_action_server'[0m
+[1.488s] [ 36%] [34m[1mPerforming install step for 'fragmented_publication'[0m
+[1.499s] [ 37%] [34m[1mPerforming install step for 'ping_uros_agent'[0m
+[1.519s] [ 37%] [34m[1mPerforming install step for 'int32_publisher_subscriber'[0m
+[1.590s] [100%] Built target addtwoints_client
+[1.604s] [100%] Built target fibonacci_action_client
+[1.612s] [100%] Built target int32_multinode
+[1.640s] [100%] Built target fibonacci_action_server
+[1.643s] [100%] Built target ping_pong
+[1.665s] [36mInstall the project...[0m
+[1.681s] [100%] Built target fragmented_publication
+[1.687s] [100%] Built target ping_uros_agent
+[1.690s] -- Install configuration: ""
+[1.690s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client
+[1.693s] [36mInstall the project...[0m
+[1.696s] [36mInstall the project...[0m
+[1.713s] [36mInstall the project...[0m
+[1.724s] [100%] Built target int32_publisher_subscriber
+[1.733s] [36mInstall the project...[0m
+[1.734s] -- Install configuration: ""
+[1.734s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client
+[1.739s] -- Install configuration: ""
+[1.739s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server
+[1.748s] [36mInstall the project...[0m
+[1.750s] -- Install configuration: ""
+[1.751s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode
+[1.766s] [ 37%] [34m[1mCompleted 'addtwoints_client'[0m
+[1.773s] -- Install configuration: ""
+[1.773s] [36mInstall the project...[0m
+[1.773s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong
+[1.776s] -- Install configuration: ""
+[1.777s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication
+[1.796s] [ 38%] [34m[1mCompleted 'fibonacci_action_client'[0m
+[1.807s] [36mInstall the project...[0m
+[1.810s] -- Install configuration: ""
+[1.811s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent
+[1.820s] [ 38%] [34m[1mCompleted 'fibonacci_action_server'[0m
+[1.832s] [ 38%] [34m[1mCompleted 'int32_multinode'[0m
+[1.838s] [ 38%] [34m[1mCompleted 'ping_pong'[0m
+[1.842s] [ 38%] [34m[1mCompleted 'fragmented_publication'[0m
+[1.858s] -- Install configuration: ""
+[1.860s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber
+[1.888s] [ 40%] Built target addtwoints_client
+[1.926s] [ 40%] [34m[1mCompleted 'ping_uros_agent'[0m
+[1.928s] [ 43%] Built target fibonacci_action_client
+[1.949s] [ 46%] Built target ping_pong
+[1.951s] [ 48%] Built target int32_multinode
+[1.953s] [ 49%] [34m[1mCompleted 'int32_publisher_subscriber'[0m
+[1.957s] [ 52%] Built target fibonacci_action_server
+[1.962s] [ 54%] Built target fragmented_publication
+[1.976s] [ 54%] [34m[1mPerforming build step for 'fragmented_subscription'[0m
+[1.988s] [ 55%] [34m[1mPerforming build step for 'complex_msg_publisher'[0m
+[2.026s] [ 55%] [34m[1mPerforming build step for 'complex_msg_subscriber'[0m
+[2.036s] [ 56%] [34m[1mPerforming build step for 'string_publisher'[0m
+[2.042s] [ 56%] [34m[1mPerforming build step for 'string_subscriber'[0m
+[2.044s] [ 57%] [34m[1mPerforming build step for 'timer'[0m
+[2.067s] [ 58%] Built target ping_uros_agent
+[2.074s] [ 61%] Built target int32_publisher_subscriber
+[2.128s] [100%] Built target fragmented_subscription
+[2.135s] [ 62%] [34m[1mPerforming build step for 'static_type_handling'[0m
+[2.144s] [ 63%] [34m[1mPerforming build step for 'autodiscover_agent'[0m
+[2.163s] [100%] Built target complex_msg_subscriber
+[2.163s] [100%] Built target complex_msg_publisher
+[2.163s] [100%] Built target string_subscriber
+[2.164s] [100%] Built target string_publisher
+[2.174s] [100%] Built target timer
+[2.208s] [ 64%] [34m[1mPerforming install step for 'complex_msg_publisher'[0m
+[2.208s] [ 65%] [34m[1mPerforming install step for 'complex_msg_subscriber'[0m
+[2.212s] [ 67%] [34m[1mPerforming install step for 'string_subscriber'[0m
+[2.212s] [ 67%] [34m[1mPerforming install step for 'fragmented_subscription'[0m
+[2.223s] [ 67%] [34m[1mPerforming install step for 'string_publisher'[0m
+[2.223s] [ 67%] [34m[1mPerforming install step for 'timer'[0m
+[2.273s] [100%] Built target autodiscover_agent
+[2.273s] [100%] Built target static_type_handling
+[2.321s] [ 67%] [34m[1mPerforming install step for 'autodiscover_agent'[0m
+[2.328s] [ 67%] [34m[1mPerforming install step for 'static_type_handling'[0m
+[2.346s] [100%] Built target complex_msg_publisher
+[2.348s] [100%] Built target fragmented_subscription
+[2.350s] [100%] Built target complex_msg_subscriber
+[2.350s] [100%] Built target timer
+[2.351s] [100%] Built target string_subscriber
+[2.377s] [100%] Built target string_publisher
+[2.399s] [36mInstall the project...[0m
+[2.399s] [36mInstall the project...[0m
+[2.402s] [36mInstall the project...[0m
+[2.404s] [36mInstall the project...[0m
+[2.404s] [36mInstall the project...[0m
+[2.425s] -- Install configuration: ""
+[2.426s] -- Install configuration: ""
+[2.426s] -- Install configuration: ""
+[2.426s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription
+[2.426s] -- Install configuration: ""
+[2.427s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber
+[2.427s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber
+[2.428s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/timer/timer
+[2.436s] -- Install configuration: ""
+[2.436s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher
+[2.456s] [100%] Built target autodiscover_agent
+[2.460s] [36mInstall the project...[0m
+[2.478s] [ 67%] [34m[1mCompleted 'timer'[0m
+[2.482s] [100%] Built target static_type_handling
+[2.482s] -- Install configuration: ""
+[2.483s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher
+[2.488s] [ 68%] [34m[1mCompleted 'complex_msg_subscriber'[0m
+[2.489s] [ 69%] [34m[1mCompleted 'fragmented_subscription'[0m
+[2.499s] [ 70%] [34m[1mCompleted 'complex_msg_publisher'[0m
+[2.499s] [ 70%] [34m[1mCompleted 'string_subscriber'[0m
+[2.517s] [36mInstall the project...[0m
+[2.531s] [36mInstall the project...[0m
+[2.533s] [ 70%] [34m[1mCompleted 'string_publisher'[0m
+[2.538s] -- Install configuration: ""
+[2.538s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent
+[2.556s] -- Install configuration: ""
+[2.556s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/static_type_handling/static_type_handling
+[2.584s] [ 72%] Built target complex_msg_subscriber
+[2.588s] [ 74%] Built target fragmented_subscription
+[2.588s] [ 74%] [34m[1mCompleted 'autodiscover_agent'[0m
+[2.589s] [ 76%] Built target string_subscriber
+[2.597s] [ 79%] Built target timer
+[2.603s] [ 80%] Built target complex_msg_publisher
+[2.605s] [ 80%] [34m[1mCompleted 'static_type_handling'[0m
+[2.627s] [ 82%] Built target string_publisher
+[2.645s] [ 82%] [34m[1mPerforming build step for 'multithread_publisher_subscriber'[0m
+[2.645s] [ 82%] [34m[1mPerforming build step for 'epoch_synchronization'[0m
+[2.646s] [ 82%] [34m[1mPerforming build step for 'parameter_server'[0m
+[2.683s] [ 85%] Built target autodiscover_agent
+[2.695s] [ 88%] Built target static_type_handling
+[2.764s] [100%] Built target epoch_synchronization
+[2.764s] [100%] Built target multithread_publisher_subscriber
+[2.765s] [100%] Built target parameter_server
+[2.810s] [ 89%] [34m[1mPerforming install step for 'parameter_server'[0m
+[2.811s] [ 89%] [34m[1mPerforming install step for 'multithread_publisher_subscriber'[0m
+[2.811s] [ 90%] [34m[1mPerforming install step for 'epoch_synchronization'[0m
+[2.934s] [100%] Built target parameter_server
+[2.934s] [100%] Built target multithread_publisher_subscriber
+[2.935s] [100%] Built target epoch_synchronization
+[2.986s] [36mInstall the project...[0m
+[2.986s] [36mInstall the project...[0m
+[2.987s] [36mInstall the project...[0m
+[3.009s] -- Install configuration: ""
+[3.009s] -- Install configuration: ""
+[3.010s] -- Install configuration: ""
+[3.010s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/parameter_server/parameter_server
+[3.010s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/multithread_publisher_subscriber/multithread_publisher_subscriber
+[3.010s] -- Up-to-date: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/epoch_synchronization/epoch_synchronization
+[3.060s] [ 92%] [34m[1mCompleted 'parameter_server'[0m
+[3.060s] [ 92%] [34m[1mCompleted 'multithread_publisher_subscriber'[0m
+[3.060s] [ 93%] [34m[1mCompleted 'epoch_synchronization'[0m
+[3.152s] [100%] Built target multithread_publisher_subscriber
+[3.152s] [100%] Built target epoch_synchronization
+[3.153s] [100%] Built target parameter_server
+[3.186s] Invoked command in '/home/aajaer/microros_ws/build/micro_ros_demos_rclc' returned '0': CMAKE_PREFIX_PATH=/home/aajaer/microros_ws/install/visualization_msgs:/home/aajaer/microros_ws/install/rclc_parameter:/home/aajaer/microros_ws/install/sensor_msgs:/home/aajaer/microros_ws/install/rmw_microxrcedds:/home/aajaer/microros_ws/install/rclc:/home/aajaer/microros_ws/install/test_msgs:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/aajaer/microros_ws/install/geometry_msgs:/home/aajaer/microros_ws/install/example_interfaces:/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/aajaer/microros_ws/install/rcl_interfaces:/home/aajaer/microros_ws/install/microxrcedds_client:/home/aajaer/microros_ws/install/complex_msgs:/home/aajaer/microros_ws/install/action_msgs:/home/aajaer/microros_ws/install/unique_identifier_msgs:/home/aajaer/microros_ws/install/microcdr:/home/aajaer/microros_ws/install/micro_ros_utilities:/home/aajaer/microros_ws/install/micro_ros_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:/home/aajaer/microros_ws/install/micro_ros_demos_rclc:/home/aajaer/microros_ws/install/common_interfaces:/home/aajaer/microros_ws/install/trajectory_msgs:/home/aajaer/microros_ws/install/stereo_msgs:/home/aajaer/microros_ws/install/sllidar_ros2:/home/aajaer/microros_ws/install/std_srvs:/home/aajaer/microros_ws/install/shape_msgs:/home/aajaer/microros_ws/install/nav_msgs:/home/aajaer/microros_ws/install/diagnostic_msgs:/home/aajaer/microros_ws/install/actionlib_msgs:/home/aajaer/microros_ws/install/statistics_msgs:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/aajaer/microros_ws/install/rosgraph_msgs:/home/aajaer/microros_ws/install/composition_interfaces:/home/aajaer/microros_ws/install/micro_ros_setup:/home/aajaer/microros_ws/install/micro_ros_agent:/home/aajaer/microros_ws/install/lifecycle_msgs:/opt/ros/humble:/opt/ros/humble:/home/aajaer/microros_ws/install/sensor_msgs_py:/home/aajaer/microros_ws/install/motor_control_pkg LD_LIBRARY_PATH=/home/aajaer/microros_ws/install/visualization_msgs/lib:/home/aajaer/microros_ws/install/sensor_msgs/lib:/home/aajaer/microros_ws/install/rmw_microxrcedds/lib:/home/aajaer/microros_ws/install/rclc/lib:/home/aajaer/microros_ws/install/test_msgs/lib:/home/aajaer/microros_ws/install/geometry_msgs/lib:/home/aajaer/microros_ws/install/example_interfaces/lib:/home/aajaer/microros_ws/install/std_msgs/lib:/home/aajaer/microros_ws/install/rcl_interfaces/lib:/home/aajaer/microros_ws/install/complex_msgs/lib:/home/aajaer/microros_ws/install/action_msgs/lib:/home/aajaer/microros_ws/install/unique_identifier_msgs/lib:/home/aajaer/microros_ws/install/micro_ros_msgs/lib:/home/aajaer/microros_ws/install/builtin_interfaces/lib:/home/aajaer/microros_ws/install/trajectory_msgs/lib:/home/aajaer/microros_ws/install/stereo_msgs/lib:/home/aajaer/microros_ws/install/std_srvs/lib:/home/aajaer/microros_ws/install/shape_msgs/lib:/home/aajaer/microros_ws/install/nav_msgs/lib:/home/aajaer/microros_ws/install/diagnostic_msgs/lib:/home/aajaer/microros_ws/install/actionlib_msgs/lib:/home/aajaer/microros_ws/install/statistics_msgs/lib:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg/lib:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/aajaer/microros_ws/install/rosgraph_msgs/lib:/home/aajaer/microros_ws/install/rclc_parameter/lib:/home/aajaer/microros_ws/install/composition_interfaces/lib:/home/aajaer/microros_ws/install/micro_ros_utilities/lib:/home/aajaer/microros_ws/install/micro_ros_agent/lib:/home/aajaer/microros_ws/install/lifecycle_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aajaer/microros_ws/build/micro_ros_demos_rclc -- -j8 -l8
+[3.191s] Invoking command in '/home/aajaer/microros_ws/build/micro_ros_demos_rclc': CMAKE_PREFIX_PATH=/home/aajaer/microros_ws/install/visualization_msgs:/home/aajaer/microros_ws/install/rclc_parameter:/home/aajaer/microros_ws/install/sensor_msgs:/home/aajaer/microros_ws/install/rmw_microxrcedds:/home/aajaer/microros_ws/install/rclc:/home/aajaer/microros_ws/install/test_msgs:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/aajaer/microros_ws/install/geometry_msgs:/home/aajaer/microros_ws/install/example_interfaces:/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/aajaer/microros_ws/install/rcl_interfaces:/home/aajaer/microros_ws/install/microxrcedds_client:/home/aajaer/microros_ws/install/complex_msgs:/home/aajaer/microros_ws/install/action_msgs:/home/aajaer/microros_ws/install/unique_identifier_msgs:/home/aajaer/microros_ws/install/microcdr:/home/aajaer/microros_ws/install/micro_ros_utilities:/home/aajaer/microros_ws/install/micro_ros_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:/home/aajaer/microros_ws/install/micro_ros_demos_rclc:/home/aajaer/microros_ws/install/common_interfaces:/home/aajaer/microros_ws/install/trajectory_msgs:/home/aajaer/microros_ws/install/stereo_msgs:/home/aajaer/microros_ws/install/sllidar_ros2:/home/aajaer/microros_ws/install/std_srvs:/home/aajaer/microros_ws/install/shape_msgs:/home/aajaer/microros_ws/install/nav_msgs:/home/aajaer/microros_ws/install/diagnostic_msgs:/home/aajaer/microros_ws/install/actionlib_msgs:/home/aajaer/microros_ws/install/statistics_msgs:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/aajaer/microros_ws/install/rosgraph_msgs:/home/aajaer/microros_ws/install/composition_interfaces:/home/aajaer/microros_ws/install/micro_ros_setup:/home/aajaer/microros_ws/install/micro_ros_agent:/home/aajaer/microros_ws/install/lifecycle_msgs:/opt/ros/humble:/opt/ros/humble:/home/aajaer/microros_ws/install/sensor_msgs_py:/home/aajaer/microros_ws/install/motor_control_pkg LD_LIBRARY_PATH=/home/aajaer/microros_ws/install/visualization_msgs/lib:/home/aajaer/microros_ws/install/sensor_msgs/lib:/home/aajaer/microros_ws/install/rmw_microxrcedds/lib:/home/aajaer/microros_ws/install/rclc/lib:/home/aajaer/microros_ws/install/test_msgs/lib:/home/aajaer/microros_ws/install/geometry_msgs/lib:/home/aajaer/microros_ws/install/example_interfaces/lib:/home/aajaer/microros_ws/install/std_msgs/lib:/home/aajaer/microros_ws/install/rcl_interfaces/lib:/home/aajaer/microros_ws/install/complex_msgs/lib:/home/aajaer/microros_ws/install/action_msgs/lib:/home/aajaer/microros_ws/install/unique_identifier_msgs/lib:/home/aajaer/microros_ws/install/micro_ros_msgs/lib:/home/aajaer/microros_ws/install/builtin_interfaces/lib:/home/aajaer/microros_ws/install/trajectory_msgs/lib:/home/aajaer/microros_ws/install/stereo_msgs/lib:/home/aajaer/microros_ws/install/std_srvs/lib:/home/aajaer/microros_ws/install/shape_msgs/lib:/home/aajaer/microros_ws/install/nav_msgs/lib:/home/aajaer/microros_ws/install/diagnostic_msgs/lib:/home/aajaer/microros_ws/install/actionlib_msgs/lib:/home/aajaer/microros_ws/install/statistics_msgs/lib:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg/lib:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/aajaer/microros_ws/install/rosgraph_msgs/lib:/home/aajaer/microros_ws/install/rclc_parameter/lib:/home/aajaer/microros_ws/install/composition_interfaces/lib:/home/aajaer/microros_ws/install/micro_ros_utilities/lib:/home/aajaer/microros_ws/install/micro_ros_agent/lib:/home/aajaer/microros_ws/install/lifecycle_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aajaer/microros_ws/build/micro_ros_demos_rclc
+[3.213s] -- Install configuration: ""
+[3.214s] -- Execute custom install script
+[3.214s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/package_run_dependencies/micro_ros_demos_rclc
+[3.215s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/parent_prefix_path/micro_ros_demos_rclc
+[3.215s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.sh
+[3.216s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.dsv
+[3.216s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.sh
+[3.216s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.dsv
+[3.217s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.bash
+[3.217s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.sh
+[3.217s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.zsh
+[3.218s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.dsv
+[3.218s] -- Symlinking: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.dsv
+[3.240s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/packages/micro_ros_demos_rclc
+[3.240s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig.cmake
+[3.240s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig-version.cmake
+[3.241s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.xml
+[3.241s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc
+[3.241s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher
+[3.242s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher/string_publisher
+[3.242s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client
+[3.243s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client/fibonacci_action_client
+[3.243s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client
+[3.243s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client/addtwoints_client
+[3.244s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber
+[3.244s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber/int32_publisher_subscriber
+[3.244s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count
+[3.244s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count/subscription_count
+[3.245s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher
+[3.245s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher/configured_publisher
+[3.245s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/multithread_publisher_subscriber
+[3.245s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/multithread_publisher_subscriber/multithread_publisher_subscriber
+[3.246s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber
+[3.246s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber/complex_msg_subscriber
+[3.247s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription
+[3.248s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription/fragmented_subscription
+[3.251s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent
+[3.252s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent/autodiscover_agent
+[3.252s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server
+[3.252s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server/addtwoints_server
+[3.252s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server
+[3.253s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server/fibonacci_action_server
+[3.253s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber
+[3.253s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber/configured_subscriber
+[3.253s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher
+[3.254s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher/int32_publisher
+[3.254s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication
+[3.254s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication/fragmented_publication
+[3.255s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count
+[3.256s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count/publisher_count
+[3.256s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer
+[3.256s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer/timer
+[3.257s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer
+[3.257s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer/graph_visualizer
+[3.257s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/epoch_synchronization
+[3.257s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/epoch_synchronization/epoch_synchronization
+[3.257s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode
+[3.258s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode/int32_multinode
+[3.258s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber
+[3.258s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber/int32_subscriber
+[3.258s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher
+[3.258s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher/complex_msg_publisher
+[3.259s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/parameter_server
+[3.259s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/parameter_server/parameter_server
+[3.259s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/static_type_handling
+[3.259s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/static_type_handling/static_type_handling
+[3.260s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber
+[3.260s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber/string_subscriber
+[3.260s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong
+[3.260s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong/ping_pong
+[3.261s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent
+[3.261s] -- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent/ping_uros_agent
+[3.262s] Invoked command in '/home/aajaer/microros_ws/build/micro_ros_demos_rclc' returned '0': CMAKE_PREFIX_PATH=/home/aajaer/microros_ws/install/visualization_msgs:/home/aajaer/microros_ws/install/rclc_parameter:/home/aajaer/microros_ws/install/sensor_msgs:/home/aajaer/microros_ws/install/rmw_microxrcedds:/home/aajaer/microros_ws/install/rclc:/home/aajaer/microros_ws/install/test_msgs:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/aajaer/microros_ws/install/geometry_msgs:/home/aajaer/microros_ws/install/example_interfaces:/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/aajaer/microros_ws/install/rcl_interfaces:/home/aajaer/microros_ws/install/microxrcedds_client:/home/aajaer/microros_ws/install/complex_msgs:/home/aajaer/microros_ws/install/action_msgs:/home/aajaer/microros_ws/install/unique_identifier_msgs:/home/aajaer/microros_ws/install/microcdr:/home/aajaer/microros_ws/install/micro_ros_utilities:/home/aajaer/microros_ws/install/micro_ros_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:/home/aajaer/microros_ws/install/micro_ros_demos_rclc:/home/aajaer/microros_ws/install/common_interfaces:/home/aajaer/microros_ws/install/trajectory_msgs:/home/aajaer/microros_ws/install/stereo_msgs:/home/aajaer/microros_ws/install/sllidar_ros2:/home/aajaer/microros_ws/install/std_srvs:/home/aajaer/microros_ws/install/shape_msgs:/home/aajaer/microros_ws/install/nav_msgs:/home/aajaer/microros_ws/install/diagnostic_msgs:/home/aajaer/microros_ws/install/actionlib_msgs:/home/aajaer/microros_ws/install/statistics_msgs:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/aajaer/microros_ws/install/rosgraph_msgs:/home/aajaer/microros_ws/install/composition_interfaces:/home/aajaer/microros_ws/install/micro_ros_setup:/home/aajaer/microros_ws/install/micro_ros_agent:/home/aajaer/microros_ws/install/lifecycle_msgs:/opt/ros/humble:/opt/ros/humble:/home/aajaer/microros_ws/install/sensor_msgs_py:/home/aajaer/microros_ws/install/motor_control_pkg LD_LIBRARY_PATH=/home/aajaer/microros_ws/install/visualization_msgs/lib:/home/aajaer/microros_ws/install/sensor_msgs/lib:/home/aajaer/microros_ws/install/rmw_microxrcedds/lib:/home/aajaer/microros_ws/install/rclc/lib:/home/aajaer/microros_ws/install/test_msgs/lib:/home/aajaer/microros_ws/install/geometry_msgs/lib:/home/aajaer/microros_ws/install/example_interfaces/lib:/home/aajaer/microros_ws/install/std_msgs/lib:/home/aajaer/microros_ws/install/rcl_interfaces/lib:/home/aajaer/microros_ws/install/complex_msgs/lib:/home/aajaer/microros_ws/install/action_msgs/lib:/home/aajaer/microros_ws/install/unique_identifier_msgs/lib:/home/aajaer/microros_ws/install/micro_ros_msgs/lib:/home/aajaer/microros_ws/install/builtin_interfaces/lib:/home/aajaer/microros_ws/install/trajectory_msgs/lib:/home/aajaer/microros_ws/install/stereo_msgs/lib:/home/aajaer/microros_ws/install/std_srvs/lib:/home/aajaer/microros_ws/install/shape_msgs/lib:/home/aajaer/microros_ws/install/nav_msgs/lib:/home/aajaer/microros_ws/install/diagnostic_msgs/lib:/home/aajaer/microros_ws/install/actionlib_msgs/lib:/home/aajaer/microros_ws/install/statistics_msgs/lib:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg/lib:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/aajaer/microros_ws/install/rosgraph_msgs/lib:/home/aajaer/microros_ws/install/rclc_parameter/lib:/home/aajaer/microros_ws/install/composition_interfaces/lib:/home/aajaer/microros_ws/install/micro_ros_utilities/lib:/home/aajaer/microros_ws/install/micro_ros_agent/lib:/home/aajaer/microros_ws/install/lifecycle_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aajaer/microros_ws/build/micro_ros_demos_rclc

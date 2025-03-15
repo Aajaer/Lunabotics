@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rosidl_typesupport_microxrcedds_test_msg/msg/Regression10.msg
+// generated code does not contain a copyright notice
+
+#include "rosidl_typesupport_microxrcedds_test_msg/msg/Regression11.idl"
+
+module rosidl_typesupport_microxrcedds_test_msg {
+  module msg {
+    typedef rosidl_typesupport_microxrcedds_test_msg::msg::Regression11 rosidl_typesupport_microxrcedds_test_msg__msg__Regression11;
+    typedef rosidl_typesupport_microxrcedds_test_msg__msg__Regression11 rosidl_typesupport_microxrcedds_test_msg__msg__Regression11__10[10];
+    struct Regression10 {
+      octet a;
+
+      uint16 b;
+
+      uint16 c;
+
+      uint8 d;
+
+      rosidl_typesupport_microxrcedds_test_msg__msg__Regression11__10 e;
+    };
+  };
+};

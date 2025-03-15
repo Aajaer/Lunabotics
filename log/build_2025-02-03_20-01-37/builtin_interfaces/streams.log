@@ -1,0 +1,222 @@
+[0.117s] Invoking command in '/home/aajaer/microros_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aajaer/microros_ws/install/sensor_msgs_py:/home/aajaer/microros_ws/install/motor_control_pkg /usr/bin/cmake /home/aajaer/microros_ws/src/ros2/rcl_interfaces/builtin_interfaces -DCMAKE_INSTALL_PREFIX=/home/aajaer/microros_ws/install/builtin_interfaces
+[0.176s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.537s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.553s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.569s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.574s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.666s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.530s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.531s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.534s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.535s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.294s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.219s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.292s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.363s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.364s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.364s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.430s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[3.431s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.454s] -- Configuring done
+[3.585s] -- Generating done
+[3.587s] -- Build files have been written to: /home/aajaer/microros_ws/build/builtin_interfaces
+[3.619s] Invoked command in '/home/aajaer/microros_ws/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aajaer/microros_ws/install/sensor_msgs_py:/home/aajaer/microros_ws/install/motor_control_pkg /usr/bin/cmake /home/aajaer/microros_ws/src/ros2/rcl_interfaces/builtin_interfaces -DCMAKE_INSTALL_PREFIX=/home/aajaer/microros_ws/install/builtin_interfaces
+[3.621s] Invoking command in '/home/aajaer/microros_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aajaer/microros_ws/install/sensor_msgs_py:/home/aajaer/microros_ws/install/motor_control_pkg /usr/bin/cmake --build /home/aajaer/microros_ws/build/builtin_interfaces -- -j8 -l8
+[3.778s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_generator_c[0m
+[3.827s] [  2%] Built target builtin_interfaces__cpp
+[3.870s] [ 10%] Built target builtin_interfaces__rosidl_generator_c
+[3.876s] [ 10%] Built target ament_cmake_python_symlink_builtin_interfaces
+[3.894s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.935s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[3.957s] [ 14%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[3.989s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_introspection_cpp[0m
+[4.016s] [ 16%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[4.043s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_fastrtps_c[0m
+[4.078s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_introspection_c[0m
+[4.092s] [ 24%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.108s] [ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.114s] [ 34%] Built target builtin_interfaces__rosidl_typesupport_introspection_cpp
+[4.163s] [ 42%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c
+[4.232s] [ 51%] Built target builtin_interfaces__rosidl_typesupport_introspection_c
+[6.265s] running egg_info
+[6.285s] [ 53%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/builtin_interfaces/msg/detail/microxrcedds/time__type_support_cpp.cpp.o[0m
+[6.287s] writing builtin_interfaces.egg-info/PKG-INFO
+[6.294s] [ 55%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_cpp.cpp.o[0m
+[6.297s] writing dependency_links to builtin_interfaces.egg-info/dependency_links.txt
+[6.300s] writing top-level names to builtin_interfaces.egg-info/top_level.txt
+[6.326s] reading manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+[6.344s] writing manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+[6.479s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_cpp[0m
+[6.542s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_c[0m
+[6.602s] [ 57%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/builtin_interfaces/msg/duration__type_support.cpp.o[0m
+[6.635s] [ 59%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/builtin_interfaces/msg/time__type_support.cpp.o[0m
+[6.703s] [ 61%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/duration__type_support.cpp.o[0m
+[6.716s] [ 63%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/time__type_support.cpp.o[0m
+[6.744s] [ 63%] Built target ament_cmake_python_build_builtin_interfaces_egg
+[7.111s] [ 65%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_c.so[0m
+[7.205s] [ 67%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_c.c.o[0m
+[7.248s] [ 69%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/builtin_interfaces/msg/detail/microxrcedds/time__type_support_c.c.o[0m
+[7.615s] [ 69%] Built target builtin_interfaces__rosidl_typesupport_c
+[7.714s] [ 71%] [32m[1mLinking C static library libbuiltin_interfaces__rosidl_typesupport_microxrcedds_c.a[0m
+[8.335s] [ 71%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_c
+[8.682s] [ 73%] [32m[1mLinking CXX static library libbuiltin_interfaces__rosidl_typesupport_microxrcedds_cpp.a[0m
+[8.793s] [ 75%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_cpp.so[0m
+[9.103s] [ 75%] Built target builtin_interfaces__rosidl_typesupport_cpp
+[9.174s] [ 75%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_cpp
+[9.370s] [ 75%] Built target builtin_interfaces
+[9.501s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.836s] [ 77%] Built target builtin_interfaces__py
+[10.928s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_generator_py[0m
+[11.024s] [ 79%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/builtin_interfaces/msg/_time_s.c.o[0m
+[11.042s] [ 81%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/builtin_interfaces/msg/_duration_s.c.o[0m
+[11.526s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/libbuiltin_interfaces__rosidl_generator_py.so[0m
+[11.768s] [ 83%] Built target builtin_interfaces__rosidl_generator_py
+[11.870s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[11.885s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[11.915s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_c__pyext[0m
+[11.990s] [ 85%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[12.006s] [ 87%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.055s] [ 89%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.058s] [ 91%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[12.515s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.597s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.649s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.672s] [100%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.790s] [100%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_c__pyext
+[12.808s] [100%] Built target builtin_interfaces__rosidl_typesupport_introspection_c__pyext
+[12.828s] [100%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[12.860s] [100%] Built target builtin_interfaces__rosidl_typesupport_c__pyext
+[12.921s] Invoked command in '/home/aajaer/microros_ws/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aajaer/microros_ws/install/sensor_msgs_py:/home/aajaer/microros_ws/install/motor_control_pkg /usr/bin/cmake --build /home/aajaer/microros_ws/build/builtin_interfaces -- -j8 -l8
+[12.922s] Invoking command in '/home/aajaer/microros_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aajaer/microros_ws/install/sensor_msgs_py:/home/aajaer/microros_ws/install/motor_control_pkg /usr/bin/cmake --install /home/aajaer/microros_ws/build/builtin_interfaces
+[12.965s] -- Install configuration: ""
+[12.972s] -- Execute custom install script
+[12.974s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/ament_index/resource_index/rosidl_interfaces/builtin_interfaces
+[12.980s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__functions.h
+[12.982s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.h
+[12.984s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.h
+[12.986s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.h
+[12.987s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
+[12.993s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.h
+[12.995s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/duration.h
+[12.998s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
+[13.000s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/time.h
+[13.005s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.sh
+[13.007s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.dsv
+[13.014s] -- Symlinking: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_microxrcedds_c.h
+[13.071s] -- Symlinking: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_microxrcedds_c.h
+[13.141s] -- Symlinking: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[13.187s] -- Symlinking: /home/aajaer/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_c.a
+[13.232s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_c.h
+[13.234s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_c.h
+[13.234s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.234s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_c.h
+[13.234s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_c.h
+[13.237s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.237s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
+[13.237s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp
+[13.237s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp
+[13.237s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp
+[13.238s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp
+[13.238s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp
+[13.238s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp
+[13.238s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp
+[13.238s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp
+[13.238s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[13.244s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/time.hpp
+[13.244s] -- Symlinking: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_microxrcedds_cpp.hpp
+[13.313s] -- Symlinking: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_cpp.cpp
+[13.388s] -- Symlinking: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds/time__type_support_cpp.cpp
+[13.457s] -- Symlinking: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_microxrcedds_cpp.hpp
+[13.538s] -- Symlinking: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[13.652s] -- Symlinking: /home/aajaer/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_cpp.a
+[13.716s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_cpp.hpp
+[13.716s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_cpp.hpp
+[13.717s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.717s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_cpp.hpp
+[13.717s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_cpp.hpp
+[13.717s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.sh
+[13.717s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.dsv
+[13.717s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.1-py3.10.egg-info/PKG-INFO
+[13.718s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.1-py3.10.egg-info/SOURCES.txt
+[13.718s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.1-py3.10.egg-info/dependency_links.txt
+[13.718s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.1-py3.10.egg-info/top_level.txt
+[13.720s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/__init__.py
+[13.720s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_c.c
+[13.721s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.721s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[13.721s] -- Symlinking: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_microxrcedds_c.c
+[13.783s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[13.785s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[13.785s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[13.785s] -- Symlinking: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[13.875s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/libbuiltin_interfaces__rosidl_generator_py.so
+[13.877s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/__init__.py
+[13.877s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_duration.py
+[13.877s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_duration_s.c
+[13.877s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_time.py
+[13.877s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_time_s.c
+[13.880s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[13.880s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[13.881s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[13.881s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[13.881s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
+[13.881s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
+[13.881s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.msg
+[13.885s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.msg
+[13.885s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/ament_index/resource_index/package_run_dependencies/builtin_interfaces
+[13.885s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/ament_index/resource_index/parent_prefix_path/builtin_interfaces
+[13.885s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.sh
+[13.888s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.dsv
+[13.888s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/path.sh
+[13.888s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/path.dsv
+[13.888s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.bash
+[13.888s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.sh
+[13.888s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.zsh
+[13.889s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.dsv
+[13.889s] -- Symlinking: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/package.dsv
+[13.964s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/ament_index/resource_index/packages/builtin_interfaces
+[13.964s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake-extras.cmake
+[13.964s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.965s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[13.965s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[13.965s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.965s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.965s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.965s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake
+[13.965s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig-version.cmake
+[13.965s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/package.xml
+[13.966s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so
+[13.966s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+[13.966s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+[13.966s] -- Installing: /home/aajaer/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+[13.966s] -- Set runtime path of "/home/aajaer/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so" to ""
+[13.966s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[13.974s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+[13.974s] -- Installing: /home/aajaer/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+[13.975s] -- Set runtime path of "/home/aajaer/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so" to ""
+[14.142s] Listing '/home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces'...
+[14.142s] Compiling '/home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/__init__.py'...
+[14.142s] Listing '/home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg'...
+[14.142s] Compiling '/home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/__init__.py'...
+[14.143s] Compiling '/home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_duration.py'...
+[14.143s] Compiling '/home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_time.py'...
+[14.163s] -- Installing: /home/aajaer/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_py.so
+[14.164s] -- Set runtime path of "/home/aajaer/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_py.so" to ""
+[14.164s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cExport.cmake
+[14.164s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cExport-noconfig.cmake
+[14.164s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[14.164s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.165s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[14.165s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.165s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport.cmake
+[14.165s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[14.165s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cppExport.cmake
+[14.165s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.166s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.166s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[14.166s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.166s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport.cmake
+[14.166s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[14.166s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_pyExport.cmake
+[14.167s] -- Up-to-date: /home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[14.179s] Invoked command in '/home/aajaer/microros_ws/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aajaer/microros_ws/install/sensor_msgs_py:/home/aajaer/microros_ws/install/motor_control_pkg /usr/bin/cmake --install /home/aajaer/microros_ws/build/builtin_interfaces

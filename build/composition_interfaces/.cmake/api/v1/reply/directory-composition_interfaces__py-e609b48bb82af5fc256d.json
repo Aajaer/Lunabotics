@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "composition_interfaces__py",
+		"source" : "/home/aajaer/microros_ws/build/composition_interfaces/composition_interfaces__py"
+	}
+}

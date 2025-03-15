@@ -1,0 +1,2 @@
+/usr/bin/ar qc librosgraph_msgs__rosidl_typesupport_microxrcedds_cpp.a CMakeFiles/rosgraph_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/rosgraph_msgs/msg/detail/microxrcedds/clock__type_support_cpp.cpp.o
+/usr/bin/ranlib librosgraph_msgs__rosidl_typesupport_microxrcedds_cpp.a

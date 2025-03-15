@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "nav_msgs__py",
+		"source" : "/home/aajaer/microros_ws/build/nav_msgs/nav_msgs__py"
+	}
+}

@@ -1,0 +1,39 @@
+{
+  "package_name": "rosidl_typesupport_microxrcedds_test_msg",
+  "output_dir": "/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_test_msg/rosidl_typesupport_introspection_cpp/rosidl_typesupport_microxrcedds_test_msg",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
+  "idl_tuples": [
+    "/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_test_msg/rosidl_adapter/rosidl_typesupport_microxrcedds_test_msg:msg/UnboundedString.idl",
+    "/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_test_msg/rosidl_adapter/rosidl_typesupport_microxrcedds_test_msg:msg/Primitive.idl",
+    "/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_test_msg/rosidl_adapter/rosidl_typesupport_microxrcedds_test_msg:msg/NotEnoughtMemoryTest.idl",
+    "/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_test_msg/rosidl_adapter/rosidl_typesupport_microxrcedds_test_msg:msg/Sequence.idl",
+    "/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_test_msg/rosidl_adapter/rosidl_typesupport_microxrcedds_test_msg:msg/Compound.idl",
+    "/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_test_msg/rosidl_adapter/rosidl_typesupport_microxrcedds_test_msg:msg/BasicPrimitive.idl",
+    "/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_test_msg/rosidl_adapter/rosidl_typesupport_microxrcedds_test_msg:msg/Regression10.idl",
+    "/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_test_msg/rosidl_adapter/rosidl_typesupport_microxrcedds_test_msg:msg/Regression11.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/idl__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
+    "/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_test_msg/rosidl_adapter/rosidl_typesupport_microxrcedds_test_msg/msg/UnboundedString.idl",
+    "/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_test_msg/rosidl_adapter/rosidl_typesupport_microxrcedds_test_msg/msg/Primitive.idl",
+    "/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_test_msg/rosidl_adapter/rosidl_typesupport_microxrcedds_test_msg/msg/NotEnoughtMemoryTest.idl",
+    "/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_test_msg/rosidl_adapter/rosidl_typesupport_microxrcedds_test_msg/msg/Sequence.idl",
+    "/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_test_msg/rosidl_adapter/rosidl_typesupport_microxrcedds_test_msg/msg/Compound.idl",
+    "/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_test_msg/rosidl_adapter/rosidl_typesupport_microxrcedds_test_msg/msg/BasicPrimitive.idl",
+    "/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_test_msg/rosidl_adapter/rosidl_typesupport_microxrcedds_test_msg/msg/Regression10.idl",
+    "/home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_test_msg/rosidl_adapter/rosidl_typesupport_microxrcedds_test_msg/msg/Regression11.idl",
+    "/home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "/home/aajaer/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

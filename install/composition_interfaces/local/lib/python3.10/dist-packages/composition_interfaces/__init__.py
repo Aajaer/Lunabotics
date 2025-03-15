@@ -1,0 +1,1 @@
+/home/aajaer/microros_ws/build/composition_interfaces/rosidl_generator_py/composition_interfaces/__init__.py

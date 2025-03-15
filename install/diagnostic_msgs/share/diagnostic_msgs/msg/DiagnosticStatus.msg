@@ -1,0 +1,1 @@
+/home/aajaer/microros_ws/src/ros2/common_interfaces/diagnostic_msgs/msg/DiagnosticStatus.msg

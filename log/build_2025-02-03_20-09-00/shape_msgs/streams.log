@@ -1,0 +1,202 @@
+[0.046s] Invoking command in '/home/aajaer/microros_ws/build/shape_msgs': AMENT_PREFIX_PATH=/home/aajaer/microros_ws/install/geometry_msgs:/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aajaer/microros_ws/install/geometry_msgs:/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/aajaer/microros_ws/install/geometry_msgs/lib:/home/aajaer/microros_ws/install/std_msgs/lib:/home/aajaer/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aajaer/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aajaer/microros_ws/build/shape_msgs -- -j8 -l8
+[0.092s] [  1%] Built target shape_msgs__cpp
+[0.183s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_typesupport_cpp[0m
+[0.184s] [ 10%] Built target shape_msgs__rosidl_generator_c
+[0.185s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_typesupport_microxrcedds_cpp[0m
+[0.206s] [ 10%] Built target ament_cmake_python_symlink_shape_msgs
+[0.273s] [ 18%] Built target shape_msgs__rosidl_typesupport_fastrtps_cpp
+[0.281s] [ 27%] Built target shape_msgs__rosidl_typesupport_cpp
+[0.284s] [ 36%] Built target shape_msgs__rosidl_typesupport_microxrcedds_cpp
+[0.352s] [ 44%] Built target shape_msgs__rosidl_typesupport_fastrtps_c
+[0.361s] [ 53%] Built target shape_msgs__rosidl_typesupport_introspection_cpp
+[0.373s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_typesupport_microxrcedds_c[0m
+[0.426s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_typesupport_c[0m
+[0.483s] [ 62%] Built target shape_msgs__rosidl_typesupport_introspection_c
+[0.495s] [ 71%] Built target shape_msgs__rosidl_typesupport_microxrcedds_c
+[0.515s] [ 79%] Built target shape_msgs__rosidl_typesupport_c
+[0.642s] [ 79%] Built target shape_msgs
+[0.745s] [ 81%] Built target shape_msgs__py
+[0.816s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_generator_py[0m
+[0.875s] [ 88%] Built target shape_msgs__rosidl_generator_py
+[0.930s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_typesupport_microxrcedds_c__pyext[0m
+[0.944s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.965s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.024s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_typesupport_c__pyext[0m
+[1.082s] [ 91%] Built target shape_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.082s] [ 94%] Built target shape_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[1.094s] [ 97%] Built target shape_msgs__rosidl_typesupport_introspection_c__pyext
+[1.140s] [100%] Built target shape_msgs__rosidl_typesupport_c__pyext
+[1.370s] running egg_info
+[1.373s] writing shape_msgs.egg-info/PKG-INFO
+[1.374s] writing dependency_links to shape_msgs.egg-info/dependency_links.txt
+[1.376s] writing top-level names to shape_msgs.egg-info/top_level.txt
+[1.382s] reading manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[1.385s] writing manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[1.478s] [100%] Built target ament_cmake_python_build_shape_msgs_egg
+[1.568s] Invoked command in '/home/aajaer/microros_ws/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/aajaer/microros_ws/install/geometry_msgs:/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aajaer/microros_ws/install/geometry_msgs:/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/aajaer/microros_ws/install/geometry_msgs/lib:/home/aajaer/microros_ws/install/std_msgs/lib:/home/aajaer/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aajaer/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aajaer/microros_ws/build/shape_msgs -- -j8 -l8
+[1.586s] Invoking command in '/home/aajaer/microros_ws/build/shape_msgs': AMENT_PREFIX_PATH=/home/aajaer/microros_ws/install/geometry_msgs:/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aajaer/microros_ws/install/geometry_msgs:/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/aajaer/microros_ws/install/geometry_msgs/lib:/home/aajaer/microros_ws/install/std_msgs/lib:/home/aajaer/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aajaer/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aajaer/microros_ws/build/shape_msgs
+[1.687s] -- Install configuration: ""
+[1.687s] -- Execute custom install script
+[1.688s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/ament_index/resource_index/rosidl_interfaces/shape_msgs
+[1.688s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__functions.h
+[1.688s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.h
+[1.689s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.h
+[1.689s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__functions.h
+[1.689s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__struct.h
+[1.690s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.h
+[1.692s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__functions.h
+[1.692s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__struct.h
+[1.693s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.h
+[1.693s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__functions.h
+[1.693s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.h
+[1.694s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.h
+[1.694s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh.h
+[1.694s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh_triangle.h
+[1.695s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/plane.h
+[1.695s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.696s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/solid_primitive.h
+[1.706s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/environment/library_path.sh
+[1.712s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/environment/library_path.dsv
+[1.714s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_c.h
+[1.714s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_fastrtps_c.h
+[1.716s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_fastrtps_c.h
+[1.717s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_fastrtps_c.h
+[1.721s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.721s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__builder.hpp
+[1.722s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.hpp
+[1.723s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__traits.hpp
+[1.728s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.hpp
+[1.729s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__builder.hpp
+[1.729s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__struct.hpp
+[1.732s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__traits.hpp
+[1.734s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.hpp
+[1.735s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__builder.hpp
+[1.736s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__struct.hpp
+[1.738s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__traits.hpp
+[1.738s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.hpp
+[1.740s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__builder.hpp
+[1.741s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.hpp
+[1.742s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__traits.hpp
+[1.743s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.hpp
+[1.744s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh.hpp
+[1.745s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh_triangle.hpp
+[1.746s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/plane.hpp
+[1.748s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.750s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/solid_primitive.hpp
+[1.756s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_cpp.hpp
+[1.758s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_fastrtps_cpp.hpp
+[1.759s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_fastrtps_cpp.hpp
+[1.763s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_fastrtps_cpp.hpp
+[1.765s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.766s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/mesh__rosidl_typesupport_microxrcedds_c.h
+[1.772s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_microxrcedds_c.h
+[1.772s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/plane__rosidl_typesupport_microxrcedds_c.h
+[1.772s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_microxrcedds_c.h
+[1.773s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[1.775s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_microxrcedds_c.a
+[1.776s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_introspection_c.h
+[1.778s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_introspection_c.h
+[1.778s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_introspection_c.h
+[1.779s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_introspection_c.h
+[1.781s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.785s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/mesh__rosidl_typesupport_microxrcedds_cpp.hpp
+[1.787s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_microxrcedds_cpp.hpp
+[1.788s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/microxrcedds/mesh__type_support_cpp.cpp
+[1.788s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/microxrcedds/mesh_triangle__type_support_cpp.cpp
+[1.790s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/microxrcedds/plane__type_support_cpp.cpp
+[1.791s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/microxrcedds/solid_primitive__type_support_cpp.cpp
+[1.792s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/plane__rosidl_typesupport_microxrcedds_cpp.hpp
+[1.793s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_microxrcedds_cpp.hpp
+[1.796s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[1.799s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_microxrcedds_cpp.a
+[1.801s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_introspection_cpp.hpp
+[1.803s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_introspection_cpp.hpp
+[1.803s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_introspection_cpp.hpp
+[1.806s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_introspection_cpp.hpp
+[1.807s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/environment/pythonpath.sh
+[1.807s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/environment/pythonpath.dsv
+[1.808s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs-4.2.4-py3.10.egg-info/PKG-INFO
+[1.809s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs-4.2.4-py3.10.egg-info/SOURCES.txt
+[1.809s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs-4.2.4-py3.10.egg-info/dependency_links.txt
+[1.809s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs-4.2.4-py3.10.egg-info/top_level.txt
+[1.812s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/__init__.py
+[1.816s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_c.c
+[1.816s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.817s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.818s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[1.821s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/libshape_msgs__rosidl_generator_py.so
+[1.821s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/__init__.py
+[1.823s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh.py
+[1.824s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh_s.c
+[1.824s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh_triangle.py
+[1.827s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh_triangle_s.c
+[1.835s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_plane.py
+[1.836s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_plane_s.c
+[1.836s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_solid_primitive.py
+[1.837s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_solid_primitive_s.c
+[1.837s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.837s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.838s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.838s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[1.840s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[1.842s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.843s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.844s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.844s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/msg/Mesh.idl
+[1.844s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/msg/MeshTriangle.idl
+[1.844s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/msg/Plane.idl
+[1.845s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/msg/SolidPrimitive.idl
+[1.845s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/msg/Mesh.msg
+[1.846s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/msg/MeshTriangle.msg
+[1.846s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/msg/Plane.msg
+[1.846s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/msg/SolidPrimitive.msg
+[1.848s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/ament_index/resource_index/package_run_dependencies/shape_msgs
+[1.848s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/ament_index/resource_index/parent_prefix_path/shape_msgs
+[1.848s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/environment/ament_prefix_path.sh
+[1.849s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/environment/ament_prefix_path.dsv
+[1.850s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/environment/path.sh
+[1.850s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/environment/path.dsv
+[1.853s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/local_setup.bash
+[1.854s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/local_setup.sh
+[1.854s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/local_setup.zsh
+[1.855s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/local_setup.dsv
+[1.855s] -- Symlinking: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/package.dsv
+[1.906s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/ament_index/resource_index/packages/shape_msgs
+[1.906s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake-extras.cmake
+[1.908s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.908s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.910s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.912s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.913s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.913s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.914s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgsConfig.cmake
+[1.914s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgsConfig-version.cmake
+[1.915s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/package.xml
+[1.916s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_generator_c.so
+[1.917s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_c.so
+[1.918s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.919s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_c.so
+[1.920s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_c.so
+[1.921s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_cpp.so
+[1.923s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_cpp.so
+[2.018s] Listing '/home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs'...
+[2.019s] Listing '/home/aajaer/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg'...
+[2.030s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_generator_py.so
+[2.031s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cExport.cmake
+[2.031s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.031s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.031s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.031s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cppExport.cmake
+[2.032s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.032s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.032s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.032s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.032s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cExport.cmake
+[2.032s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.033s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.033s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.033s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cppExport.cmake
+[2.033s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.033s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_pyExport.cmake
+[2.033s] -- Up-to-date: /home/aajaer/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.054s] Invoked command in '/home/aajaer/microros_ws/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/aajaer/microros_ws/install/geometry_msgs:/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aajaer/microros_ws/install/geometry_msgs:/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/aajaer/microros_ws/install/geometry_msgs/lib:/home/aajaer/microros_ws/install/std_msgs/lib:/home/aajaer/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aajaer/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aajaer/microros_ws/build/shape_msgs

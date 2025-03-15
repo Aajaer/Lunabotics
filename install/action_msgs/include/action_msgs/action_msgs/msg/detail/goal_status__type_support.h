@@ -1,0 +1,1 @@
+/home/aajaer/microros_ws/build/action_msgs/rosidl_generator_c/action_msgs/msg/detail/goal_status__type_support.h

@@ -1,0 +1,179 @@
+[0.085s] Invoking command in '/home/aajaer/microros_ws/build/std_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aajaer/microros_ws/install/sensor_msgs_py:/home/aajaer/microros_ws/install/motor_control_pkg /usr/bin/cmake --build /home/aajaer/microros_ws/build/std_srvs -- -j8 -l8
+[0.304s] [  1%] Built target std_srvs__cpp
+[0.348s] [ 10%] Built target std_srvs__rosidl_generator_c
+[0.457s] [ 10%] Built target ament_cmake_python_symlink_std_srvs
+[0.503s] [ 18%] Built target std_srvs__rosidl_typesupport_cpp
+[0.566s] [ 27%] Built target std_srvs__rosidl_typesupport_microxrcedds_cpp
+[0.576s] [ 35%] Built target std_srvs__rosidl_typesupport_fastrtps_cpp
+[0.580s] [ 44%] Built target std_srvs__rosidl_typesupport_introspection_cpp
+[0.641s] [ 52%] Built target std_srvs__rosidl_typesupport_microxrcedds_c
+[0.688s] [ 61%] Built target std_srvs__rosidl_typesupport_fastrtps_c
+[0.716s] [ 69%] Built target std_srvs__rosidl_typesupport_introspection_c
+[0.759s] [ 77%] Built target std_srvs__rosidl_typesupport_c
+[0.908s] [ 77%] Built target std_srvs
+[1.098s] [ 79%] Built target std_srvs__py
+[1.163s] [ 86%] Built target std_srvs__rosidl_generator_py
+[1.379s] [ 89%] Built target std_srvs__rosidl_typesupport_microxrcedds_c__pyext
+[1.390s] [ 93%] Built target std_srvs__rosidl_typesupport_fastrtps_c__pyext
+[1.393s] [ 96%] Built target std_srvs__rosidl_typesupport_c__pyext
+[1.428s] [100%] Built target std_srvs__rosidl_typesupport_introspection_c__pyext
+[1.638s] running egg_info
+[1.641s] writing std_srvs.egg-info/PKG-INFO
+[1.642s] writing dependency_links to std_srvs.egg-info/dependency_links.txt
+[1.643s] writing top-level names to std_srvs.egg-info/top_level.txt
+[1.649s] reading manifest file 'std_srvs.egg-info/SOURCES.txt'
+[1.650s] writing manifest file 'std_srvs.egg-info/SOURCES.txt'
+[1.763s] [100%] Built target ament_cmake_python_build_std_srvs_egg
+[1.896s] Invoked command in '/home/aajaer/microros_ws/build/std_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aajaer/microros_ws/install/sensor_msgs_py:/home/aajaer/microros_ws/install/motor_control_pkg /usr/bin/cmake --build /home/aajaer/microros_ws/build/std_srvs -- -j8 -l8
+[1.897s] Invoking command in '/home/aajaer/microros_ws/build/std_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aajaer/microros_ws/install/sensor_msgs_py:/home/aajaer/microros_ws/install/motor_control_pkg /usr/bin/cmake --install /home/aajaer/microros_ws/build/std_srvs
+[1.921s] -- Install configuration: ""
+[1.923s] -- Execute custom install script
+[1.923s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/ament_index/resource_index/rosidl_interfaces/std_srvs
+[1.925s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_generator_c__visibility_control.h
+[1.926s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__functions.h
+[1.926s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__struct.h
+[1.927s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.h
+[1.927s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__functions.h
+[1.927s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__struct.h
+[1.928s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.h
+[1.929s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__functions.h
+[1.929s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__struct.h
+[1.930s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.h
+[1.931s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/empty.h
+[1.931s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/set_bool.h
+[1.931s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/trigger.h
+[1.933s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/environment/library_path.sh
+[1.934s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/environment/library_path.dsv
+[1.934s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[1.935s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/srv/detail/empty__rosidl_typesupport_microxrcedds_c.h
+[1.935s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__rosidl_typesupport_microxrcedds_c.h
+[1.937s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__rosidl_typesupport_microxrcedds_c.h
+[1.937s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_microxrcedds_c.a
+[1.938s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.938s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_fastrtps_c.h
+[1.938s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_fastrtps_c.h
+[1.938s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_fastrtps_c.h
+[1.938s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.938s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_c.h
+[1.938s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_introspection_c.h
+[1.939s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_c.h
+[1.939s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.939s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__builder.hpp
+[1.942s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__struct.hpp
+[1.943s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__traits.hpp
+[1.943s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.hpp
+[1.946s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__builder.hpp
+[1.946s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__struct.hpp
+[1.947s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__traits.hpp
+[1.949s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.hpp
+[1.949s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__builder.hpp
+[1.949s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__struct.hpp
+[1.949s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__traits.hpp
+[1.950s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.hpp
+[1.950s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/empty.hpp
+[1.950s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/set_bool.hpp
+[1.950s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/trigger.hpp
+[1.954s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[1.954s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/srv/detail/empty__rosidl_typesupport_microxrcedds_cpp.hpp
+[1.955s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp
+[1.955s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp
+[1.956s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp
+[1.956s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__rosidl_typesupport_microxrcedds_cpp.hpp
+[1.956s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__rosidl_typesupport_microxrcedds_cpp.hpp
+[1.957s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_microxrcedds_cpp.a
+[1.958s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.958s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_fastrtps_cpp.hpp
+[1.958s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[1.958s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_fastrtps_cpp.hpp
+[1.959s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_cpp.hpp
+[1.959s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_introspection_cpp.hpp
+[1.959s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_cpp.hpp
+[1.959s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/environment/pythonpath.sh
+[1.960s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/environment/pythonpath.dsv
+[1.960s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.2.4-py3.10.egg-info/PKG-INFO
+[1.960s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.2.4-py3.10.egg-info/SOURCES.txt
+[1.960s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.2.4-py3.10.egg-info/dependency_links.txt
+[1.961s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.2.4-py3.10.egg-info/top_level.txt
+[1.964s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/__init__.py
+[1.964s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_c.c
+[1.964s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.964s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_introspection_c.c
+[1.965s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[1.965s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/libstd_srvs__rosidl_generator_py.so
+[1.965s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/__init__.py
+[1.965s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_empty.py
+[1.966s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_empty_s.c
+[1.966s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_set_bool.py
+[1.966s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_set_bool_s.c
+[1.966s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_trigger.py
+[1.966s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_trigger_s.c
+[1.967s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.967s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.967s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.967s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[1.968s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[1.968s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.968s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.968s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.968s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/srv/Empty.idl
+[1.968s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/srv/SetBool.idl
+[1.969s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/srv/Trigger.idl
+[1.969s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/srv/Empty.srv
+[1.969s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/srv/Empty_Request.msg
+[1.969s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/srv/Empty_Response.msg
+[1.972s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/srv/SetBool.srv
+[1.972s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/srv/SetBool_Request.msg
+[1.972s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/srv/SetBool_Response.msg
+[1.973s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/srv/Trigger.srv
+[1.973s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/srv/Trigger_Request.msg
+[1.973s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/srv/Trigger_Response.msg
+[1.973s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/ament_index/resource_index/package_run_dependencies/std_srvs
+[1.973s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/ament_index/resource_index/parent_prefix_path/std_srvs
+[1.973s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/environment/ament_prefix_path.sh
+[1.973s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/environment/ament_prefix_path.dsv
+[1.973s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/environment/path.sh
+[1.974s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/environment/path.dsv
+[1.974s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/local_setup.bash
+[1.974s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/local_setup.sh
+[1.974s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/local_setup.zsh
+[1.974s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/local_setup.dsv
+[1.974s] -- Symlinking: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/package.dsv
+[1.977s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/ament_index/resource_index/packages/std_srvs
+[1.978s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/rosidl_cmake-extras.cmake
+[1.982s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.993s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.994s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[1.994s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.994s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.994s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.994s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvsConfig.cmake
+[1.994s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvsConfig-version.cmake
+[1.995s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/package.xml
+[1.995s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_generator_c.so
+[1.995s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so
+[1.995s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_c.so
+[1.995s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_c.so
+[1.995s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
+[1.995s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
+[1.995s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_cpp.so
+[2.071s] Listing '/home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs'...
+[2.072s] Listing '/home/aajaer/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv'...
+[2.085s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_generator_py.so
+[2.087s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cExport.cmake
+[2.087s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cExport-noconfig.cmake
+[2.088s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.088s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.089s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cExport.cmake
+[2.089s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.090s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport.cmake
+[2.091s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[2.091s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cppExport.cmake
+[2.091s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.092s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.092s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[2.093s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.093s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cppExport.cmake
+[2.093s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.094s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_pyExport.cmake
+[2.094s] -- Up-to-date: /home/aajaer/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_pyExport-noconfig.cmake
+[2.260s] Invoked command in '/home/aajaer/microros_ws/build/std_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aajaer/microros_ws/install/sensor_msgs_py:/home/aajaer/microros_ws/install/motor_control_pkg /usr/bin/cmake --install /home/aajaer/microros_ws/build/std_srvs

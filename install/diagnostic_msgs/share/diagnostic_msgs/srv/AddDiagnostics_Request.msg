@@ -1,0 +1,1 @@
+/home/aajaer/microros_ws/build/diagnostic_msgs/rosidl_cmake/srv/AddDiagnostics_Request.msg

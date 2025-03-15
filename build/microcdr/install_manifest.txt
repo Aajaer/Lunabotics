@@ -1,0 +1,8 @@
+/home/aajaer/microros_ws/install/microcdr/lib/libmicrocdr.a
+/home/aajaer/microros_ws/install/microcdr/include/ucdr/microcdr.h
+/home/aajaer/microros_ws/install/microcdr/include/ucdr/visibility.h
+/home/aajaer/microros_ws/install/microcdr/include/ucdr/config.h
+/home/aajaer/microros_ws/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+/home/aajaer/microros_ws/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+/home/aajaer/microros_ws/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+/home/aajaer/microros_ws/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake

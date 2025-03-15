@@ -1,0 +1,873 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc
+[  2%] [34m[1mPerforming build step for 'int32_publisher'[0m
+[  2%] [34m[1mPerforming build step for 'publisher_count'[0m
+[  2%] [34m[1mPerforming build step for 'int32_subscriber'[0m
+[  2%] [34m[1mPerforming build step for 'subscription_count'[0m
+[  2%] [34m[1mPerforming build step for 'graph_visualizer'[0m
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Found std_msgs: 4.2.4 (/home/aajaer/microros_ws/install/std_msgs/share/std_msgs/cmake)
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+-- Found std_msgs: 4.2.4 (/home/aajaer/microros_ws/install/std_msgs/share/std_msgs/cmake)
+-- Found std_msgs: 4.2.4 (/home/aajaer/microros_ws/install/std_msgs/share/std_msgs/cmake)
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+-- Configuring done
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+-- Configuring done
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+-- Configuring done
+-- Generating done
+-- Configuring done
+-- Configuring done
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/graph_introspection/publisher_count/src/publisher_count-build
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/graph_introspection/subscription_count/src/subscription_count-build
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/graph_introspection/graph_visualizer/src/graph_visualizer-build
+-- Generating done
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/int32_subscriber/src/int32_subscriber-build
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/int32_publisher/src/int32_publisher-build
+[35m[1mConsolidate compiler generated dependencies of target subscription_count[0m
+[35m[1mConsolidate compiler generated dependencies of target publisher_count[0m
+[35m[1mConsolidate compiler generated dependencies of target graph_visualizer[0m
+[  3%] [34m[1mPerforming build step for 'configured_subscriber'[0m
+[  4%] [34m[1mPerforming build step for 'configured_publisher'[0m
+[35m[1mConsolidate compiler generated dependencies of target int32_subscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target int32_publisher[0m
+[ 50%] [32m[1mLinking C executable publisher_count[0m
+[ 50%] [32m[1mLinking C executable subscription_count[0m
+[ 50%] [32mBuilding C object CMakeFiles/graph_visualizer.dir/main.c.o[0m
+[  4%] [34m[1mPerforming build step for 'addtwoints_server'[0m
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[ 50%] [32mBuilding C object CMakeFiles/int32_subscriber.dir/main.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/int32_publisher.dir/main.c.o[0m
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[100%] [32m[1mLinking C executable graph_visualizer[0m
+[100%] Built target publisher_count
+[100%] [32m[1mLinking C executable int32_subscriber[0m
+[100%] [32m[1mLinking C executable int32_publisher[0m
+[  5%] [34m[1mPerforming install step for 'publisher_count'[0m
+[100%] Built target subscription_count
+[  5%] [34m[1mPerforming install step for 'subscription_count'[0m
+[100%] Built target graph_visualizer
+[100%] Built target int32_subscriber
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[100%] Built target int32_publisher
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[  5%] [34m[1mPerforming install step for 'graph_visualizer'[0m
+[  5%] [34m[1mPerforming install step for 'int32_subscriber'[0m
+[100%] Built target publisher_count
+[100%] Built target subscription_count
+[  6%] [34m[1mPerforming install step for 'int32_publisher'[0m
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[36mInstall the project...[0m
+[35m[1mConsolidate compiler generated dependencies of target graph_visualizer[0m
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[36mInstall the project...[0m
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Install configuration: ""
+[35m[1mConsolidate compiler generated dependencies of target int32_subscriber[0m
+[100%] Built target graph_visualizer
+-- Install configuration: ""
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count" to ""
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count" to ""
+[100%] Built target int32_subscriber
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[36mInstall the project...[0m
+[  8%] [34m[1mCompleted 'publisher_count'[0m
+[  8%] [34m[1mCompleted 'subscription_count'[0m
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[35m[1mConsolidate compiler generated dependencies of target int32_publisher[0m
+-- Install configuration: ""
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer" to ""
+[36mInstall the project...[0m
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Install configuration: ""
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber" to ""
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[  8%] [34m[1mCompleted 'graph_visualizer'[0m
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[100%] Built target int32_publisher
+[  8%] [34m[1mCompleted 'int32_subscriber'[0m
+[ 10%] Built target publisher_count
+[ 13%] Built target subscription_count
+[36mInstall the project...[0m
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Install configuration: ""
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher" to ""
+[ 16%] Built target graph_visualizer
+[ 16%] [34m[1mPerforming build step for 'addtwoints_client'[0m
+[ 18%] Built target int32_subscriber
+[ 20%] [34m[1mPerforming build step for 'fibonacci_action_server'[0m
+[ 20%] [34m[1mCompleted 'int32_publisher'[0m
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[ 20%] [34m[1mPerforming build step for 'fibonacci_action_client'[0m
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[ 21%] [34m[1mPerforming build step for 'int32_multinode'[0m
+[ 23%] Built target int32_publisher
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Found std_msgs: 4.2.4 (/home/aajaer/microros_ws/install/std_msgs/share/std_msgs/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[ 23%] [34m[1mPerforming build step for 'int32_publisher_subscriber'[0m
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Found std_msgs: 4.2.4 (/home/aajaer/microros_ws/install/std_msgs/share/std_msgs/cmake)
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+-- Configuring done
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/configuration_example/configured_publisher/src/configured_publisher-build
+-- Found example_interfaces: 0.9.3 (/home/aajaer/microros_ws/install/example_interfaces/share/example_interfaces/cmake)
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/configuration_example/configured_subscriber/src/configured_subscriber-build
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/addtwoints_server/src/addtwoints_server-build
+[35m[1mConsolidate compiler generated dependencies of target configured_subscriber[0m
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[35m[1mConsolidate compiler generated dependencies of target configured_publisher[0m
+[ 50%] [32mBuilding C object CMakeFiles/configured_subscriber.dir/main.c.o[0m
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[35m[1mConsolidate compiler generated dependencies of target addtwoints_server[0m
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[ 50%] [32mBuilding C object CMakeFiles/configured_publisher.dir/main.c.o[0m
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[ 50%] [32mBuilding C object CMakeFiles/addtwoints_server.dir/main.c.o[0m
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[100%] [32m[1mLinking C executable configured_subscriber[0m
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[100%] [32m[1mLinking C executable configured_publisher[0m
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[100%] [32m[1mLinking C executable addtwoints_server[0m
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[100%] Built target configured_subscriber
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+[ 23%] [34m[1mPerforming install step for 'configured_subscriber'[0m
+[100%] Built target addtwoints_server
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[100%] Built target configured_publisher
+-- Found example_interfaces: 0.9.3 (/home/aajaer/microros_ws/install/example_interfaces/share/example_interfaces/cmake)
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Found example_interfaces: 0.9.3 (/home/aajaer/microros_ws/install/example_interfaces/share/example_interfaces/cmake)
+[ 24%] [34m[1mPerforming install step for 'addtwoints_server'[0m
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Configuring done
+-- Configuring done
+[ 24%] [34m[1mPerforming install step for 'configured_publisher'[0m
+[35m[1mConsolidate compiler generated dependencies of target configured_subscriber[0m
+-- Found std_msgs: 4.2.4 (/home/aajaer/microros_ws/install/std_msgs/share/std_msgs/cmake)
+-- Generating done
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/fibonacci_action_server/src/fibonacci_action_server-build
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/addtwoints_client/src/addtwoints_client-build
+[100%] Built target configured_subscriber
+-- Configuring done
+-- Found example_interfaces: 0.9.3 (/home/aajaer/microros_ws/install/example_interfaces/share/example_interfaces/cmake)
+[35m[1mConsolidate compiler generated dependencies of target addtwoints_server[0m
+-- Configuring done
+[36mInstall the project...[0m
+-- Generating done
+[100%] Built target addtwoints_server
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/int32_multinode/src/int32_multinode-build
+[35m[1mConsolidate compiler generated dependencies of target addtwoints_client[0m
+[35m[1mConsolidate compiler generated dependencies of target configured_publisher[0m
+-- Install configuration: ""
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber" to ""
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/fibonacci_action_client/src/fibonacci_action_client-build
+[36mInstall the project...[0m
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[ 50%] [32mBuilding C object CMakeFiles/addtwoints_client.dir/main.c.o[0m
+[100%] Built target configured_publisher
+[35m[1mConsolidate compiler generated dependencies of target fibonacci_action_server[0m
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Install configuration: ""
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server" to ""
+[ 24%] [34m[1mCompleted 'configured_subscriber'[0m
+[ 50%] [32mBuilding C object CMakeFiles/fibonacci_action_server.dir/main.c.o[0m
+[36mInstall the project...[0m
+[35m[1mConsolidate compiler generated dependencies of target fibonacci_action_client[0m
+[ 25%] [34m[1mCompleted 'addtwoints_server'[0m
+[35m[1mConsolidate compiler generated dependencies of target int32_multinode[0m
+-- Install configuration: ""
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher" to ""
+-- Found std_msgs: 4.2.4 (/home/aajaer/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[ 50%] [32mBuilding C object CMakeFiles/fibonacci_action_client.dir/main.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/int32_multinode.dir/main.c.o[0m
+[ 27%] Built target configured_subscriber
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+-- Configuring done
+[ 27%] [34m[1mCompleted 'configured_publisher'[0m
+-- Generating done
+[ 29%] Built target addtwoints_server
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/int32_publisher_subscriber/src/int32_publisher_subscriber-build
+[ 30%] [34m[1mPerforming build step for 'ping_pong'[0m
+[100%] [32m[1mLinking C executable addtwoints_client[0m
+[ 31%] [34m[1mPerforming build step for 'ping_uros_agent'[0m
+[35m[1mConsolidate compiler generated dependencies of target int32_publisher_subscriber[0m
+[100%] [32m[1mLinking C executable fibonacci_action_server[0m
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[ 50%] [32mBuilding C object CMakeFiles/int32_publisher_subscriber.dir/main.c.o[0m
+[ 34%] Built target configured_publisher
+[100%] [32m[1mLinking C executable int32_multinode[0m
+[ 34%] [34m[1mPerforming build step for 'fragmented_publication'[0m
+[100%] [32m[1mLinking C executable fibonacci_action_client[0m
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[100%] [32m[1mLinking C executable int32_publisher_subscriber[0m
+[100%] Built target fibonacci_action_server
+[100%] Built target addtwoints_client
+[ 34%] [34m[1mPerforming install step for 'fibonacci_action_server'[0m
+[100%] Built target int32_multinode
+[ 35%] [34m[1mPerforming install step for 'addtwoints_client'[0m
+[ 35%] [34m[1mPerforming install step for 'int32_multinode'[0m
+[100%] Built target fibonacci_action_client
+[35m[1mConsolidate compiler generated dependencies of target fibonacci_action_server[0m
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[ 35%] [34m[1mPerforming install step for 'fibonacci_action_client'[0m
+[100%] Built target fibonacci_action_server
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[35m[1mConsolidate compiler generated dependencies of target int32_multinode[0m
+[35m[1mConsolidate compiler generated dependencies of target addtwoints_client[0m
+[100%] Built target int32_publisher_subscriber
+[36mInstall the project...[0m
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Install configuration: ""
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server" to ""
+[100%] Built target int32_multinode
+[35m[1mConsolidate compiler generated dependencies of target fibonacci_action_client[0m
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[ 35%] [34m[1mPerforming install step for 'int32_publisher_subscriber'[0m
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[100%] Built target addtwoints_client
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[36mInstall the project...[0m
+[100%] Built target fibonacci_action_client
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[ 35%] [34m[1mCompleted 'fibonacci_action_server'[0m
+-- Install configuration: ""
+[36mInstall the project...[0m
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode" to ""
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client" to ""
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Install configuration: ""
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client" to ""
+[35m[1mConsolidate compiler generated dependencies of target int32_publisher_subscriber[0m
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[ 35%] [34m[1mCompleted 'int32_multinode'[0m
+[ 38%] Built target fibonacci_action_server
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[100%] Built target int32_publisher_subscriber
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[ 38%] [34m[1mCompleted 'addtwoints_client'[0m
+[ 39%] [34m[1mCompleted 'fibonacci_action_client'[0m
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[36mInstall the project...[0m
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Install configuration: ""
+[ 39%] [34m[1mPerforming build step for 'fragmented_subscription'[0m
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber" to ""
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[ 44%] Built target fibonacci_action_client
+[ 44%] Built target addtwoints_client
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[ 46%] Built target int32_multinode
+[ 47%] [34m[1mCompleted 'int32_publisher_subscriber'[0m
+[ 47%] [34m[1mPerforming build step for 'complex_msg_subscriber'[0m
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[ 48%] [34m[1mPerforming build step for 'timer'[0m
+[ 49%] [34m[1mPerforming build step for 'complex_msg_publisher'[0m
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[ 52%] Built target int32_publisher_subscriber
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Found std_msgs: 4.2.4 (/home/aajaer/microros_ws/install/std_msgs/share/std_msgs/cmake)
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+-- Found std_msgs: 4.2.4 (/home/aajaer/microros_ws/install/std_msgs/share/std_msgs/cmake)
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+-- Configuring done
+-- Configuring done
+[ 53%] [34m[1mPerforming build step for 'string_publisher'[0m
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/ping_pong/src/ping_pong-build
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/ping_uros_agent/src/ping_uros_agent-build
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found std_msgs: 4.2.4 (/home/aajaer/microros_ws/install/std_msgs/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[35m[1mConsolidate compiler generated dependencies of target ping_uros_agent[0m
+-- Configuring done
+[35m[1mConsolidate compiler generated dependencies of target ping_pong[0m
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[ 50%] [32mBuilding C object CMakeFiles/ping_uros_agent.dir/main.c.o[0m
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-build
+[ 50%] [32mBuilding C object CMakeFiles/ping_pong.dir/main.c.o[0m
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[35m[1mConsolidate compiler generated dependencies of target fragmented_publication[0m
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[ 50%] [32mBuilding C object CMakeFiles/fragmented_publication.dir/main.c.o[0m
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[100%] [32m[1mLinking C executable ping_pong[0m
+[100%] [32m[1mLinking C executable ping_uros_agent[0m
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[100%] [32m[1mLinking C executable fragmented_publication[0m
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 4.2.4 (/home/aajaer/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[100%] Built target ping_pong
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+[100%] Built target ping_uros_agent
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[ 53%] [34m[1mPerforming install step for 'ping_pong'[0m
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+[ 54%] [34m[1mPerforming install step for 'ping_uros_agent'[0m
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/fragmented_subscription/src/fragmented_subscription-build
+-- Found complex_msgs: 3.0.2 (/home/aajaer/microros_ws/install/complex_msgs/share/complex_msgs/cmake)
+-- Found std_msgs: 4.2.4 (/home/aajaer/microros_ws/install/std_msgs/share/std_msgs/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Configuring done
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[35m[1mConsolidate compiler generated dependencies of target ping_pong[0m
+-- Configuring done
+-- Generating done
+[35m[1mConsolidate compiler generated dependencies of target ping_uros_agent[0m
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/complex_msg_subscriber/src/complex_msg_subscriber-build
+[35m[1mConsolidate compiler generated dependencies of target fragmented_subscription[0m
+-- Generating done
+[100%] Built target ping_pong
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/timer/src/timer-build
+-- Found complex_msgs: 3.0.2 (/home/aajaer/microros_ws/install/complex_msgs/share/complex_msgs/cmake)
+[100%] Built target fragmented_publication
+[ 50%] [32mBuilding C object CMakeFiles/fragmented_subscription.dir/main.c.o[0m
+[100%] Built target ping_uros_agent
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+-- Configuring done
+[ 55%] [34m[1mPerforming install step for 'fragmented_publication'[0m
+[35m[1mConsolidate compiler generated dependencies of target complex_msg_subscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target timer[0m
+-- Generating done
+[36mInstall the project...[0m
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/complex_msg_publisher/src/complex_msg_publisher-build
+[36mInstall the project...[0m
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+[ 50%] [32m[1mLinking C executable complex_msg_subscriber[0m
+-- Install configuration: ""
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong" to ""
+-- Install configuration: ""
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent" to ""
+[ 50%] [32mBuilding C object CMakeFiles/timer.dir/main.c.o[0m
+[35m[1mConsolidate compiler generated dependencies of target fragmented_publication[0m
+[ 55%] [34m[1mCompleted 'ping_uros_agent'[0m
+-- Found std_msgs: 4.2.4 (/home/aajaer/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[35m[1mConsolidate compiler generated dependencies of target complex_msg_publisher[0m
+[100%] Built target fragmented_publication
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[ 55%] [34m[1mCompleted 'ping_pong'[0m
+[100%] [32m[1mLinking C executable fragmented_subscription[0m
+-- Configuring done
+[ 50%] [32m[1mLinking C executable complex_msg_publisher[0m
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/string_publisher/src/string_publisher-build
+[36mInstall the project...[0m
+[ 56%] Built target ping_uros_agent
+-- Install configuration: ""
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication" to ""
+[100%] [32m[1mLinking C executable timer[0m
+[ 59%] Built target ping_pong
+[100%] Built target complex_msg_subscriber
+[ 59%] [34m[1mPerforming build step for 'string_subscriber'[0m
+[ 59%] [34m[1mCompleted 'fragmented_publication'[0m
+[35m[1mConsolidate compiler generated dependencies of target string_publisher[0m
+[ 60%] [34m[1mPerforming build step for 'autodiscover_agent'[0m
+[ 61%] [34m[1mPerforming install step for 'complex_msg_subscriber'[0m
+[ 50%] [32mBuilding C object CMakeFiles/string_publisher.dir/main.c.o[0m
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[100%] Built target complex_msg_publisher
+[ 63%] Built target fragmented_publication
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[100%] Built target fragmented_subscription
+[ 64%] [34m[1mPerforming install step for 'complex_msg_publisher'[0m
+[ 65%] [34m[1mPerforming install step for 'fragmented_subscription'[0m
+[ 66%] [34m[1mPerforming build step for 'static_type_handling'[0m
+[100%] Built target timer
+[100%] Built target complex_msg_subscriber
+[100%] [32m[1mLinking C executable string_publisher[0m
+[ 66%] [34m[1mPerforming install step for 'timer'[0m
+[100%] Built target complex_msg_publisher
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[36mInstall the project...[0m
+[35m[1mConsolidate compiler generated dependencies of target fragmented_subscription[0m
+[36mInstall the project...[0m
+-- Install configuration: ""
+[100%] Built target fragmented_subscription
+[35m[1mConsolidate compiler generated dependencies of target timer[0m
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber" to ""
+-- Install configuration: ""
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher" to ""
+[100%] Built target timer
+[36mInstall the project...[0m
+[100%] Built target string_publisher
+-- Install configuration: ""
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription" to ""
+[36mInstall the project...[0m
+[ 67%] [34m[1mCompleted 'complex_msg_subscriber'[0m
+[ 67%] [34m[1mCompleted 'complex_msg_publisher'[0m
+-- Install configuration: ""
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/timer/timer
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/timer/timer" to ""
+[ 68%] [34m[1mCompleted 'fragmented_subscription'[0m
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[ 68%] [34m[1mPerforming install step for 'string_publisher'[0m
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[ 70%] Built target complex_msg_subscriber
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[ 71%] Built target complex_msg_publisher
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[ 71%] [34m[1mPerforming build step for 'epoch_synchronization'[0m
+[35m[1mConsolidate compiler generated dependencies of target string_publisher[0m
+[ 71%] [34m[1mCompleted 'timer'[0m
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[ 71%] [34m[1mPerforming build step for 'parameter_server'[0m
+[100%] Built target string_publisher
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[ 73%] Built target fragmented_subscription
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[ 76%] Built target timer
+[36mInstall the project...[0m
+[ 76%] [34m[1mPerforming build step for 'multithread_publisher_subscriber'[0m
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Install configuration: ""
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher" to ""
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[ 76%] [34m[1mCompleted 'string_publisher'[0m
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[ 78%] Built target string_publisher
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Found std_msgs: 4.2.4 (/home/aajaer/microros_ws/install/std_msgs/share/std_msgs/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/string_subscriber/src/string_subscriber-build
+-- Found std_msgs: 4.2.4 (/home/aajaer/microros_ws/install/std_msgs/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Configuring done
+-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[35m[1mConsolidate compiler generated dependencies of target string_subscriber[0m
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/autodiscover_agent/src/autodiscover_agent-build
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[ 50%] [32mBuilding C object CMakeFiles/string_subscriber.dir/main.c.o[0m
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found visualization_msgs: 4.2.4 (/home/aajaer/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake)
+[35m[1mConsolidate compiler generated dependencies of target autodiscover_agent[0m
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[ 50%] [32mBuilding C object CMakeFiles/autodiscover_agent.dir/main.c.o[0m
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[100%] [32m[1mLinking C executable string_subscriber[0m
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+-- Found micro_ros_utilities: 3.0.2 (/home/aajaer/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/static_type_handling/src/static_type_handling-build
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[100%] [32m[1mLinking C executable autodiscover_agent[0m
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+[35m[1mConsolidate compiler generated dependencies of target static_type_handling[0m
+[ 50%] [32m[1mLinking C executable static_type_handling[0m
+-- Found std_msgs: 4.2.4 (/home/aajaer/microros_ws/install/std_msgs/share/std_msgs/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[100%] Built target string_subscriber
+-- Found rclc_parameter: 4.0.2 (/home/aajaer/microros_ws/install/rclc_parameter/share/rclc_parameter/cmake)
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Found rclc: 4.0.2 (/home/aajaer/microros_ws/install/rclc/share/rclc/cmake)
+[ 79%] [34m[1mPerforming install step for 'string_subscriber'[0m
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/parameter_server/src/parameter_server-build
+-- Found std_msgs: 4.2.4 (/home/aajaer/microros_ws/install/std_msgs/share/std_msgs/cmake)
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+-- Found std_msgs: 4.2.4 (/home/aajaer/microros_ws/install/std_msgs/share/std_msgs/cmake)
+-- Configuring done
+-- Found rmw_microxrcedds: 3.0.3 (/home/aajaer/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+-- Found micro_ros_utilities: 3.0.2 (/home/aajaer/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake)
+[100%] Built target autodiscover_agent
+[35m[1mConsolidate compiler generated dependencies of target string_subscriber[0m
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/epoch_synchronization/src/epoch_synchronization-build
+[35m[1mConsolidate compiler generated dependencies of target parameter_server[0m
+-- Configuring done
+[ 50%] [32mBuilding C object CMakeFiles/parameter_server.dir/main.c.o[0m
+[100%] Built target string_subscriber
+-- Generating done
+[ 79%] [34m[1mPerforming install step for 'autodiscover_agent'[0m
+-- Build files have been written to: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/multithread_publisher_subscriber/src/multithread_publisher_subscriber-build
+[35m[1mConsolidate compiler generated dependencies of target epoch_synchronization[0m
+[100%] Built target static_type_handling
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber" to ""
+[ 50%] [32mBuilding C object CMakeFiles/epoch_synchronization.dir/main.c.o[0m
+[35m[1mConsolidate compiler generated dependencies of target multithread_publisher_subscriber[0m
+[ 79%] [34m[1mPerforming install step for 'static_type_handling'[0m
+[35m[1mConsolidate compiler generated dependencies of target autodiscover_agent[0m
+[ 50%] [32mBuilding C object CMakeFiles/multithread_publisher_subscriber.dir/main.c.o[0m
+[ 80%] [34m[1mCompleted 'string_subscriber'[0m
+[100%] Built target autodiscover_agent
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent" to ""
+[ 82%] Built target string_subscriber
+[100%] Built target static_type_handling
+[100%] [32m[1mLinking C executable parameter_server[0m
+[ 82%] [34m[1mCompleted 'autodiscover_agent'[0m
+[100%] [32m[1mLinking C executable epoch_synchronization[0m
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/static_type_handling/static_type_handling
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/static_type_handling/static_type_handling" to ""
+[ 82%] [34m[1mCompleted 'static_type_handling'[0m
+[100%] [32m[1mLinking C executable multithread_publisher_subscriber[0m
+[ 85%] Built target autodiscover_agent
+[ 88%] Built target static_type_handling
+[100%] Built target parameter_server
+[100%] Built target epoch_synchronization
+[ 88%] [34m[1mPerforming install step for 'parameter_server'[0m
+[ 89%] [34m[1mPerforming install step for 'epoch_synchronization'[0m
+[100%] Built target multithread_publisher_subscriber
+[ 90%] [34m[1mPerforming install step for 'multithread_publisher_subscriber'[0m
+[35m[1mConsolidate compiler generated dependencies of target parameter_server[0m
+[35m[1mConsolidate compiler generated dependencies of target epoch_synchronization[0m
+[100%] Built target parameter_server
+[100%] Built target epoch_synchronization
+[36mInstall the project...[0m
+[35m[1mConsolidate compiler generated dependencies of target multithread_publisher_subscriber[0m
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/parameter_server/parameter_server
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/parameter_server/parameter_server" to ""
+[100%] Built target multithread_publisher_subscriber
+-- Install configuration: ""
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/epoch_synchronization/epoch_synchronization
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/epoch_synchronization/epoch_synchronization" to ""
+[ 91%] [34m[1mCompleted 'parameter_server'[0m
+[36mInstall the project...[0m
+[ 92%] [34m[1mCompleted 'epoch_synchronization'[0m
+-- Install configuration: ""
+-- Installing: /home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/multithread_publisher_subscriber/multithread_publisher_subscriber
+-- Set runtime path of "/home/aajaer/microros_ws/build/micro_ros_demos_rclc/temp_install/multithread_publisher_subscriber/multithread_publisher_subscriber" to ""
+[ 93%] [34m[1mCompleted 'multithread_publisher_subscriber'[0m
+[ 96%] Built target parameter_server
+[ 98%] Built target epoch_synchronization
+[100%] Built target multithread_publisher_subscriber
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/package_run_dependencies/micro_ros_demos_rclc
+-- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/parent_prefix_path/micro_ros_demos_rclc
+-- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.sh
+-- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.dsv
+-- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.bash
+-- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.sh
+-- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.zsh
+-- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.dsv
+-- Symlinking: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.dsv
+-- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/packages/micro_ros_demos_rclc
+-- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig.cmake
+-- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig-version.cmake
+-- Up-to-date symlink: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.xml
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher/string_publisher
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client/fibonacci_action_client
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client/addtwoints_client
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber/int32_publisher_subscriber
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count/subscription_count
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher/configured_publisher
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/multithread_publisher_subscriber
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/multithread_publisher_subscriber/multithread_publisher_subscriber
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber/complex_msg_subscriber
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription/fragmented_subscription
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent/autodiscover_agent
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server/addtwoints_server
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server/fibonacci_action_server
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber/configured_subscriber
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher/int32_publisher
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication/fragmented_publication
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count/publisher_count
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer/timer
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer/graph_visualizer
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/epoch_synchronization
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/epoch_synchronization/epoch_synchronization
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode/int32_multinode
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber/int32_subscriber
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher/complex_msg_publisher
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/parameter_server
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/parameter_server/parameter_server
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/static_type_handling
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/static_type_handling/static_type_handling
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber/string_subscriber
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong/ping_pong
+-- Up-to-date: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent
+-- Installing: /home/aajaer/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent/ping_uros_agent

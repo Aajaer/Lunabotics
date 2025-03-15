@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "trajectory_msgs__py",
+		"source" : "/home/aajaer/microros_ws/build/trajectory_msgs/trajectory_msgs__py"
+	}
+}

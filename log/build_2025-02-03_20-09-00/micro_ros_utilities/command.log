@@ -1,0 +1,4 @@
+Invoking command in '/home/aajaer/microros_ws/build/micro_ros_utilities': /usr/bin/cmake --build /home/aajaer/microros_ws/build/micro_ros_utilities -- -j8 -l8
+Invoked command in '/home/aajaer/microros_ws/build/micro_ros_utilities' returned '0': /usr/bin/cmake --build /home/aajaer/microros_ws/build/micro_ros_utilities -- -j8 -l8
+Invoking command in '/home/aajaer/microros_ws/build/micro_ros_utilities': /usr/bin/cmake --install /home/aajaer/microros_ws/build/micro_ros_utilities
+Invoked command in '/home/aajaer/microros_ws/build/micro_ros_utilities' returned '0': /usr/bin/cmake --install /home/aajaer/microros_ws/build/micro_ros_utilities

@@ -1,0 +1,3 @@
+/home/aajaer/microros_ws/install/rclc/lib/librclc.so
+/home/aajaer/microros_ws/install/rclc/share/rclc/cmake/rclcExport.cmake
+/home/aajaer/microros_ws/install/rclc/share/rclc/cmake/rclcExport-noconfig.cmake

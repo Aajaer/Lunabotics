@@ -1,0 +1,3 @@
+[console_scripts]
+lidar_slam_node = lidar_slam.lidar_slam:main
+

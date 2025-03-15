@@ -1,0 +1,722 @@
+[0.050s] Invoking command in '/home/aajaer/microros_ws/build/geometry_msgs': AMENT_PREFIX_PATH=/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/aajaer/microros_ws/install/std_msgs/lib:/home/aajaer/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/aajaer/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aajaer/microros_ws/src/ros2/common_interfaces/geometry_msgs -DCMAKE_INSTALL_PREFIX=/home/aajaer/microros_ws/install/geometry_msgs
+[0.078s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.356s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.372s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.376s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.381s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.439s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.489s] -- Found std_msgs: 4.2.4 (/home/aajaer/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[1.535s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.540s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.541s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.543s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.223s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.191s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.271s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.346s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.346s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.346s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.482s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[3.483s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.559s] -- Configuring done
+[4.114s] -- Generating done
+[4.232s] -- Build files have been written to: /home/aajaer/microros_ws/build/geometry_msgs
+[4.328s] Invoked command in '/home/aajaer/microros_ws/build/geometry_msgs' returned '0': AMENT_PREFIX_PATH=/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/aajaer/microros_ws/install/std_msgs/lib:/home/aajaer/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/aajaer/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aajaer/microros_ws/src/ros2/common_interfaces/geometry_msgs -DCMAKE_INSTALL_PREFIX=/home/aajaer/microros_ws/install/geometry_msgs
+[4.329s] Invoking command in '/home/aajaer/microros_ws/build/geometry_msgs': AMENT_PREFIX_PATH=/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/aajaer/microros_ws/install/std_msgs/lib:/home/aajaer/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/aajaer/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aajaer/microros_ws/build/geometry_msgs -- -j8 -l8
+[4.738s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_generator_c[0m
+[4.810s] [  0%] Built target geometry_msgs__cpp
+[4.889s] [  0%] Built target ament_cmake_python_symlink_geometry_msgs
+[4.911s] [ 12%] Built target geometry_msgs__rosidl_generator_c
+[4.911s] [ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.970s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[5.019s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_typesupport_introspection_cpp[0m
+[5.062s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_typesupport_fastrtps_c[0m
+[5.079s] [ 14%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.101s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_typesupport_introspection_c[0m
+[5.230s] [ 26%] Built target geometry_msgs__rosidl_typesupport_fastrtps_cpp
+[5.230s] [ 39%] Built target geometry_msgs__rosidl_typesupport_introspection_cpp
+[5.268s] [ 52%] Built target geometry_msgs__rosidl_typesupport_introspection_c
+[5.313s] [ 64%] Built target geometry_msgs__rosidl_typesupport_fastrtps_c
+[6.409s] running egg_info
+[6.412s] writing geometry_msgs.egg-info/PKG-INFO
+[6.418s] writing dependency_links to geometry_msgs.egg-info/dependency_links.txt
+[6.420s] writing top-level names to geometry_msgs.egg-info/top_level.txt
+[6.449s] reading manifest file 'geometry_msgs.egg-info/SOURCES.txt'
+[6.455s] writing manifest file 'geometry_msgs.egg-info/SOURCES.txt'
+[6.726s] [ 64%] Built target ament_cmake_python_build_geometry_msgs_egg
+[10.427s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_typesupport_cpp[0m
+[10.488s] [ 64%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel__type_support.cpp.o[0m
+[10.488s] [ 64%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel_stamped__type_support.cpp.o[0m
+[10.488s] [ 64%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel_with_covariance_stamped__type_support.cpp.o[0m
+[10.501s] [ 66%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/inertia_stamped__type_support.cpp.o[0m
+[10.505s] [ 66%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel_with_covariance__type_support.cpp.o[0m
+[10.508s] [ 66%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/point__type_support.cpp.o[0m
+[10.510s] [ 66%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/inertia__type_support.cpp.o[0m
+[11.174s] [ 67%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/point32__type_support.cpp.o[0m
+[11.215s] [ 67%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/point_stamped__type_support.cpp.o[0m
+[11.235s] [ 67%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/polygon__type_support.cpp.o[0m
+[11.289s] [ 68%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/polygon_stamped__type_support.cpp.o[0m
+[11.312s] [ 68%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose__type_support.cpp.o[0m
+[11.417s] [ 68%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose2_d__type_support.cpp.o[0m
+[11.454s] [ 69%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_array__type_support.cpp.o[0m
+[11.624s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_typesupport_c[0m
+[11.676s] [ 69%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel__type_support.cpp.o[0m
+[11.809s] [ 69%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel_stamped__type_support.cpp.o[0m
+[11.844s] [ 69%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_stamped__type_support.cpp.o[0m
+[11.913s] [ 70%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel_with_covariance__type_support.cpp.o[0m
+[11.923s] [ 71%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_with_covariance__type_support.cpp.o[0m
+[11.944s] [ 71%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_with_covariance_stamped__type_support.cpp.o[0m
+[11.961s] [ 71%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/quaternion__type_support.cpp.o[0m
+[12.031s] [ 71%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel_with_covariance_stamped__type_support.cpp.o[0m
+[12.155s] [ 72%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/quaternion_stamped__type_support.cpp.o[0m
+[12.158s] [ 72%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/inertia__type_support.cpp.o[0m
+[12.165s] [ 72%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/transform__type_support.cpp.o[0m
+[12.210s] [ 73%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/inertia_stamped__type_support.cpp.o[0m
+[12.251s] [ 73%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/point__type_support.cpp.o[0m
+[12.343s] [ 73%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/point_stamped__type_support.cpp.o[0m
+[12.359s] [ 74%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/point32__type_support.cpp.o[0m
+[12.454s] [ 74%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/polygon__type_support.cpp.o[0m
+[12.487s] [ 75%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/transform_stamped__type_support.cpp.o[0m
+[12.537s] [ 75%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist__type_support.cpp.o[0m
+[12.556s] [ 76%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/polygon_stamped__type_support.cpp.o[0m
+[12.586s] [ 76%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist_stamped__type_support.cpp.o[0m
+[12.606s] [ 77%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist_with_covariance__type_support.cpp.o[0m
+[12.613s] [ 77%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist_with_covariance_stamped__type_support.cpp.o[0m
+[12.635s] [ 77%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose__type_support.cpp.o[0m
+[12.788s] [ 78%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose2_d__type_support.cpp.o[0m
+[12.818s] [ 78%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/vector3__type_support.cpp.o[0m
+[12.859s] [ 79%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/vector3_stamped__type_support.cpp.o[0m
+[12.866s] [ 79%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_array__type_support.cpp.o[0m
+[13.047s] [ 79%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_stamped__type_support.cpp.o[0m
+[13.174s] [ 80%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/velocity_stamped__type_support.cpp.o[0m
+[13.174s] [ 80%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/wrench__type_support.cpp.o[0m
+[13.186s] [ 81%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_with_covariance__type_support.cpp.o[0m
+[13.244s] [ 81%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/wrench_stamped__type_support.cpp.o[0m
+[13.279s] [ 81%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_with_covariance_stamped__type_support.cpp.o[0m
+[13.284s] [ 81%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/quaternion__type_support.cpp.o[0m
+[13.353s] [ 82%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/quaternion_stamped__type_support.cpp.o[0m
+[13.368s] [ 82%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/transform__type_support.cpp.o[0m
+[13.421s] [ 83%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/transform_stamped__type_support.cpp.o[0m
+[13.443s] [ 83%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist__type_support.cpp.o[0m
+[13.466s] [ 83%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist_stamped__type_support.cpp.o[0m
+[13.487s] [ 84%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist_with_covariance__type_support.cpp.o[0m
+[13.497s] [ 84%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist_with_covariance_stamped__type_support.cpp.o[0m
+[13.501s] [ 84%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/vector3__type_support.cpp.o[0m
+[13.523s] [ 85%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/vector3_stamped__type_support.cpp.o[0m
+[13.561s] [ 86%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/wrench__type_support.cpp.o[0m
+[13.571s] [ 86%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/velocity_stamped__type_support.cpp.o[0m
+[13.571s] [ 86%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/wrench_stamped__type_support.cpp.o[0m
+[13.642s] [ 86%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_c.so[0m
+[13.737s] [ 86%] Built target geometry_msgs__rosidl_typesupport_c
+[13.869s] [ 86%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_cpp.so[0m
+[13.955s] [ 86%] Built target geometry_msgs__rosidl_typesupport_cpp
+[13.994s] [ 86%] Built target geometry_msgs
+[14.037s] [ 86%] Built target geometry_msgs__py
+[14.075s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_generator_py[0m
+[14.138s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/geometry_msgs/libgeometry_msgs__rosidl_generator_py.so[0m
+[14.232s] [ 98%] Built target geometry_msgs__rosidl_generator_py
+[14.252s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[14.253s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[14.253s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_typesupport_c__pyext[0m
+[14.280s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[14.280s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[14.280s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[14.362s] [100%] Built target geometry_msgs__rosidl_typesupport_c__pyext
+[14.362s] [100%] Built target geometry_msgs__rosidl_typesupport_introspection_c__pyext
+[14.362s] [100%] Built target geometry_msgs__rosidl_typesupport_fastrtps_c__pyext
+[14.391s] Invoked command in '/home/aajaer/microros_ws/build/geometry_msgs' returned '0': AMENT_PREFIX_PATH=/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/aajaer/microros_ws/install/std_msgs/lib:/home/aajaer/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/aajaer/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aajaer/microros_ws/build/geometry_msgs -- -j8 -l8
+[14.395s] Invoking command in '/home/aajaer/microros_ws/build/geometry_msgs': AMENT_PREFIX_PATH=/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/aajaer/microros_ws/install/std_msgs/lib:/home/aajaer/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/aajaer/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aajaer/microros_ws/build/geometry_msgs
+[14.411s] -- Install configuration: ""
+[14.412s] -- Execute custom install script
+[14.413s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/ament_index/resource_index/rosidl_interfaces/geometry_msgs
+[14.417s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel.h
+[14.417s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_stamped.h
+[14.417s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_with_covariance.h
+[14.417s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_with_covariance_stamped.h
+[14.418s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__functions.h
+[14.419s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.h
+[14.419s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__type_support.h
+[14.419s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__functions.h
+[14.420s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__struct.h
+[14.420s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__type_support.h
+[14.421s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__functions.h
+[14.421s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__struct.h
+[14.421s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__type_support.h
+[14.422s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__functions.h
+[14.422s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__struct.h
+[14.423s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.h
+[14.423s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__functions.h
+[14.423s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__struct.h
+[14.424s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__type_support.h
+[14.424s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__functions.h
+[14.424s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__struct.h
+[14.425s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__type_support.h
+[14.425s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__functions.h
+[14.425s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.h
+[14.426s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__type_support.h
+[14.426s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.h
+[14.426s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h
+[14.427s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.h
+[14.427s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__functions.h
+[14.427s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.h
+[14.428s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.h
+[14.428s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__functions.h
+[14.428s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.h
+[14.429s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__type_support.h
+[14.429s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__functions.h
+[14.429s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__struct.h
+[14.430s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.h
+[14.430s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__functions.h
+[14.431s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.h
+[14.431s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__type_support.h
+[14.431s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__functions.h
+[14.432s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.h
+[14.432s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.h
+[14.432s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__functions.h
+[14.433s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.h
+[14.433s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__type_support.h
+[14.433s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__functions.h
+[14.434s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.h
+[14.434s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.h
+[14.434s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__functions.h
+[14.435s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.h
+[14.435s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__type_support.h
+[14.435s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__functions.h
+[14.436s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.h
+[14.436s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.h
+[14.436s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__functions.h
+[14.436s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h
+[14.437s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.h
+[14.437s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__functions.h
+[14.437s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__struct.h
+[14.438s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__type_support.h
+[14.438s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__functions.h
+[14.438s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.h
+[14.438s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__type_support.h
+[14.439s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__functions.h
+[14.439s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.h
+[14.439s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.h
+[14.440s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__functions.h
+[14.440s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.h
+[14.440s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.h
+[14.440s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__functions.h
+[14.441s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.h
+[14.441s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.h
+[14.441s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__functions.h
+[14.441s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__struct.h
+[14.442s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__type_support.h
+[14.442s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__functions.h
+[14.442s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__struct.h
+[14.443s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.h
+[14.443s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__functions.h
+[14.443s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.h
+[14.443s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.h
+[14.444s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__functions.h
+[14.444s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.h
+[14.444s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.h
+[14.445s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__functions.h
+[14.445s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.h
+[14.445s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.h
+[14.445s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__functions.h
+[14.446s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.h
+[14.446s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__type_support.h
+[14.446s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__functions.h
+[14.447s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__struct.h
+[14.447s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.h
+[14.447s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/inertia.h
+[14.447s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/inertia_stamped.h
+[14.448s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point.h
+[14.448s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point32.h
+[14.448s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point_stamped.h
+[14.448s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/polygon.h
+[14.449s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/polygon_stamped.h
+[14.449s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose.h
+[14.449s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose2_d.h
+[14.450s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_array.h
+[14.450s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_stamped.h
+[14.450s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance.h
+[14.450s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.h
+[14.451s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/quaternion.h
+[14.451s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/quaternion_stamped.h
+[14.451s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h
+[14.451s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/transform.h
+[14.452s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/transform_stamped.h
+[14.452s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist.h
+[14.452s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_stamped.h
+[14.453s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_with_covariance.h
+[14.453s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_with_covariance_stamped.h
+[14.453s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/vector3.h
+[14.453s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.h
+[14.454s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.h
+[14.454s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/wrench.h
+[14.454s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/wrench_stamped.h
+[14.455s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/library_path.sh
+[14.455s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/library_path.dsv
+[14.457s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__rosidl_typesupport_fastrtps_c.h
+[14.458s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_fastrtps_c.h
+[14.458s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_fastrtps_c.h
+[14.458s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[14.458s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__rosidl_typesupport_fastrtps_c.h
+[14.459s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_fastrtps_c.h
+[14.459s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__rosidl_typesupport_fastrtps_c.h
+[14.459s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[14.460s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_fastrtps_c.h
+[14.460s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__rosidl_typesupport_fastrtps_c.h
+[14.460s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_fastrtps_c.h
+[14.460s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h
+[14.461s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[14.461s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_fastrtps_c.h
+[14.461s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_fastrtps_c.h
+[14.462s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_fastrtps_c.h
+[14.462s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[14.462s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_fastrtps_c.h
+[14.462s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_fastrtps_c.h
+[14.463s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__rosidl_typesupport_fastrtps_c.h
+[14.463s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_fastrtps_c.h
+[14.463s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__rosidl_typesupport_fastrtps_c.h
+[14.463s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_fastrtps_c.h
+[14.464s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_fastrtps_c.h
+[14.464s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[14.464s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__rosidl_typesupport_fastrtps_c.h
+[14.465s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_fastrtps_c.h
+[14.465s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__rosidl_typesupport_fastrtps_c.h
+[14.465s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__rosidl_typesupport_fastrtps_c.h
+[14.465s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_fastrtps_c.h
+[14.466s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.467s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__rosidl_typesupport_introspection_c.h
+[14.467s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_introspection_c.h
+[14.468s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_introspection_c.h
+[14.468s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[14.468s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__rosidl_typesupport_introspection_c.h
+[14.469s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_introspection_c.h
+[14.469s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__rosidl_typesupport_introspection_c.h
+[14.469s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h
+[14.470s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_introspection_c.h
+[14.470s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__rosidl_typesupport_introspection_c.h
+[14.470s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_introspection_c.h
+[14.471s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h
+[14.471s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[14.471s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_introspection_c.h
+[14.471s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_introspection_c.h
+[14.472s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_introspection_c.h
+[14.472s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[14.472s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_introspection_c.h
+[14.473s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_introspection_c.h
+[14.473s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__rosidl_typesupport_introspection_c.h
+[14.473s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_introspection_c.h
+[14.474s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__rosidl_typesupport_introspection_c.h
+[14.474s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_introspection_c.h
+[14.474s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_introspection_c.h
+[14.474s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[14.475s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__rosidl_typesupport_introspection_c.h
+[14.475s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_introspection_c.h
+[14.476s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__rosidl_typesupport_introspection_c.h
+[14.476s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__rosidl_typesupport_introspection_c.h
+[14.476s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_introspection_c.h
+[14.476s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.479s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel.hpp
+[14.479s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_stamped.hpp
+[14.480s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_with_covariance.hpp
+[14.480s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_with_covariance_stamped.hpp
+[14.480s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__builder.hpp
+[14.481s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp
+[14.481s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp
+[14.481s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__type_support.hpp
+[14.481s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__builder.hpp
+[14.482s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__struct.hpp
+[14.482s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__traits.hpp
+[14.482s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__type_support.hpp
+[14.483s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__builder.hpp
+[14.483s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__struct.hpp
+[14.483s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__traits.hpp
+[14.483s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__type_support.hpp
+[14.484s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__builder.hpp
+[14.484s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__struct.hpp
+[14.484s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__traits.hpp
+[14.485s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.hpp
+[14.485s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__builder.hpp
+[14.485s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__struct.hpp
+[14.485s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__traits.hpp
+[14.486s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__type_support.hpp
+[14.486s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__builder.hpp
+[14.486s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__struct.hpp
+[14.487s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__traits.hpp
+[14.487s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__type_support.hpp
+[14.487s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__builder.hpp
+[14.487s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp
+[14.488s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp
+[14.488s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__type_support.hpp
+[14.488s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp
+[14.488s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp
+[14.489s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp
+[14.489s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp
+[14.489s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp
+[14.490s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp
+[14.490s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp
+[14.490s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp
+[14.490s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__builder.hpp
+[14.491s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp
+[14.491s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp
+[14.491s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__type_support.hpp
+[14.492s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__builder.hpp
+[14.492s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__struct.hpp
+[14.492s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__traits.hpp
+[14.492s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.hpp
+[14.493s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__builder.hpp
+[14.493s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.hpp
+[14.493s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__traits.hpp
+[14.493s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__type_support.hpp
+[14.494s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp
+[14.494s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp
+[14.494s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp
+[14.495s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp
+[14.495s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__builder.hpp
+[14.495s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.hpp
+[14.495s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp
+[14.496s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__type_support.hpp
+[14.496s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp
+[14.496s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp
+[14.497s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp
+[14.497s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp
+[14.497s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__builder.hpp
+[14.497s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp
+[14.498s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp
+[14.498s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__type_support.hpp
+[14.498s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__builder.hpp
+[14.499s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp
+[14.499s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__traits.hpp
+[14.499s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.hpp
+[14.499s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp
+[14.500s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp
+[14.500s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp
+[14.500s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.hpp
+[14.500s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__builder.hpp
+[14.501s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__struct.hpp
+[14.501s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__traits.hpp
+[14.501s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__type_support.hpp
+[14.502s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__builder.hpp
+[14.502s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp
+[14.502s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp
+[14.502s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__type_support.hpp
+[14.503s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp
+[14.503s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp
+[14.503s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp
+[14.504s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp
+[14.504s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp
+[14.504s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp
+[14.504s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp
+[14.505s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp
+[14.505s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp
+[14.505s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp
+[14.505s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp
+[14.506s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp
+[14.506s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__builder.hpp
+[14.506s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__struct.hpp
+[14.507s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__traits.hpp
+[14.507s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__type_support.hpp
+[14.507s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__builder.hpp
+[14.507s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__struct.hpp
+[14.508s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__traits.hpp
+[14.508s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.hpp
+[14.508s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp
+[14.509s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp
+[14.509s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp
+[14.509s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp
+[14.509s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp
+[14.510s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp
+[14.510s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp
+[14.510s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp
+[14.511s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp
+[14.511s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp
+[14.511s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp
+[14.511s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.hpp
+[14.512s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__builder.hpp
+[14.512s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp
+[14.512s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp
+[14.512s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__type_support.hpp
+[14.513s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__builder.hpp
+[14.513s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__struct.hpp
+[14.513s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__traits.hpp
+[14.513s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.hpp
+[14.514s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/inertia.hpp
+[14.514s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/inertia_stamped.hpp
+[14.514s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point.hpp
+[14.515s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point32.hpp
+[14.515s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp
+[14.515s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/polygon.hpp
+[14.515s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/polygon_stamped.hpp
+[14.516s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose.hpp
+[14.516s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose2_d.hpp
+[14.516s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp
+[14.516s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp
+[14.517s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance.hpp
+[14.517s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp
+[14.517s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp
+[14.518s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/quaternion_stamped.hpp
+[14.518s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[14.518s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/transform.hpp
+[14.518s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp
+[14.519s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist.hpp
+[14.519s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp
+[14.519s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_with_covariance.hpp
+[14.519s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_with_covariance_stamped.hpp
+[14.520s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/vector3.hpp
+[14.520s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp
+[14.520s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp
+[14.520s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/wrench.hpp
+[14.521s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/wrench_stamped.hpp
+[14.523s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__rosidl_typesupport_fastrtps_cpp.hpp
+[14.524s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[14.524s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[14.524s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[14.524s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__rosidl_typesupport_fastrtps_cpp.hpp
+[14.525s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[14.525s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__rosidl_typesupport_fastrtps_cpp.hpp
+[14.525s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[14.526s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[14.526s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__rosidl_typesupport_fastrtps_cpp.hpp
+[14.526s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[14.526s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[14.527s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[14.527s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_fastrtps_cpp.hpp
+[14.527s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[14.527s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[14.528s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[14.528s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_fastrtps_cpp.hpp
+[14.528s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[14.529s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__rosidl_typesupport_fastrtps_cpp.hpp
+[14.529s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[14.529s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__rosidl_typesupport_fastrtps_cpp.hpp
+[14.529s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[14.530s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[14.530s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[14.530s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__rosidl_typesupport_fastrtps_cpp.hpp
+[14.531s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[14.531s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[14.531s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__rosidl_typesupport_fastrtps_cpp.hpp
+[14.531s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[14.532s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.533s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__rosidl_typesupport_introspection_cpp.hpp
+[14.533s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_introspection_cpp.hpp
+[14.534s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[14.534s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[14.534s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__rosidl_typesupport_introspection_cpp.hpp
+[14.534s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_introspection_cpp.hpp
+[14.535s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__rosidl_typesupport_introspection_cpp.hpp
+[14.535s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[14.535s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_introspection_cpp.hpp
+[14.536s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__rosidl_typesupport_introspection_cpp.hpp
+[14.536s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_introspection_cpp.hpp
+[14.536s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp
+[14.536s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[14.537s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_introspection_cpp.hpp
+[14.537s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_introspection_cpp.hpp
+[14.537s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[14.538s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[14.538s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_introspection_cpp.hpp
+[14.538s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_introspection_cpp.hpp
+[14.538s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__rosidl_typesupport_introspection_cpp.hpp
+[14.539s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_introspection_cpp.hpp
+[14.539s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__rosidl_typesupport_introspection_cpp.hpp
+[14.539s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_introspection_cpp.hpp
+[14.540s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[14.540s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[14.540s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__rosidl_typesupport_introspection_cpp.hpp
+[14.540s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_introspection_cpp.hpp
+[14.541s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__rosidl_typesupport_introspection_cpp.hpp
+[14.541s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__rosidl_typesupport_introspection_cpp.hpp
+[14.541s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_introspection_cpp.hpp
+[14.542s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/pythonpath.sh
+[14.542s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/pythonpath.dsv
+[14.543s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs-4.2.4-py3.10.egg-info/PKG-INFO
+[14.543s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs-4.2.4-py3.10.egg-info/SOURCES.txt
+[14.543s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs-4.2.4-py3.10.egg-info/dependency_links.txt
+[14.543s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs-4.2.4-py3.10.egg-info/top_level.txt
+[14.546s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/__init__.py
+[14.546s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_c.c
+[14.547s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.547s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[14.547s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[14.548s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[14.548s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[14.548s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[14.548s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[14.549s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/libgeometry_msgs__rosidl_generator_py.so
+[14.549s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/__init__.py
+[14.549s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel.py
+[14.550s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_s.c
+[14.550s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_stamped.py
+[14.550s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_stamped_s.c
+[14.550s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_with_covariance.py
+[14.551s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_with_covariance_s.c
+[14.551s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_with_covariance_stamped.py
+[14.551s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_with_covariance_stamped_s.c
+[14.552s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_inertia.py
+[14.552s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_inertia_s.c
+[14.552s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_inertia_stamped.py
+[14.552s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_inertia_stamped_s.c
+[14.553s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point.py
+[14.553s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point32.py
+[14.553s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point32_s.c
+[14.553s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point_s.c
+[14.554s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point_stamped.py
+[14.554s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point_stamped_s.c
+[14.554s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_polygon.py
+[14.555s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_polygon_s.c
+[14.555s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_polygon_stamped.py
+[14.555s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_polygon_stamped_s.c
+[14.555s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose.py
+[14.556s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose2_d.py
+[14.556s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose2_d_s.c
+[14.556s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_array.py
+[14.556s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_array_s.c
+[14.557s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_s.c
+[14.557s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_stamped.py
+[14.557s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_stamped_s.c
+[14.557s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_with_covariance.py
+[14.558s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_with_covariance_s.c
+[14.558s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_with_covariance_stamped.py
+[14.558s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_with_covariance_stamped_s.c
+[14.559s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_quaternion.py
+[14.559s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_quaternion_s.c
+[14.559s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_quaternion_stamped.py
+[14.559s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_quaternion_stamped_s.c
+[14.560s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_transform.py
+[14.560s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_transform_s.c
+[14.560s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_transform_stamped.py
+[14.560s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_transform_stamped_s.c
+[14.561s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist.py
+[14.561s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_s.c
+[14.561s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_stamped.py
+[14.562s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_stamped_s.c
+[14.562s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_with_covariance.py
+[14.562s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_with_covariance_s.c
+[14.562s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_with_covariance_stamped.py
+[14.563s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_with_covariance_stamped_s.c
+[14.563s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_vector3.py
+[14.563s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_vector3_s.c
+[14.563s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_vector3_stamped.py
+[14.564s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_vector3_stamped_s.c
+[14.564s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_velocity_stamped.py
+[14.564s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_velocity_stamped_s.c
+[14.565s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_wrench.py
+[14.565s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_wrench_s.c
+[14.565s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_wrench_stamped.py
+[14.565s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_wrench_stamped_s.c
+[14.566s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[14.566s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[14.567s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[14.567s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Accel.idl
+[14.568s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelStamped.idl
+[14.568s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovariance.idl
+[14.568s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
+[14.569s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Inertia.idl
+[14.569s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/InertiaStamped.idl
+[14.569s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Point.idl
+[14.570s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Point32.idl
+[14.571s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PointStamped.idl
+[14.571s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Polygon.idl
+[14.571s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PolygonStamped.idl
+[14.571s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Pose.idl
+[14.572s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Pose2D.idl
+[14.572s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseArray.idl
+[14.572s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseStamped.idl
+[14.573s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovariance.idl
+[14.573s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
+[14.573s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Quaternion.idl
+[14.574s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/QuaternionStamped.idl
+[14.574s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Transform.idl
+[14.574s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TransformStamped.idl
+[14.575s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Twist.idl
+[14.575s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistStamped.idl
+[14.576s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovariance.idl
+[14.576s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
+[14.576s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Vector3.idl
+[14.576s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Vector3Stamped.idl
+[14.577s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/VelocityStamped.idl
+[14.577s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Wrench.idl
+[14.578s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/WrenchStamped.idl
+[14.578s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Accel.msg
+[14.578s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelStamped.msg
+[14.579s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovariance.msg
+[14.579s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovarianceStamped.msg
+[14.579s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Inertia.msg
+[14.580s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/InertiaStamped.msg
+[14.580s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Point.msg
+[14.580s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Point32.msg
+[14.581s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PointStamped.msg
+[14.581s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Polygon.msg
+[14.581s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PolygonStamped.msg
+[14.582s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Pose.msg
+[14.582s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Pose2D.msg
+[14.582s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseArray.msg
+[14.583s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseStamped.msg
+[14.583s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovariance.msg
+[14.583s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
+[14.584s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Quaternion.msg
+[14.584s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/QuaternionStamped.msg
+[14.584s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Transform.msg
+[14.585s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TransformStamped.msg
+[14.585s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Twist.msg
+[14.586s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistStamped.msg
+[14.586s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovariance.msg
+[14.586s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovarianceStamped.msg
+[14.587s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Vector3.msg
+[14.587s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Vector3Stamped.msg
+[14.587s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/VelocityStamped.msg
+[14.588s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Wrench.msg
+[14.588s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/WrenchStamped.msg
+[14.588s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/ament_index/resource_index/package_run_dependencies/geometry_msgs
+[14.589s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/ament_index/resource_index/parent_prefix_path/geometry_msgs
+[14.589s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/ament_prefix_path.sh
+[14.589s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/ament_prefix_path.dsv
+[14.590s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/path.sh
+[14.590s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/path.dsv
+[14.590s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/local_setup.bash
+[14.591s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/local_setup.sh
+[14.591s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/local_setup.zsh
+[14.591s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/local_setup.dsv
+[14.592s] -- Symlinking: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/package.dsv
+[14.611s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/ament_index/resource_index/packages/geometry_msgs
+[14.611s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/rosidl_cmake-extras.cmake
+[14.612s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.612s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.613s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[14.613s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[14.613s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.614s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.614s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgsConfig.cmake
+[14.614s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgsConfig-version.cmake
+[14.615s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/package.xml
+[14.615s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_generator_c.so
+[14.616s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+[14.616s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+[14.618s] -- Installing: /home/aajaer/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_c.so
+[14.618s] -- Set runtime path of "/home/aajaer/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_c.so" to ""
+[14.619s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+[14.619s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+[14.620s] -- Installing: /home/aajaer/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+[14.621s] -- Set runtime path of "/home/aajaer/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_cpp.so" to ""
+[14.708s] Listing '/home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs'...
+[14.708s] Compiling '/home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/__init__.py'...
+[14.708s] Listing '/home/aajaer/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg'...
+[14.723s] -- Installing: /home/aajaer/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_generator_py.so
+[14.724s] -- Set runtime path of "/home/aajaer/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_generator_py.so" to ""
+[14.724s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_generator_cExport.cmake
+[14.724s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_generator_cExport-noconfig.cmake
+[14.725s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[14.725s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.725s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cExport.cmake
+[14.725s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.726s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cExport.cmake
+[14.726s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[14.726s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_generator_cppExport.cmake
+[14.726s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.727s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.727s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[14.727s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.727s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cppExport.cmake
+[14.727s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[14.728s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_generator_pyExport.cmake
+[14.728s] -- Up-to-date: /home/aajaer/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_generator_pyExport-noconfig.cmake
+[14.734s] Invoked command in '/home/aajaer/microros_ws/build/geometry_msgs' returned '0': AMENT_PREFIX_PATH=/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/builtin_interfaces:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/aajaer/microros_ws/install/std_msgs/lib:/home/aajaer/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/aajaer/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/aajaer/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aajaer/microros_ws/build/geometry_msgs

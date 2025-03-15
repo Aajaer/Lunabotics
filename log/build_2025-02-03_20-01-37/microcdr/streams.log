@@ -1,0 +1,16 @@
+[0.110s] Invoking command in '/home/aajaer/microros_ws/build/microcdr': /usr/bin/cmake --build /home/aajaer/microros_ws/build/microcdr -- -j8 -l8
+[0.231s] [35m[1mConsolidate compiler generated dependencies of target microcdr[0m
+[0.268s] [100%] Built target microcdr
+[0.306s] Invoked command in '/home/aajaer/microros_ws/build/microcdr' returned '0': /usr/bin/cmake --build /home/aajaer/microros_ws/build/microcdr -- -j8 -l8
+[0.337s] Invoking command in '/home/aajaer/microros_ws/build/microcdr': /usr/bin/cmake --install /home/aajaer/microros_ws/build/microcdr
+[1.216s] -- Install configuration: "Release"
+[1.216s] -- Up-to-date: /home/aajaer/microros_ws/install/microcdr/lib/libmicrocdr.a
+[1.216s] -- Up-to-date: /home/aajaer/microros_ws/install/microcdr/include/ucdr
+[1.223s] -- Up-to-date: /home/aajaer/microros_ws/install/microcdr/include/ucdr/microcdr.h
+[1.223s] -- Up-to-date: /home/aajaer/microros_ws/install/microcdr/include/ucdr/visibility.h
+[1.223s] -- Up-to-date: /home/aajaer/microros_ws/install/microcdr/include/ucdr/config.h
+[1.223s] -- Up-to-date: /home/aajaer/microros_ws/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+[1.224s] -- Up-to-date: /home/aajaer/microros_ws/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+[1.224s] -- Up-to-date: /home/aajaer/microros_ws/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+[1.224s] -- Up-to-date: /home/aajaer/microros_ws/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake
+[1.226s] Invoked command in '/home/aajaer/microros_ws/build/microcdr' returned '0': /usr/bin/cmake --install /home/aajaer/microros_ws/build/microcdr

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "sensor_msgs__py",
+		"source" : "/home/aajaer/microros_ws/build/sensor_msgs/sensor_msgs__py"
+	}
+}

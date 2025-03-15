@@ -1,0 +1,247 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libmicrocdr.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_compile_options",
+			"set_common_compile_options",
+			"target_include_directories",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"cmake/common/check_configuration.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 120,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 122,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 146,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -fPIC"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-pedantic"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wcast-align"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wunused"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wconversion"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wnull-dereference"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wduplicated-branches"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wduplicated-cond"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wrestrict"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wdouble-promotion"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wsign-conversion"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"fragment" : "-std=gnu99"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/aajaer/microros_ws/src/eProsima/Micro-CDR/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/aajaer/microros_ws/build/microcdr/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"id" : "microcdr::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/aajaer/microros_ws/install/microcdr"
+		}
+	},
+	"name" : "microcdr",
+	"nameOnDisk" : "libmicrocdr.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/c/common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/c/types/basic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/c/types/string.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/c/types/array.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/c/types/sequence.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

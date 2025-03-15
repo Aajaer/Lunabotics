@@ -1,0 +1,400 @@
+[0.049s] Invoking command in '/home/aajaer/microros_ws/build/lifecycle_msgs': /usr/bin/cmake /home/aajaer/microros_ws/src/ros2/rcl_interfaces/lifecycle_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aajaer/microros_ws/install/lifecycle_msgs
+[0.799s] -- The C compiler identification is GNU 11.4.0
+[0.800s] -- The CXX compiler identification is GNU 11.4.0
+[0.801s] -- Detecting C compiler ABI info
+[0.804s] -- Detecting C compiler ABI info - done
+[0.806s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.806s] -- Detecting C compile features
+[0.807s] -- Detecting C compile features - done
+[0.807s] -- Detecting CXX compiler ABI info
+[0.807s] -- Detecting CXX compiler ABI info - done
+[0.807s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.807s] -- Detecting CXX compile features
+[0.807s] -- Detecting CXX compile features - done
+[0.807s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.127s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.296s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.332s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.336s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.346s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.423s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.335s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[2.340s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[2.346s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.352s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.844s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.528s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.592s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.592s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.657s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.657s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.657s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.657s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.720s] -- Found PythonExtra: .so  
+[3.806s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[3.809s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.822s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.861s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.863s] -- Added test 'lint_cmake' to check CMake code style
+[3.866s] -- Added test 'xmllint' to check XML markup files
+[3.875s] -- Configuring done
+[3.998s] -- Generating done
+[4.042s] -- Build files have been written to: /home/aajaer/microros_ws/build/lifecycle_msgs
+[4.120s] Invoked command in '/home/aajaer/microros_ws/build/lifecycle_msgs' returned '0': /usr/bin/cmake /home/aajaer/microros_ws/src/ros2/rcl_interfaces/lifecycle_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aajaer/microros_ws/install/lifecycle_msgs
+[4.121s] Invoking command in '/home/aajaer/microros_ws/build/lifecycle_msgs': /usr/bin/cmake --build /home/aajaer/microros_ws/build/lifecycle_msgs -- -j8 -l8
+[8.139s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.140s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.140s] [  2%] Built target ament_cmake_python_symlink_lifecycle_msgs
+[8.140s] running egg_info
+[8.140s] creating lifecycle_msgs.egg-info
+[8.140s] writing lifecycle_msgs.egg-info/PKG-INFO
+[8.140s] writing dependency_links to lifecycle_msgs.egg-info/dependency_links.txt
+[8.140s] writing top-level names to lifecycle_msgs.egg-info/top_level.txt
+[8.140s] writing manifest file 'lifecycle_msgs.egg-info/SOURCES.txt'
+[8.141s] reading manifest file 'lifecycle_msgs.egg-info/SOURCES.txt'
+[8.141s] writing manifest file 'lifecycle_msgs.egg-info/SOURCES.txt'
+[8.141s] [  2%] Built target ament_cmake_python_build_lifecycle_msgs_egg
+[14.579s] [  3%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/msg/detail/state__functions.c.o[0m
+[14.844s] [  4%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/srv/detail/get_available_transitions__functions.c.o[0m
+[15.189s] [  5%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/srv/detail/get_state__functions.c.o[0m
+[15.466s] [  6%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/srv/detail/get_available_states__functions.c.o[0m
+[15.549s] [  6%] Built target lifecycle_msgs__cpp
+[15.597s] [  8%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/srv/detail/change_state__functions.c.o[0m
+[15.729s] [  9%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/msg/detail/transition_event__functions.c.o[0m
+[15.835s] [ 10%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/msg/detail/transition_description__functions.c.o[0m
+[15.943s] [ 11%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/msg/detail/transition__functions.c.o[0m
+[16.048s] [ 12%] [32m[1mLinking C shared library liblifecycle_msgs__rosidl_generator_c.so[0m
+[16.135s] [ 12%] Built target lifecycle_msgs__rosidl_generator_c
+[16.156s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[18.813s] [ 14%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/msg/detail/state__type_support.cpp.o[0m
+[19.729s] [ 16%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/msg/detail/transition_description__type_support.cpp.o[0m
+[20.759s] [ 17%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/msg/detail/transition_event__type_support.cpp.o[0m
+[21.720s] [ 18%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/srv/detail/change_state__type_support.cpp.o[0m
+[22.692s] [ 19%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/srv/detail/get_available_states__type_support.cpp.o[0m
+[23.942s] [ 20%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/srv/detail/get_available_transitions__type_support.cpp.o[0m
+[24.985s] [ 21%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/srv/detail/get_state__type_support.cpp.o[0m
+[25.922s] [ 22%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/msg/detail/transition__type_support.cpp.o[0m
+[26.815s] [ 24%] [32m[1mLinking CXX shared library liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[27.092s] [ 24%] Built target lifecycle_msgs__rosidl_typesupport_introspection_cpp
+[27.154s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[29.506s] [ 26%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/msg/state__type_support.cpp.o[0m
+[29.581s] [ 27%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/msg/transition_event__type_support.cpp.o[0m
+[29.648s] [ 28%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/srv/change_state__type_support.cpp.o[0m
+[29.734s] [ 29%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/srv/get_available_states__type_support.cpp.o[0m
+[29.804s] [ 31%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/srv/get_available_transitions__type_support.cpp.o[0m
+[29.888s] [ 32%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/srv/get_state__type_support.cpp.o[0m
+[29.963s] [ 33%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/msg/transition_description__type_support.cpp.o[0m
+[30.030s] [ 34%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/msg/transition__type_support.cpp.o[0m
+[30.093s] [ 35%] [32m[1mLinking CXX shared library liblifecycle_msgs__rosidl_typesupport_c.so[0m
+[30.183s] [ 35%] Built target lifecycle_msgs__rosidl_typesupport_c
+[30.204s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[32.899s] [ 37%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/msg/detail/state__type_support.c.o[0m
+[32.972s] [ 39%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/srv/detail/change_state__type_support.c.o[0m
+[33.050s] [ 40%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/srv/detail/get_available_states__type_support.c.o[0m
+[33.143s] [ 41%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/srv/detail/get_available_transitions__type_support.c.o[0m
+[33.225s] [ 42%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/srv/detail/get_state__type_support.c.o[0m
+[33.302s] [ 43%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/msg/detail/transition_event__type_support.c.o[0m
+[33.376s] [ 44%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/msg/detail/transition_description__type_support.c.o[0m
+[33.452s] [ 45%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/msg/detail/transition__type_support.c.o[0m
+[33.527s] [ 47%] [32m[1mLinking C shared library liblifecycle_msgs__rosidl_typesupport_introspection_c.so[0m
+[33.597s] [ 47%] Built target lifecycle_msgs__rosidl_typesupport_introspection_c
+[33.620s] [ 48%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[36.522s] [ 49%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/msg/detail/state__type_support_c.cpp.o[0m
+[37.360s] [ 50%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/srv/detail/get_available_states__type_support_c.cpp.o[0m
+[38.184s] [ 51%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/srv/detail/get_available_transitions__type_support_c.cpp.o[0m
+[39.014s] [ 52%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/srv/detail/get_state__type_support_c.cpp.o[0m
+[39.799s] [ 54%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/srv/detail/change_state__type_support_c.cpp.o[0m
+[40.614s] [ 55%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/msg/detail/transition_event__type_support_c.cpp.o[0m
+[41.499s] [ 56%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/msg/detail/transition_description__type_support_c.cpp.o[0m
+[42.274s] [ 57%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/msg/detail/transition__type_support_c.cpp.o[0m
+[43.099s] [ 58%] [32m[1mLinking CXX shared library liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[43.303s] [ 58%] Built target lifecycle_msgs__rosidl_typesupport_fastrtps_c
+[43.329s] [ 59%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[46.112s] [ 60%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/msg/detail/dds_fastrtps/state__type_support.cpp.o[0m
+[47.003s] [ 62%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/srv/detail/dds_fastrtps/get_available_transitions__type_support.cpp.o[0m
+[48.085s] [ 63%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/srv/detail/dds_fastrtps/get_state__type_support.cpp.o[0m
+[49.018s] [ 64%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/srv/detail/dds_fastrtps/get_available_states__type_support.cpp.o[0m
+[50.089s] [ 65%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/srv/detail/dds_fastrtps/change_state__type_support.cpp.o[0m
+[50.992s] [ 66%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/msg/detail/dds_fastrtps/transition_event__type_support.cpp.o[0m
+[51.896s] [ 67%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/msg/detail/dds_fastrtps/transition_description__type_support.cpp.o[0m
+[52.809s] [ 68%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/msg/detail/dds_fastrtps/transition__type_support.cpp.o[0m
+[53.765s] [ 70%] [32m[1mLinking CXX shared library liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[53.951s] [ 70%] Built target lifecycle_msgs__rosidl_typesupport_fastrtps_cpp
+[53.973s] [ 71%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[56.190s] [ 72%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/msg/state__type_support.cpp.o[0m
+[56.785s] [ 73%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/srv/get_state__type_support.cpp.o[0m
+[57.395s] [ 74%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/srv/get_available_transitions__type_support.cpp.o[0m
+[58.023s] [ 75%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/srv/get_available_states__type_support.cpp.o[0m
+[58.677s] [ 77%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/srv/change_state__type_support.cpp.o[0m
+[59.300s] [ 78%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/msg/transition_event__type_support.cpp.o[0m
+[59.978s] [ 79%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/msg/transition_description__type_support.cpp.o[0m
+[60.610s] [ 80%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/msg/transition__type_support.cpp.o[0m
+[61.240s] [ 81%] [32m[1mLinking CXX shared library liblifecycle_msgs__rosidl_typesupport_cpp.so[0m
+[61.344s] [ 81%] Built target lifecycle_msgs__rosidl_typesupport_cpp
+[61.436s] [ 81%] Built target lifecycle_msgs
+[61.517s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[67.008s] [ 82%] Built target lifecycle_msgs__py
+[67.048s] [ 83%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/msg/_state_s.c.o[0m
+[67.305s] [ 85%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/srv/_get_state_s.c.o[0m
+[67.571s] [ 86%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/srv/_get_available_transitions_s.c.o[0m
+[67.818s] [ 87%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/srv/_get_available_states_s.c.o[0m
+[68.061s] [ 88%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/srv/_change_state_s.c.o[0m
+[68.291s] [ 89%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/msg/_transition_event_s.c.o[0m
+[68.519s] [ 90%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/msg/_transition_description_s.c.o[0m
+[68.746s] [ 91%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/msg/_transition_s.c.o[0m
+[68.974s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/lifecycle_msgs/liblifecycle_msgs__rosidl_generator_py.so[0m
+[69.066s] [ 93%] Built target lifecycle_msgs__rosidl_generator_py
+[69.109s] [ 94%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[69.397s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[69.473s] [ 95%] Built target lifecycle_msgs__rosidl_typesupport_fastrtps_c__pyext
+[69.517s] [ 96%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[69.798s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[69.868s] [ 97%] Built target lifecycle_msgs__rosidl_typesupport_c__pyext
+[69.912s] [ 98%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[70.191s] [100%] [32m[1mLinking C shared library rosidl_generator_py/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[70.262s] [100%] Built target lifecycle_msgs__rosidl_typesupport_introspection_c__pyext
+[70.308s] Invoked command in '/home/aajaer/microros_ws/build/lifecycle_msgs' returned '0': /usr/bin/cmake --build /home/aajaer/microros_ws/build/lifecycle_msgs -- -j8 -l8
+[70.317s] Invoking command in '/home/aajaer/microros_ws/build/lifecycle_msgs': /usr/bin/cmake --install /home/aajaer/microros_ws/build/lifecycle_msgs
+[70.337s] -- Install configuration: ""
+[70.337s] -- Execute custom install script
+[70.337s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/ament_index/resource_index/rosidl_interfaces/lifecycle_msgs
+[70.340s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__functions.h
+[70.362s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h
+[70.380s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.h
+[70.399s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__functions.h
+[70.417s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h
+[70.437s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.h
+[70.460s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__functions.h
+[70.483s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__struct.h
+[70.505s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__type_support.h
+[70.526s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h
+[70.550s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h
+[70.571s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h
+[70.589s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h
+[70.609s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/state.h
+[70.631s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition.h
+[70.651s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_description.h
+[70.670s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h
+[70.690s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/change_state.h
+[70.709s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__functions.h
+[70.729s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__struct.h
+[70.748s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__type_support.h
+[70.766s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__functions.h
+[70.785s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__struct.h
+[70.804s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__type_support.h
+[70.832s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__functions.h
+[70.857s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__struct.h
+[70.878s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__type_support.h
+[70.898s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__functions.h
+[70.918s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__struct.h
+[70.944s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__type_support.h
+[70.963s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_states.h
+[70.995s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_transitions.h
+[71.013s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_state.h
+[71.039s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/library_path.sh
+[71.058s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/library_path.dsv
+[71.081s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_fastrtps_c.h
+[71.107s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_fastrtps_c.h
+[71.125s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_fastrtps_c.h
+[71.146s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_fastrtps_c.h
+[71.164s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[71.183s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_fastrtps_c.h
+[71.200s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_fastrtps_c.h
+[71.219s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_fastrtps_c.h
+[71.237s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_fastrtps_c.h
+[71.256s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_introspection_c.h
+[71.275s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_introspection_c.h
+[71.295s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_introspection_c.h
+[71.314s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_introspection_c.h
+[71.333s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[71.359s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_introspection_c.h
+[71.378s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_introspection_c.h
+[71.396s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_introspection_c.h
+[71.418s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_introspection_c.h
+[71.450s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp
+[71.470s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.hpp
+[71.490s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__traits.hpp
+[71.510s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.hpp
+[71.534s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp
+[71.557s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp
+[71.577s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp
+[71.594s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp
+[71.614s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__builder.hpp
+[71.632s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__struct.hpp
+[71.650s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__traits.hpp
+[71.666s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__type_support.hpp
+[71.683s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__builder.hpp
+[71.700s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.hpp
+[71.717s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__traits.hpp
+[71.738s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.hpp
+[71.755s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[71.771s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp
+[71.790s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp
+[71.810s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_description.hpp
+[71.829s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.hpp
+[71.850s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/change_state.hpp
+[71.876s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__builder.hpp
+[71.896s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__struct.hpp
+[71.920s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__traits.hpp
+[71.957s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__type_support.hpp
+[71.997s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__builder.hpp
+[72.020s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__struct.hpp
+[72.066s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__traits.hpp
+[72.108s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__type_support.hpp
+[72.143s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__builder.hpp
+[72.171s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__struct.hpp
+[72.192s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__traits.hpp
+[72.215s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__type_support.hpp
+[72.244s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__builder.hpp
+[72.275s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__struct.hpp
+[72.305s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__traits.hpp
+[72.335s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__type_support.hpp
+[72.360s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_states.hpp
+[72.380s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_transitions.hpp
+[72.401s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_state.hpp
+[72.426s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp
+[72.446s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_fastrtps_cpp.hpp
+[72.466s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_fastrtps_cpp.hpp
+[72.486s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_fastrtps_cpp.hpp
+[72.506s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[72.527s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_fastrtps_cpp.hpp
+[72.550s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_fastrtps_cpp.hpp
+[72.581s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_fastrtps_cpp.hpp
+[72.600s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_fastrtps_cpp.hpp
+[72.623s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp
+[72.646s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_introspection_cpp.hpp
+[72.667s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_introspection_cpp.hpp
+[72.689s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_introspection_cpp.hpp
+[72.712s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_introspection_cpp.hpp
+[72.735s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_introspection_cpp.hpp
+[72.756s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_introspection_cpp.hpp
+[72.776s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_introspection_cpp.hpp
+[72.797s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/pythonpath.sh
+[72.820s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/pythonpath.dsv
+[72.844s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs-1.2.1-py3.10.egg-info/PKG-INFO
+[72.866s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs-1.2.1-py3.10.egg-info/SOURCES.txt
+[72.888s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs-1.2.1-py3.10.egg-info/dependency_links.txt
+[72.910s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs-1.2.1-py3.10.egg-info/top_level.txt
+[72.933s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/__init__.py
+[72.956s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_c.c
+[72.976s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[72.997s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[73.028s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/liblifecycle_msgs__rosidl_generator_py.so
+[73.046s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[73.065s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[73.083s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[73.103s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/__init__.py
+[73.128s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_state.py
+[73.141s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_state_s.c
+[73.157s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition.py
+[73.176s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_description.py
+[73.194s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_description_s.c
+[73.215s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_event.py
+[73.232s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_event_s.c
+[73.252s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_s.c
+[73.272s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/__init__.py
+[73.292s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_change_state.py
+[73.312s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_change_state_s.c
+[73.332s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_states.py
+[73.349s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_states_s.c
+[73.369s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_transitions.py
+[73.408s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_transitions_s.c
+[73.427s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_state.py
+[73.447s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_state_s.c
+[73.473s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[73.473s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[73.473s] -- Up-to-date symlink: /home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[73.473s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/State.idl
+[73.500s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/Transition.idl
+[73.521s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionDescription.idl
+[73.545s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionEvent.idl
+[73.569s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState.idl
+[73.589s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates.idl
+[73.610s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions.idl
+[73.632s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState.idl
+[73.654s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/State.msg
+[73.674s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/Transition.msg
+[73.696s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionDescription.msg
+[73.717s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionEvent.msg
+[73.740s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState.srv
+[73.761s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState_Request.msg
+[73.783s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState_Response.msg
+[73.804s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates.srv
+[73.825s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates_Request.msg
+[73.847s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates_Response.msg
+[73.867s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions.srv
+[73.886s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions_Request.msg
+[73.906s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions_Response.msg
+[73.926s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState.srv
+[73.947s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState_Request.msg
+[73.978s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState_Response.msg
+[74.006s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/ament_index/resource_index/package_run_dependencies/lifecycle_msgs
+[74.035s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/ament_index/resource_index/parent_prefix_path/lifecycle_msgs
+[74.056s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/ament_prefix_path.sh
+[74.078s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/ament_prefix_path.dsv
+[74.098s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/path.sh
+[74.125s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/path.dsv
+[74.150s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.bash
+[74.170s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.sh
+[74.194s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.zsh
+[74.217s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.dsv
+[74.238s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/package.dsv
+[74.255s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/ament_index/resource_index/packages/lifecycle_msgs
+[74.274s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/rosidl_cmake-extras.cmake
+[74.292s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[74.312s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[74.332s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[74.352s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[74.372s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[74.392s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[74.415s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgsConfig.cmake
+[74.438s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgsConfig-version.cmake
+[74.461s] -- Symlinking: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/package.xml
+[74.483s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_generator_c.so
+[74.485s] -- Set runtime path of "/home/aajaer/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_generator_c.so" to ""
+[74.486s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so
+[74.488s] -- Set runtime path of "/home/aajaer/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[74.489s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so
+[74.490s] -- Set runtime path of "/home/aajaer/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so" to ""
+[74.493s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_c.so
+[74.494s] -- Set runtime path of "/home/aajaer/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_c.so" to ""
+[74.495s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so
+[74.497s] -- Set runtime path of "/home/aajaer/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[74.497s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so
+[74.499s] -- Set runtime path of "/home/aajaer/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[74.500s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so
+[74.501s] -- Set runtime path of "/home/aajaer/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so" to ""
+[74.619s] Listing '/home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs'...
+[74.619s] Compiling '/home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/__init__.py'...
+[74.619s] Listing '/home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg'...
+[74.619s] Compiling '/home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/__init__.py'...
+[74.619s] Compiling '/home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_state.py'...
+[74.619s] Compiling '/home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition.py'...
+[74.619s] Compiling '/home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_description.py'...
+[74.620s] Compiling '/home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_event.py'...
+[74.620s] Listing '/home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv'...
+[74.620s] Compiling '/home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/__init__.py'...
+[74.620s] Compiling '/home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_change_state.py'...
+[74.620s] Compiling '/home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_states.py'...
+[74.620s] Compiling '/home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_transitions.py'...
+[74.620s] Compiling '/home/aajaer/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_state.py'...
+[74.637s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_generator_py.so
+[74.638s] -- Set runtime path of "/home/aajaer/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_generator_py.so" to ""
+[74.638s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_cExport.cmake
+[74.638s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_cExport-noconfig.cmake
+[74.639s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[74.639s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[74.640s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cExport.cmake
+[74.640s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[74.640s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cExport.cmake
+[74.640s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[74.641s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_cppExport.cmake
+[74.642s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[74.642s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[74.642s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[74.642s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[74.643s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cppExport.cmake
+[74.643s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[74.644s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_pyExport.cmake
+[74.644s] -- Installing: /home/aajaer/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_pyExport-noconfig.cmake
+[74.656s] Invoked command in '/home/aajaer/microros_ws/build/lifecycle_msgs' returned '0': /usr/bin/cmake --install /home/aajaer/microros_ws/build/lifecycle_msgs

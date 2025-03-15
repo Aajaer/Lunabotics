@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4d2b67145510e4b96d79.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "trajectory_msgs__py",
+					"jsonFile" : "directory-trajectory_msgs__py-9a68f5d3c04d7b83150e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/aajaer/microros_ws/build/trajectory_msgs/trajectory_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "trajectory_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_trajectory_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_trajectory_msgs_egg-28e608e3684d6b0e0646.json",
+					"name" : "ament_cmake_python_build_trajectory_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_trajectory_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_trajectory_msgs-7a9a71a86e4110a96864.json",
+					"name" : "ament_cmake_python_symlink_trajectory_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_msgs-350bac76dd67aa253152.json",
+					"name" : "trajectory_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_msgs__cpp-10d6c2d66c00905f5790.json",
+					"name" : "trajectory_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "trajectory_msgs__py::@2d71050f20ac4bbf18bd",
+					"jsonFile" : "target-trajectory_msgs__py-d0e674670c4540322d70.json",
+					"name" : "trajectory_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_msgs__rosidl_generator_c-b1f7ecf83756fd4628ec.json",
+					"name" : "trajectory_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_msgs__rosidl_generator_py-704007909822086e0980.json",
+					"name" : "trajectory_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_msgs__rosidl_typesupport_c-74b836070277f4dd119e.json",
+					"name" : "trajectory_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_msgs__rosidl_typesupport_c__pyext-6994ad08e9211e04f47b.json",
+					"name" : "trajectory_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_msgs__rosidl_typesupport_cpp-5109bbf6d6ce2e7d5401.json",
+					"name" : "trajectory_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_msgs__rosidl_typesupport_fastrtps_c-392fe89f2c3057ea7163.json",
+					"name" : "trajectory_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_msgs__rosidl_typesupport_fastrtps_c__pyext-7666c50e5ca6eb0c5b9a.json",
+					"name" : "trajectory_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_msgs__rosidl_typesupport_fastrtps_cpp-bb55a3d03cdea6393e27.json",
+					"name" : "trajectory_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_msgs__rosidl_typesupport_introspection_c-ca12d709e5a254cefff3.json",
+					"name" : "trajectory_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_msgs__rosidl_typesupport_introspection_c__pyext-bf7b71bda64d84887da0.json",
+					"name" : "trajectory_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_msgs__rosidl_typesupport_introspection_cpp-289653dc8b22ea9cc680.json",
+					"name" : "trajectory_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_msgs_uninstall-e00eed45c36ed19c4943.json",
+					"name" : "trajectory_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-477c0ea75d6e8862e7d0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aajaer/microros_ws/build/trajectory_msgs",
+		"source" : "/home/aajaer/microros_ws/src/ros2/common_interfaces/trajectory_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

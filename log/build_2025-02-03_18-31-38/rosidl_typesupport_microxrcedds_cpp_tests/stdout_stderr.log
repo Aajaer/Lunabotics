@@ -1,0 +1,64 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aajaer/microros_ws/build/rosidl_typesupport_microxrcedds_cpp_tests
+[ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 33%] Built target gtest_main
+[ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 66%] Built target gtest
+[ 83%] [32mBuilding CXX object CMakeFiles/test_typesupport.dir/src/test_typesupport.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_typesupport[0m
+[100%] Built target test_typesupport
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_microxrcedds_cpp_tests
+-- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_microxrcedds_cpp_tests
+-- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests/share/rosidl_typesupport_microxrcedds_cpp_tests/environment/ament_prefix_path.sh
+-- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests/share/rosidl_typesupport_microxrcedds_cpp_tests/environment/ament_prefix_path.dsv
+-- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests/share/rosidl_typesupport_microxrcedds_cpp_tests/environment/path.sh
+-- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests/share/rosidl_typesupport_microxrcedds_cpp_tests/environment/path.dsv
+-- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests/share/rosidl_typesupport_microxrcedds_cpp_tests/local_setup.bash
+-- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests/share/rosidl_typesupport_microxrcedds_cpp_tests/local_setup.sh
+-- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests/share/rosidl_typesupport_microxrcedds_cpp_tests/local_setup.zsh
+-- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests/share/rosidl_typesupport_microxrcedds_cpp_tests/local_setup.dsv
+-- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests/share/rosidl_typesupport_microxrcedds_cpp_tests/package.dsv
+-- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests/share/ament_index/resource_index/packages/rosidl_typesupport_microxrcedds_cpp_tests
+-- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests/share/rosidl_typesupport_microxrcedds_cpp_tests/cmake/rosidl_typesupport_microxrcedds_cpp_testsConfig.cmake
+-- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests/share/rosidl_typesupport_microxrcedds_cpp_tests/cmake/rosidl_typesupport_microxrcedds_cpp_testsConfig-version.cmake
+-- Symlinking: /home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests/share/rosidl_typesupport_microxrcedds_cpp_tests/package.xml

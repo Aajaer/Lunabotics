@@ -1,0 +1,4 @@
+Invoking command in '/home/aajaer/microros_ws/build/std_srvs': /usr/bin/cmake --build /home/aajaer/microros_ws/build/std_srvs -- -j8 -l8
+Invoked command in '/home/aajaer/microros_ws/build/std_srvs' returned '0': /usr/bin/cmake --build /home/aajaer/microros_ws/build/std_srvs -- -j8 -l8
+Invoking command in '/home/aajaer/microros_ws/build/std_srvs': /usr/bin/cmake --install /home/aajaer/microros_ws/build/std_srvs
+Invoked command in '/home/aajaer/microros_ws/build/std_srvs' returned '0': /usr/bin/cmake --install /home/aajaer/microros_ws/build/std_srvs

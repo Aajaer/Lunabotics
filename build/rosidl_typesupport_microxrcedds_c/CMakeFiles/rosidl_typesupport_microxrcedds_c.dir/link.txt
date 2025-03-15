@@ -1,0 +1,2 @@
+/usr/bin/ar qc librosidl_typesupport_microxrcedds_c.a CMakeFiles/rosidl_typesupport_microxrcedds_c.dir/src/identifier.c.o
+/usr/bin/ranlib librosidl_typesupport_microxrcedds_c.a

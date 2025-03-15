@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "shape_msgs__py",
+		"source" : "/home/aajaer/microros_ws/build/shape_msgs/shape_msgs__py"
+	}
+}
