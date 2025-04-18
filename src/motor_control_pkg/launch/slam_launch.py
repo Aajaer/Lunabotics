@@ -86,7 +86,7 @@ def generate_launch_description():
             output='screen'
         ),
 
-        # ✅ Scan filter node
+        # Scan filter node
         Node(
             package='motor_control_pkg',
             executable='scan_filter_node',
@@ -94,7 +94,7 @@ def generate_launch_description():
             output='screen'
         ),
 
-        # ✅ Updated motor control node
+        # Updated motor control node
         Node(
             package='motor_control_pkg',
             executable='lidar_motor_control',
