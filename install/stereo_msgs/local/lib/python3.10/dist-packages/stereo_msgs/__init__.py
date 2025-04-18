@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/stereo_msgs/rosidl_generator_py/stereo_msgs/__init__.py

@@ -1,0 +1,1 @@
+Invoking command in '/home/aajaer/microros_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aajaer/microros_ws/build/sllidar_ros2 -- -j16 -l16

@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/src/ros2/common_interfaces/sensor_msgs/msg/PointCloud2.msg

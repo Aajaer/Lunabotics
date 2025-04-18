@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/rosgraph_msgs/rosidl_typesupport_microxrcedds_cpp/rosgraph_msgs/msg/detail/microxrcedds/clock__type_support_cpp.cpp

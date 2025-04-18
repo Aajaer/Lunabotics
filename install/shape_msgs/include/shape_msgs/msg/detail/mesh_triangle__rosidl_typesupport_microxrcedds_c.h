@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_c/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_microxrcedds_c.h

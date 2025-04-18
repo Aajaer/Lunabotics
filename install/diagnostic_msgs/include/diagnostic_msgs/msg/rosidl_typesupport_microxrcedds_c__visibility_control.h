@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/diagnostic_msgs/rosidl_typesupport_microxrcedds_c/diagnostic_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h

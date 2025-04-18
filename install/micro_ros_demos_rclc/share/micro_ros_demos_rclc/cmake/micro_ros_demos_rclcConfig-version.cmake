@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/micro_ros_demos_rclc/ament_cmake_core/micro_ros_demos_rclcConfig-version.cmake

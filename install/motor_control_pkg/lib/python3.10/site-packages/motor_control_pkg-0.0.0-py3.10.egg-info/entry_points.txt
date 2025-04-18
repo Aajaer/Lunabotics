@@ -1,3 +1,4 @@
 [console_scripts]
 lidar_motor_control = motor_control_pkg.lidar_motor_control:main
+scan_filter_node = motor_control_pkg.scan_filter_node:main
 

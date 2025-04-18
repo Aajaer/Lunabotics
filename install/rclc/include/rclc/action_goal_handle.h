@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/src/uros/rclc/rclc/include/rclc/action_goal_handle.h

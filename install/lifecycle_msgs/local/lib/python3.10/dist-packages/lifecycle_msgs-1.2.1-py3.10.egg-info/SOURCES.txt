@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/lifecycle_msgs/ament_cmake_python/lifecycle_msgs/lifecycle_msgs.egg-info/SOURCES.txt

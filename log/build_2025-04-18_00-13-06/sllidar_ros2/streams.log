@@ -1,0 +1,5 @@
+[0.320s] Invoking command in '/home/aajaer/microros_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aajaer/microros_ws/build/sllidar_ros2 -- -j16 -l16
+[0.348s] [35m[1mConsolidate compiler generated dependencies of target sllidar_client[0m
+[0.351s] [35m[1mConsolidate compiler generated dependencies of target sllidar_node[0m
+[0.360s] [ 10%] Built target sllidar_client
+[0.372s] [100%] Built target sllidar_node

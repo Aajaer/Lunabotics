@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aajaer/microros_ws/src/uros/micro_ros_msgs
+CMAKE_SOURCE_DIR = /home/aajaer/microros_ws/src/src/uros/micro_ros_msgs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/aajaer/microros_ws/build/micro_ros_msgs
@@ -124,7 +124,7 @@ rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so: CM
 rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so: CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_node_s.c.o
 rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so: CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_entity_s.c.o
 rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so: CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/build.make
-rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so: libmicro_ros_msgs__rosidl_typesupport_c.so
 rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so: libmicro_ros_msgs__rosidl_generator_c.so
 rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
@@ -142,6 +142,6 @@ CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/clean:
 .PHONY : CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/clean
 
 CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/depend:
-	cd /home/aajaer/microros_ws/build/micro_ros_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aajaer/microros_ws/src/uros/micro_ros_msgs /home/aajaer/microros_ws/src/uros/micro_ros_msgs /home/aajaer/microros_ws/build/micro_ros_msgs /home/aajaer/microros_ws/build/micro_ros_msgs /home/aajaer/microros_ws/build/micro_ros_msgs/CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aajaer/microros_ws/build/micro_ros_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aajaer/microros_ws/src/src/uros/micro_ros_msgs /home/aajaer/microros_ws/src/src/uros/micro_ros_msgs /home/aajaer/microros_ws/build/micro_ros_msgs /home/aajaer/microros_ws/build/micro_ros_msgs /home/aajaer/microros_ws/build/micro_ros_msgs/CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/depend
 

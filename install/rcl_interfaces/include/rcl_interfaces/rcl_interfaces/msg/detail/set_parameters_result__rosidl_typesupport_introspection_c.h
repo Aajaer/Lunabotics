@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/rcl_interfaces/rosidl_typesupport_introspection_c/rcl_interfaces/msg/detail/set_parameters_result__rosidl_typesupport_introspection_c.h

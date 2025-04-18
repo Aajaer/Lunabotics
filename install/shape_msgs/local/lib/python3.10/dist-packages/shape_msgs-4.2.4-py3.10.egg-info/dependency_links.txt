@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/shape_msgs/ament_cmake_python/shape_msgs/shape_msgs.egg-info/dependency_links.txt

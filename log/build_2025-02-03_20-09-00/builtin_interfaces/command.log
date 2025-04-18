@@ -1,4 +1,0 @@
-Invoking command in '/home/aajaer/microros_ws/build/builtin_interfaces': /usr/bin/cmake --build /home/aajaer/microros_ws/build/builtin_interfaces -- -j8 -l8
-Invoked command in '/home/aajaer/microros_ws/build/builtin_interfaces' returned '0': /usr/bin/cmake --build /home/aajaer/microros_ws/build/builtin_interfaces -- -j8 -l8
-Invoking command in '/home/aajaer/microros_ws/build/builtin_interfaces': /usr/bin/cmake --install /home/aajaer/microros_ws/build/builtin_interfaces
-Invoked command in '/home/aajaer/microros_ws/build/builtin_interfaces' returned '0': /usr/bin/cmake --install /home/aajaer/microros_ws/build/builtin_interfaces

@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/complex_msgs/rosidl_generator_py/complex_msgs/msg/_multi_string_test.py

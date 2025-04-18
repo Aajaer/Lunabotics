@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/visualization_msgs/rosidl_generator_py/visualization_msgs/__init__.py

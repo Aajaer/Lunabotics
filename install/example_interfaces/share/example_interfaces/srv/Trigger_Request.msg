@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/example_interfaces/rosidl_cmake/srv/Trigger_Request.msg

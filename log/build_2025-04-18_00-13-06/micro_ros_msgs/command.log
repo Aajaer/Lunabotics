@@ -1,0 +1,1 @@
+Invoking command in '/home/aajaer/microros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aajaer/microros_ws/src/src/uros/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/aajaer/microros_ws/install/micro_ros_msgs

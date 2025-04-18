@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/example_interfaces/rosidl_generator_py/example_interfaces/action/__init__.py

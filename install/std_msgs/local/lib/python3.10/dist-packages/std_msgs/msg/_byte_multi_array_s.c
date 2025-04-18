@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/std_msgs/rosidl_generator_py/std_msgs/msg/_byte_multi_array_s.c

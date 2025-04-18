@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/complex_msgs/rosidl_generator_cpp/complex_msgs/msg/multi_string_test.hpp

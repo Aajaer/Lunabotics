@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/src/ros2/rcl_interfaces/action_msgs/msg/GoalStatus.msg

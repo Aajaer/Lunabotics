@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -67,7 +67,7 @@ CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-11
 CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-11
 
 //Flags used by the CXX compiler during all build types.
-CMAKE_CXX_FLAGS:STRING=
+CMAKE_CXX_FLAGS:STRING=-I/usr/local/include/magic_enum
 
 //Flags used by the CXX compiler during DEBUG builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-g
@@ -244,7 +244,7 @@ PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python3
 PYTHON_INCLUDE_DIR:PATH=/usr/include/python3.10
 
 //Path to a library.
-PYTHON_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libpython3.10.so
+PYTHON_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libpython3.10.so
 
 //Path to a library.
 PYTHON_LIBRARY_DEBUG:FILEPATH=PYTHON_LIBRARY_DEBUG-NOTFOUND
@@ -253,7 +253,7 @@ PYTHON_LIBRARY_DEBUG:FILEPATH=PYTHON_LIBRARY_DEBUG-NOTFOUND
 Python3_EXECUTABLE:FILEPATH=/usr/bin/python3
 
 //Name of the computer/site where compile is being run
-SITE:STRING=aajaer-desktop
+SITE:STRING=Lunabotics
 
 //Path to a library.
 _lib:FILEPATH=/opt/ros/humble/lib/librosidl_typesupport_cpp.so
@@ -373,19 +373,19 @@ micro_ros_msgs_BINARY_DIR:STATIC=/home/aajaer/microros_ws/build/micro_ros_msgs
 micro_ros_msgs_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-micro_ros_msgs_SOURCE_DIR:STATIC=/home/aajaer/microros_ws/src/uros/micro_ros_msgs
+micro_ros_msgs_SOURCE_DIR:STATIC=/home/aajaer/microros_ws/src/src/uros/micro_ros_msgs
 
 //Dependencies for the target
 micro_ros_msgs__rosidl_generator_c_LIB_DEPENDS:STATIC=general;rosidl_runtime_c::rosidl_runtime_c;general;rcutils::rcutils;
 
 //Dependencies for the target
-micro_ros_msgs__rosidl_generator_py_LIB_DEPENDS:STATIC=general;micro_ros_msgs__rosidl_generator_c;general;/usr/lib/aarch64-linux-gnu/libpython3.10.so;general;micro_ros_msgs__rosidl_typesupport_c;
+micro_ros_msgs__rosidl_generator_py_LIB_DEPENDS:STATIC=general;micro_ros_msgs__rosidl_generator_c;general;/usr/lib/x86_64-linux-gnu/libpython3.10.so;general;micro_ros_msgs__rosidl_typesupport_c;
 
 //Dependencies for the target
 micro_ros_msgs__rosidl_typesupport_c_LIB_DEPENDS:STATIC=general;micro_ros_msgs__rosidl_generator_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_c::rosidl_typesupport_c;
 
 //Dependencies for the target
-micro_ros_msgs__rosidl_typesupport_c__pyext_LIB_DEPENDS:STATIC=general;micro_ros_msgs__rosidl_generator_py;general;/usr/lib/aarch64-linux-gnu/libpython3.10.so;general;micro_ros_msgs__rosidl_typesupport_c;general;micro_ros_msgs__rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_c::rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;/opt/ros/humble/lib/librmw.so;general;rcutils::rcutils;general;rosidl_runtime_c::rosidl_runtime_c;
+micro_ros_msgs__rosidl_typesupport_c__pyext_LIB_DEPENDS:STATIC=general;micro_ros_msgs__rosidl_generator_py;general;/usr/lib/x86_64-linux-gnu/libpython3.10.so;general;micro_ros_msgs__rosidl_typesupport_c;general;micro_ros_msgs__rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_c::rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;/opt/ros/humble/lib/librmw.so;general;rcutils::rcutils;general;rosidl_runtime_c::rosidl_runtime_c;
 
 //Dependencies for the target
 micro_ros_msgs__rosidl_typesupport_cpp_LIB_DEPENDS:STATIC=general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_cpp::rosidl_typesupport_cpp;general;rosidl_typesupport_c::rosidl_typesupport_c;
@@ -394,7 +394,7 @@ micro_ros_msgs__rosidl_typesupport_cpp_LIB_DEPENDS:STATIC=general;rosidl_runtime
 micro_ros_msgs__rosidl_typesupport_fastrtps_c_LIB_DEPENDS:STATIC=general;fastcdr;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_fastrtps_cpp::rosidl_typesupport_fastrtps_cpp;general;rosidl_typesupport_fastrtps_c::rosidl_typesupport_fastrtps_c;general;micro_ros_msgs__rosidl_generator_c;
 
 //Dependencies for the target
-micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext_LIB_DEPENDS:STATIC=general;micro_ros_msgs__rosidl_generator_py;general;/usr/lib/aarch64-linux-gnu/libpython3.10.so;general;micro_ros_msgs__rosidl_typesupport_fastrtps_c;general;micro_ros_msgs__rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_c::rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;/opt/ros/humble/lib/librmw.so;general;rcutils::rcutils;general;rosidl_runtime_c::rosidl_runtime_c;
+micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext_LIB_DEPENDS:STATIC=general;micro_ros_msgs__rosidl_generator_py;general;/usr/lib/x86_64-linux-gnu/libpython3.10.so;general;micro_ros_msgs__rosidl_typesupport_fastrtps_c;general;micro_ros_msgs__rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_c::rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;/opt/ros/humble/lib/librmw.so;general;rcutils::rcutils;general;rosidl_runtime_c::rosidl_runtime_c;
 
 //Dependencies for the target
 micro_ros_msgs__rosidl_typesupport_fastrtps_cpp_LIB_DEPENDS:STATIC=general;fastcdr;general;rmw::rmw;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_fastrtps_cpp::rosidl_typesupport_fastrtps_cpp;
@@ -403,22 +403,10 @@ micro_ros_msgs__rosidl_typesupport_fastrtps_cpp_LIB_DEPENDS:STATIC=general;fastc
 micro_ros_msgs__rosidl_typesupport_introspection_c_LIB_DEPENDS:STATIC=general;micro_ros_msgs__rosidl_generator_c;general;rosidl_typesupport_introspection_c::rosidl_typesupport_introspection_c;
 
 //Dependencies for the target
-micro_ros_msgs__rosidl_typesupport_introspection_c__pyext_LIB_DEPENDS:STATIC=general;micro_ros_msgs__rosidl_generator_py;general;/usr/lib/aarch64-linux-gnu/libpython3.10.so;general;micro_ros_msgs__rosidl_typesupport_introspection_c;general;micro_ros_msgs__rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_c::rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;/opt/ros/humble/lib/librmw.so;general;rcutils::rcutils;general;rosidl_runtime_c::rosidl_runtime_c;
+micro_ros_msgs__rosidl_typesupport_introspection_c__pyext_LIB_DEPENDS:STATIC=general;micro_ros_msgs__rosidl_generator_py;general;/usr/lib/x86_64-linux-gnu/libpython3.10.so;general;micro_ros_msgs__rosidl_typesupport_introspection_c;general;micro_ros_msgs__rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_c::rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;/opt/ros/humble/lib/librmw.so;general;rcutils::rcutils;general;rosidl_runtime_c::rosidl_runtime_c;
 
 //Dependencies for the target
 micro_ros_msgs__rosidl_typesupport_introspection_cpp_LIB_DEPENDS:STATIC=general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_introspection_cpp::rosidl_typesupport_introspection_cpp;
-
-//Dependencies for the target
-micro_ros_msgs__rosidl_typesupport_microxrcedds_c_LIB_DEPENDS:STATIC=general;rmw::rmw;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_microxrcedds_c::rosidl_typesupport_microxrcedds_c;general;micro_ros_msgs__rosidl_generator_c;general;microcdr;
-
-//Dependencies for the target
-micro_ros_msgs__rosidl_typesupport_microxrcedds_c__pyext_LIB_DEPENDS:STATIC=general;micro_ros_msgs__rosidl_generator_py;general;/usr/lib/aarch64-linux-gnu/libpython3.10.so;general;micro_ros_msgs__rosidl_typesupport_microxrcedds_c;general;micro_ros_msgs__rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_c::rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;/opt/ros/humble/lib/librmw.so;general;rcutils::rcutils;general;rosidl_runtime_c::rosidl_runtime_c;
-
-//Dependencies for the target
-micro_ros_msgs__rosidl_typesupport_microxrcedds_cpp_LIB_DEPENDS:STATIC=general;rmw::rmw;general;rosidl_typesupport_microxrcedds_cpp::rosidl_typesupport_microxrcedds_cpp;general;microcdr;
-
-//The directory containing a CMake configuration file for microcdr.
-microcdr_DIR:PATH=/home/aajaer/microros_ws/install/microcdr/share/microcdr/cmake
 
 //The directory containing a CMake configuration file for python_cmake_module.
 python_cmake_module_DIR:PATH=/opt/ros/humble/share/python_cmake_module/cmake
@@ -476,12 +464,6 @@ rosidl_typesupport_introspection_c_DIR:PATH=/opt/ros/humble/share/rosidl_typesup
 
 //The directory containing a CMake configuration file for rosidl_typesupport_introspection_cpp.
 rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/cmake
-
-//The directory containing a CMake configuration file for rosidl_typesupport_microxrcedds_c.
-rosidl_typesupport_microxrcedds_c_DIR:PATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake
-
-//The directory containing a CMake configuration file for rosidl_typesupport_microxrcedds_cpp.
-rosidl_typesupport_microxrcedds_cpp_DIR:PATH=/home/aajaer/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake
 
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint
@@ -571,7 +553,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/aajaer/microros_ws/src/uros/micro_ros_msgs
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/aajaer/microros_ws/src/src/uros/micro_ros_msgs
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -637,11 +619,11 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Python3
 FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3][cfound components: Interpreter ][v3.10.12()]
 //Details about finding PythonExtra
-FIND_PACKAGE_MESSAGE_DETAILS_PythonExtra:INTERNAL=[.so][/usr/include/python3.10][/usr/lib/aarch64-linux-gnu/libpython3.10.so][cpython-310-aarch64-linux-gnu][.cpython-310-aarch64-linux-gnu][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonExtra:INTERNAL=[.so][/usr/include/python3.10][/usr/lib/x86_64-linux-gnu/libpython3.10.so][cpython-310-x86_64-linux-gnu][.cpython-310-x86_64-linux-gnu][v()]
 //Details about finding PythonInterp
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3][v3.10.12(3.6)]
 //Details about finding PythonLibs
-FIND_PACKAGE_MESSAGE_DETAILS_PythonLibs:INTERNAL=[/usr/lib/aarch64-linux-gnu/libpython3.10.so][/usr/include/python3.10][v3.10.12(3.5)]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonLibs:INTERNAL=[/usr/lib/x86_64-linux-gnu/libpython3.10.so][/usr/include/python3.10][v3.10.12(3.5)]
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PYTHON_INCLUDE_DIR
@@ -655,13 +637,11 @@ PYTHON_LIBRARY-ADVANCED:INTERNAL=1
 PYTHON_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //The SOABI suffix for Python native extensions. See PEP-3149:
 // https://www.python.org/dev/peps/pep-3149/.
-PYTHON_SOABI:INTERNAL=cpython-310-aarch64-linux-gnu
+PYTHON_SOABI:INTERNAL=cpython-310-x86_64-linux-gnu
 //The full suffix for Python native extensions. See PEP-3149: https://www.python.org/dev/peps/pep-3149/.
-PythonExtra_EXTENSION_SUFFIX:INTERNAL=.cpython-310-aarch64-linux-gnu
+PythonExtra_EXTENSION_SUFFIX:INTERNAL=.cpython-310-x86_64-linux-gnu
 _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-aarch64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=0f3e53742e142b1d9e50e4ca5b901dd8
-//Index for unique symlink install targets
-__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=3
 

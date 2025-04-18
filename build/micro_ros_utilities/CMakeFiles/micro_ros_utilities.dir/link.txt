@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmicro_ros_utilities.a CMakeFiles/micro_ros_utilities.dir/src/string_utilities.c.o CMakeFiles/micro_ros_utilities.dir/src/type_utilities.c.o
-/usr/bin/ranlib libmicro_ros_utilities.a

@@ -2,28 +2,37 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import LaserScan
 from std_msgs.msg import Int32
+import math
 
 class MotorController(Node):
     def __init__(self):
         super().__init__('motor_controller')
         self.subscription = self.create_subscription(
             LaserScan,
-            '/scan',
+            '/scan/front_filtered',  # <- Uses filtered topic
             self.scan_callback,
             10
         )
         self.motor_command_publisher = self.create_publisher(Int32, '/motor_command', 10)
-        self.obstacle_distance_threshold = 100000000  # Distance threshold in meters
+        self.obstacle_distance_threshold = 1.0  # meters
 
     def scan_callback(self, msg: LaserScan):
-        # Check if an obstacle is detected
-        obstacle_detected = any(
-            distance < self.obstacle_distance_threshold for distance in msg.ranges if distance > 0.0
-        )
+        angle_min = msg.angle_min
+        angle_increment = msg.angle_increment
 
-        # Publish a motor command based on detection
+        front_min_angle = math.radians(-90)
+        front_max_angle = math.radians(90)
+
+        obstacle_detected = False
+
+        for i, distance in enumerate(msg.ranges):
+            angle = angle_min + i * angle_increment
+            if front_min_angle <= angle <= front_max_angle and 0.0 < distance < self.obstacle_distance_threshold:
+                obstacle_detected = True
+                break
+
         command_msg = Int32()
-        command_msg.data = 0 if obstacle_detected else 1  # 0 = stop, 1 = move forward
+        command_msg.data = 0 if obstacle_detected else 1
         self.motor_command_publisher.publish(command_msg)
 
 def main(args=None):

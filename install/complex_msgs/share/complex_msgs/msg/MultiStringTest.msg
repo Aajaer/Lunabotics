@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/src/uros/micro-ROS-demos/messages/complex_msg/msg/MultiStringTest.msg

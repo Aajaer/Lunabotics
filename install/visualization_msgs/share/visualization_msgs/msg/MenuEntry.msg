@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/src/ros2/common_interfaces/visualization_msgs/msg/MenuEntry.msg

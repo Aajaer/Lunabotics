@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/shape_msgs/ament_cmake_core/shape_msgsConfig.cmake

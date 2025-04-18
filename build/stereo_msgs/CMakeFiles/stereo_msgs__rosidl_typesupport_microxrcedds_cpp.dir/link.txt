@@ -1,2 +1,0 @@
-/usr/bin/ar qc libstereo_msgs__rosidl_typesupport_microxrcedds_cpp.a CMakeFiles/stereo_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/stereo_msgs/msg/detail/microxrcedds/disparity_image__type_support_cpp.cpp.o
-/usr/bin/ranlib libstereo_msgs__rosidl_typesupport_microxrcedds_cpp.a

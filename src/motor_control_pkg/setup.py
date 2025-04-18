@@ -15,6 +15,9 @@ setup(
         # Install launch files
         ('share/' + package_name + '/launch', ['launch/motor_control_launch.py']),
         ('share/' + package_name + '/launch', ['launch/slam_launch.py']),
+
+        # ✅ Install config file for Cartographer
+        ('share/' + package_name + '/config', ['config/backpack_2d.lua']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -26,6 +29,7 @@ setup(
     entry_points={
         'console_scripts': [
             'lidar_motor_control = motor_control_pkg.lidar_motor_control:main',
+            'scan_filter_node = motor_control_pkg.scan_filter_node:main',
         ],
     },
 )

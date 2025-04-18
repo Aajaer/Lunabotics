@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aajaer/microros_ws/src/uros/micro_ros_msgs
+CMAKE_SOURCE_DIR = /home/aajaer/microros_ws/src/src/uros/micro_ros_msgs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/aajaer/microros_ws/build/micro_ros_msgs
@@ -176,6 +176,6 @@ CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_ty
 CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
 CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
 CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
-	cd /home/aajaer/microros_ws/build/micro_ros_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aajaer/microros_ws/src/uros/micro_ros_msgs /home/aajaer/microros_ws/src/uros/micro_ros_msgs /home/aajaer/microros_ws/build/micro_ros_msgs /home/aajaer/microros_ws/build/micro_ros_msgs /home/aajaer/microros_ws/build/micro_ros_msgs/CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aajaer/microros_ws/build/micro_ros_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aajaer/microros_ws/src/src/uros/micro_ros_msgs /home/aajaer/microros_ws/src/src/uros/micro_ros_msgs /home/aajaer/microros_ws/build/micro_ros_msgs /home/aajaer/microros_ws/build/micro_ros_msgs /home/aajaer/microros_ws/build/micro_ros_msgs/CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend
 

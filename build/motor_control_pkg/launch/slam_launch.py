@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/src/motor_control_pkg/launch/slam_launch.py

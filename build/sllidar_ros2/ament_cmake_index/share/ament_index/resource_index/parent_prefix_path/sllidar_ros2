@@ -1,1 +1,1 @@
-/home/aajaer/microros_ws/install/sensor_msgs:/home/aajaer/microros_ws/install/geometry_msgs:/home/aajaer/microros_ws/install/std_msgs:/home/aajaer/microros_ws/install/std_srvs:/home/aajaer/microros_ws/install/builtin_interfaces:/opt/ros/humble
+/home/aajaer/microros_ws/install/sllidar_ros2:/home/aajaer/microros_ws/install/motor_control_pkg:/home/aajaer/microros_ws/install/lidar_slam:/opt/ros/humble

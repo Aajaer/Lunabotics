@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/trajectory_msgs/ament_cmake_core/trajectory_msgsConfig.cmake

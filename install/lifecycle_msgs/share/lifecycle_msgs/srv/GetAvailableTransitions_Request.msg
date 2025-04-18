@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/lifecycle_msgs/rosidl_cmake/srv/GetAvailableTransitions_Request.msg

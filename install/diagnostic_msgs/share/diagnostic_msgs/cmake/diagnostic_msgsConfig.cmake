@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/diagnostic_msgs/ament_cmake_core/diagnostic_msgsConfig.cmake

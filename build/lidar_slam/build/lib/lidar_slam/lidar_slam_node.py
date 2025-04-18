@@ -11,20 +11,18 @@ class LidarSlamNode(Node):
     def __init__(self):
         super().__init__('lidar_slam_node')
 
-        # Start the Lidar node automatically
         self.start_lidar_node()
 
-        # Subscribe to Lidar topic
         self.subscription = self.create_subscription(
             LaserScan, '/scan', self.scan_callback, 10)
 
-        # Publish map
+        #Publish map
         self.map_publisher = self.create_publisher(OccupancyGrid, '/map', 10)
 
         self.get_logger().info("Lidar SLAM Node Started")
 
     def start_lidar_node(self):
-        """ Starts the SLLidar node within this script """
+	#Retrieve package from SLLIDAR package from github
         def run_launch():
             launch_description = LaunchDescription([
                 LaunchNode(
@@ -43,18 +41,16 @@ class LidarSlamNode(Node):
             launch_service.include_launch_description(launch_description)
             launch_service.run()
 
-        # Run the launch file in a separate thread
+        #Run launch
         lidar_thread = threading.Thread(target=run_launch, daemon=True)
         lidar_thread.start()
         self.get_logger().info("Started SLLidar Node")
 
+	#scan the ranges
     def scan_callback(self, scan):
-        """ Process Lidar scan data and update the map """
         ranges = np.array(scan.ranges)
-        ranges[ranges == float('inf')] = 0  # Remove infinite values
+        ranges[ranges == float('inf')] = 0 
         self.get_logger().info(f"Received Lidar scan with {len(ranges)} points")
-
-        # Publish an empty map (Placeholder)
         grid_msg = OccupancyGrid()
         grid_msg.header.frame_id = "map"
         self.map_publisher.publish(grid_msg)

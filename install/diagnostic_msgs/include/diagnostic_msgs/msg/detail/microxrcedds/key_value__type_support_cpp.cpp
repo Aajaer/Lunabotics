@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/diagnostic_msgs/rosidl_typesupport_microxrcedds_cpp/diagnostic_msgs/msg/detail/microxrcedds/key_value__type_support_cpp.cpp

@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/complex_msgs/rosidl_typesupport_microxrcedds_cpp/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_microxrcedds_cpp.hpp

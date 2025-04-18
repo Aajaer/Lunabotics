@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/src/uros/rclc/rclc_parameter/include/rclc_parameter/rclc_parameter.h

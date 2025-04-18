@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/rcl_interfaces/rosidl_cmake/srv/GetParameterTypes_Response.msg

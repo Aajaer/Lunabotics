@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive.h

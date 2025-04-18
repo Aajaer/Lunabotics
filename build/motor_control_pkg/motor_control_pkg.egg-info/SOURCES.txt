@@ -8,10 +8,12 @@ setup.py
 ../../build/motor_control_pkg/motor_control_pkg.egg-info/requires.txt
 ../../build/motor_control_pkg/motor_control_pkg.egg-info/top_level.txt
 ../../build/motor_control_pkg/motor_control_pkg.egg-info/zip-safe
+config/backpack_2d.lua
 launch/motor_control_launch.py
 launch/slam_launch.py
 motor_control_pkg/__init__.py
 motor_control_pkg/lidar_motor_control.py
+motor_control_pkg/scan_filter_node.py
 resource/motor_control_pkg
 test/test_copyright.py
 test/test_flake8.py

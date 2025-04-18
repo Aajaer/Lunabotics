@@ -1,0 +1,37 @@
+[0.559s] Invoking command in '/home/aajaer/microros_ws/src/lidar_slam': PYTHONPATH=/home/aajaer/microros_ws/build/lidar_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aajaer/microros_ws/install/lidar_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_slam build --build-base /home/aajaer/microros_ws/build/lidar_slam/build install --record /home/aajaer/microros_ws/build/lidar_slam/install.log --single-version-externally-managed install_data
+[0.671s] running egg_info
+[0.671s] creating ../../build/lidar_slam/lidar_slam.egg-info
+[0.671s] writing ../../build/lidar_slam/lidar_slam.egg-info/PKG-INFO
+[0.671s] writing dependency_links to ../../build/lidar_slam/lidar_slam.egg-info/dependency_links.txt
+[0.671s] writing entry points to ../../build/lidar_slam/lidar_slam.egg-info/entry_points.txt
+[0.671s] writing requirements to ../../build/lidar_slam/lidar_slam.egg-info/requires.txt
+[0.671s] writing top-level names to ../../build/lidar_slam/lidar_slam.egg-info/top_level.txt
+[0.671s] writing manifest file '../../build/lidar_slam/lidar_slam.egg-info/SOURCES.txt'
+[0.672s] reading manifest file '../../build/lidar_slam/lidar_slam.egg-info/SOURCES.txt'
+[0.673s] writing manifest file '../../build/lidar_slam/lidar_slam.egg-info/SOURCES.txt'
+[0.673s] running build
+[0.673s] running build_py
+[0.673s] creating /home/aajaer/microros_ws/build/lidar_slam/build
+[0.673s] creating /home/aajaer/microros_ws/build/lidar_slam/build/lib
+[0.673s] creating /home/aajaer/microros_ws/build/lidar_slam/build/lib/lidar_slam
+[0.673s] copying lidar_slam/__init__.py -> /home/aajaer/microros_ws/build/lidar_slam/build/lib/lidar_slam
+[0.673s] copying lidar_slam/lidar_slam_node.py -> /home/aajaer/microros_ws/build/lidar_slam/build/lib/lidar_slam
+[0.673s] running install
+[0.673s] running install_lib
+[0.674s] creating /home/aajaer/microros_ws/install/lidar_slam/lib/python3.10/site-packages/lidar_slam
+[0.674s] copying /home/aajaer/microros_ws/build/lidar_slam/build/lib/lidar_slam/__init__.py -> /home/aajaer/microros_ws/install/lidar_slam/lib/python3.10/site-packages/lidar_slam
+[0.674s] copying /home/aajaer/microros_ws/build/lidar_slam/build/lib/lidar_slam/lidar_slam_node.py -> /home/aajaer/microros_ws/install/lidar_slam/lib/python3.10/site-packages/lidar_slam
+[0.674s] byte-compiling /home/aajaer/microros_ws/install/lidar_slam/lib/python3.10/site-packages/lidar_slam/__init__.py to __init__.cpython-310.pyc
+[0.674s] byte-compiling /home/aajaer/microros_ws/install/lidar_slam/lib/python3.10/site-packages/lidar_slam/lidar_slam_node.py to lidar_slam_node.cpython-310.pyc
+[0.674s] running install_data
+[0.675s] creating /home/aajaer/microros_ws/install/lidar_slam/share/ament_index
+[0.675s] creating /home/aajaer/microros_ws/install/lidar_slam/share/ament_index/resource_index
+[0.675s] creating /home/aajaer/microros_ws/install/lidar_slam/share/ament_index/resource_index/packages
+[0.675s] copying resource/lidar_slam -> /home/aajaer/microros_ws/install/lidar_slam/share/ament_index/resource_index/packages
+[0.675s] copying package.xml -> /home/aajaer/microros_ws/install/lidar_slam/share/lidar_slam
+[0.675s] running install_egg_info
+[0.676s] Copying ../../build/lidar_slam/lidar_slam.egg-info to /home/aajaer/microros_ws/install/lidar_slam/lib/python3.10/site-packages/lidar_slam-0.0.0-py3.10.egg-info
+[0.676s] running install_scripts
+[0.686s] Installing lidar_slam_node script to /home/aajaer/microros_ws/install/lidar_slam/lib/lidar_slam
+[0.686s] writing list of installed files to '/home/aajaer/microros_ws/build/lidar_slam/install.log'
+[0.696s] Invoked command in '/home/aajaer/microros_ws/src/lidar_slam' returned '0': PYTHONPATH=/home/aajaer/microros_ws/build/lidar_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aajaer/microros_ws/install/lidar_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_slam build --build-base /home/aajaer/microros_ws/build/lidar_slam/build install --record /home/aajaer/microros_ws/build/lidar_slam/install.log --single-version-externally-managed install_data

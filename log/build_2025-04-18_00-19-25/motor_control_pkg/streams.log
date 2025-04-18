@@ -1,0 +1,24 @@
+[0.439s] Invoking command in '/home/aajaer/microros_ws/src/motor_control_pkg': PYTHONPATH=/home/aajaer/microros_ws/build/motor_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aajaer/microros_ws/install/motor_control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_control_pkg build --build-base /home/aajaer/microros_ws/build/motor_control_pkg/build install --record /home/aajaer/microros_ws/build/motor_control_pkg/install.log --single-version-externally-managed install_data
+[0.555s] running egg_info
+[0.555s] writing ../../build/motor_control_pkg/motor_control_pkg.egg-info/PKG-INFO
+[0.555s] writing dependency_links to ../../build/motor_control_pkg/motor_control_pkg.egg-info/dependency_links.txt
+[0.556s] writing entry points to ../../build/motor_control_pkg/motor_control_pkg.egg-info/entry_points.txt
+[0.556s] writing requirements to ../../build/motor_control_pkg/motor_control_pkg.egg-info/requires.txt
+[0.556s] writing top-level names to ../../build/motor_control_pkg/motor_control_pkg.egg-info/top_level.txt
+[0.557s] reading manifest file '../../build/motor_control_pkg/motor_control_pkg.egg-info/SOURCES.txt'
+[0.557s] writing manifest file '../../build/motor_control_pkg/motor_control_pkg.egg-info/SOURCES.txt'
+[0.557s] running build
+[0.557s] running build_py
+[0.557s] running install
+[0.557s] running install_lib
+[0.558s] running install_data
+[0.558s] copying launch/motor_control_launch.py -> /home/aajaer/microros_ws/install/motor_control_pkg/share/motor_control_pkg/launch
+[0.558s] copying launch/slam_launch.py -> /home/aajaer/microros_ws/install/motor_control_pkg/share/motor_control_pkg/launch
+[0.558s] running install_egg_info
+[0.559s] removing '/home/aajaer/microros_ws/install/motor_control_pkg/lib/python3.10/site-packages/motor_control_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.559s] Copying ../../build/motor_control_pkg/motor_control_pkg.egg-info to /home/aajaer/microros_ws/install/motor_control_pkg/lib/python3.10/site-packages/motor_control_pkg-0.0.0-py3.10.egg-info
+[0.560s] running install_scripts
+[0.570s] Installing lidar_motor_control script to /home/aajaer/microros_ws/install/motor_control_pkg/lib/motor_control_pkg
+[0.570s] Installing scan_filter_node script to /home/aajaer/microros_ws/install/motor_control_pkg/lib/motor_control_pkg
+[0.570s] writing list of installed files to '/home/aajaer/microros_ws/build/motor_control_pkg/install.log'
+[0.579s] Invoked command in '/home/aajaer/microros_ws/src/motor_control_pkg' returned '0': PYTHONPATH=/home/aajaer/microros_ws/build/motor_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aajaer/microros_ws/install/motor_control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_control_pkg build --build-base /home/aajaer/microros_ws/build/motor_control_pkg/build install --record /home/aajaer/microros_ws/build/motor_control_pkg/install.log --single-version-externally-managed install_data

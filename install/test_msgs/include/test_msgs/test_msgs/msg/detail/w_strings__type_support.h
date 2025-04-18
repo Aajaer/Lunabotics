@@ -1,1 +1,0 @@
-/home/aajaer/microros_ws/build/test_msgs/rosidl_generator_c/test_msgs/msg/detail/w_strings__type_support.h
