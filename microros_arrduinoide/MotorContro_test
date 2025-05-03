@@ -1,0 +1,60 @@
+#include "VL53L1X.h"
+#include <Wire.h>
+
+VL53L1X sensor;
+
+#define FL_PWM 32
+#define FR_PWM 18
+#define BL_PWM 33
+#define BR_PWM 19
+
+#define FL_DIR 4
+#define FR_DIR 2
+#define BL_DIR 13
+#define BR_DIR 5
+
+#define CH_FR 0
+#define CH_BR 1
+#define CH_FL 2
+#define CH_BL 3
+
+void setup() {
+  Serial.begin(115200);
+  Wire.begin();
+  delay(2000);
+  
+  ledcSetup(CH_FR, 1000, 8); ledcAttachPin(FR_PWM, CH_FR);
+  ledcSetup(CH_BR, 1000, 8); ledcAttachPin(BR_PWM, CH_BR);
+  ledcSetup(CH_FL, 1000, 8); ledcAttachPin(FL_PWM, CH_FL);
+  ledcSetup(CH_BL, 1000, 8); ledcAttachPin(BL_PWM, CH_BL);
+  
+  ledcWrite(CH_FR, 40);
+  ledcWrite(CH_BR, 40);
+  ledcWrite(CH_FL, 40);
+  ledcWrite(CH_BL, 40);
+  
+  pinMode(FL_DIR, OUTPUT);
+  pinMode(FR_DIR, OUTPUT);
+  pinMode(BL_DIR, OUTPUT);
+  pinMode(BR_DIR, OUTPUT);
+ 
+  digitalWrite(FL_DIR, LOW);
+  digitalWrite(FR_DIR, LOW);
+  digitalWrite(BL_DIR, HIGH);
+  digitalWrite(BR_DIR, HIGH);
+
+  sensor.setTimeout(500);
+  sensor.init();
+  sensor.setDistanceMode(VL53L1X::Medium);
+  sensor.setMeasurementTimingBudget(140000);
+}
+
+void loop() {
+  int distance = sensor.readRangeSingleMillimeters();
+  Serial.print("Distance: ");
+  Serial.print(distance);
+  Serial.println(" mm");
+
+  delay(1000);  // Read every second
+}
+
