@@ -8,13 +8,13 @@ class ScanFilterNode(Node):
         super().__init__('scan_filter_node')
         self.subscription = self.create_subscription(
             LaserScan,
-            '/scan',  # Raw LiDAR data
+            '/scan',  # Raw Data
             self.scan_callback,
             10
         )
         self.publisher = self.create_publisher(
             LaserScan,
-            '/scan/front_filtered',  # Filtered output
+            '/scan/front_filtered',  
             10
         )
 
@@ -26,7 +26,7 @@ class ScanFilterNode(Node):
 
         num_readings = len(msg.ranges)
 
-        # Log LiDAR angle range
+       
         self.get_logger().info(
             f"angle_min: {math.degrees(angle_min):.2f}°, "
             f"angle_max: {math.degrees(msg.angle_max):.2f}°, "
@@ -35,17 +35,17 @@ class ScanFilterNode(Node):
 
         def is_front_angle(angle_rad):
             angle_deg = math.degrees(angle_rad)
-            angle_deg = (angle_deg + 360) % 360  # Normalize to [0, 360)
-            return (angle_deg >= 315 or angle_deg <= 45)  # Keep ±45° in front
+            angle_deg = (angle_deg + 360) % 360  
+            return (angle_deg >= 315 or angle_deg <= 45)  # Keep 45 deg
 
         filtered_ranges = list(msg.ranges)
 
         for i in range(num_readings):
             angle = angle_min + i * angle_increment
             if not is_front_angle(angle):
-                filtered_ranges[i] = float('inf')  # Ignore rear data
+                filtered_ranges[i] = float('inf')  # Ignore rear
 
-        # Republish filtered scan
+        # Republish scan
         filtered_scan = LaserScan()
         filtered_scan.header = msg.header
         filtered_scan.angle_min = msg.angle_min
