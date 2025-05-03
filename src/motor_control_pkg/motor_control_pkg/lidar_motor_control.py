@@ -9,12 +9,12 @@ class MotorController(Node):
         super().__init__('motor_controller')
         self.subscription = self.create_subscription(
             LaserScan,
-            '/scan/front_filtered',  # <- Uses filtered topic
+            '/scan/front_filtered',  
             self.scan_callback,
             10
         )
         self.motor_command_publisher = self.create_publisher(Int32, '/motor_command', 10)
-        self.obstacle_distance_threshold = 1.0  # meters
+        self.obstacle_distance_threshold = 1.0  
 
     def scan_callback(self, msg: LaserScan):
         angle_min = msg.angle_min
