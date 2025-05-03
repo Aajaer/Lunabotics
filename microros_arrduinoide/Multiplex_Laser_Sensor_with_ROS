@@ -1,0 +1,99 @@
+#include <micro_ros_arduino.h>
+#include <Wire.h>
+#include <VL53L1X.h>
+
+#include <rcl/rcl.h>
+#include <rclc/rclc.h>
+#include <rclc/executor.h>
+#include <std_msgs/msg/int32.h>
+
+#define TCA_ADDR 0x70
+VL53L1X sensor;
+const uint8_t SENSOR_BUSES[4] = {2, 3, 4, 5};
+
+rcl_publisher_t sensor_pubs[4];
+std_msgs__msg__Int32 sensor_msgs[4];
+
+rcl_node_t node;
+rclc_executor_t executor;
+rcl_timer_t timer;
+rcl_allocator_t allocator;
+rclc_support_t support;
+
+void tca_select(uint8_t bus) {
+  Wire.beginTransmission(TCA_ADDR);
+  Wire.write(1 << bus);
+  Wire.endTransmission();
+  delay(10);
+}
+
+void init_sensors() {
+  for (int i = 0; i < 4; i++) {
+    tca_select(SENSOR_BUSES[i]);
+    sensor.setTimeout(500);
+    if (!sensor.init()) {
+      Serial.print("Sensor ");
+      Serial.print(i);
+      Serial.println(" failed to initialize.");
+      while (1);
+    }
+
+    sensor.setDistanceMode(VL53L1X::Medium);
+    sensor.setMeasurementTimingBudget(140000);
+    sensor.startContinuous(100);
+  }
+}
+
+int read_sensor(uint8_t index) {
+  tca_select(SENSOR_BUSES[index]);
+  return sensor.read();
+}
+
+void timer_callback(rcl_timer_t * timer, int64_t last_call_time) {
+  RCLC_UNUSED(timer);
+  for (int i = 0; i < 4; i++) {
+    int dist = read_sensor(i);
+    sensor_msgs[i].data = dist;
+    rcl_publish(&sensor_pubs[i], &sensor_msgs[i], NULL);
+  }
+}
+
+void setup() {
+  Serial.begin(115200);
+  delay(2000); 
+
+  set_microros_transports();
+  Wire.begin();
+
+  allocator = rcl_get_default_allocator();
+  rclc_support_init(&support, 0, NULL, &allocator);
+  rclc_node_init_default(&node, "tof_sensor_node", "", &support);
+
+
+  const char *topic_names[4] = {
+    "sensor/right_front_side",
+    "sensor/left_front_side",
+    "sensor/unused_sensor",     
+    "sensor/right_front_direct"
+  };
+
+  for (int i = 0; i < 4; i++) {
+    rclc_publisher_init_default(
+      &sensor_pubs[i],
+      &node,
+      ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32),
+      topic_names[i]
+    );
+  }
+
+  init_sensors();
+
+  rclc_timer_init_default(&timer, &support, RCL_MS_TO_NS(1000), timer_callback);
+  rclc_executor_init(&executor, &support.context, 1, &allocator);
+  rclc_executor_add_timer(&executor, &timer);
+}
+
+void loop() {
+  rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100));
+}
+a
