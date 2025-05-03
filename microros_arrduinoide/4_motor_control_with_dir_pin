@@ -1,0 +1,163 @@
+#include <micro_ros_arduino.h>
+#include <Wire.h>
+#include <VL53L1X.h>
+
+#include <rcl/rcl.h>
+#include <rclc/rclc.h>
+#include <rclc/executor.h>
+#include <std_msgs/msg/int32.h>
+
+
+#define FL_PWM 32
+#define FR_PWM 18
+#define BL_PWM 33
+#define BR_PWM 19
+
+#define FL_DIR 4
+#define FR_DIR 2
+#define BL_DIR 13
+#define BR_DIR 5
+
+#define CH_FR 0
+#define CH_BR 1
+#define CH_FL 2
+#define CH_BL 3
+
+
+#define TCA_ADDR 0x70
+VL53L1X sensor;
+const uint8_t SENSOR_BUSES[4] = {2, 3, 4, 5};
+
+rcl_publisher_t sensor_pubs[4];
+std_msgs__msg__Int32 sensor_msgs[4];
+
+
+rcl_node_t node;
+rcl_allocator_t allocator;
+rclc_support_t support;
+rclc_executor_t executor;
+rcl_timer_t timer;
+
+rcl_subscription_t pwm_subscriber;
+std_msgs__msg__Int32 pwm_msg;
+
+
+void tca_select(uint8_t bus) {
+  Wire.beginTransmission(TCA_ADDR);
+  Wire.write(1 << bus);
+  Wire.endTransmission();
+  delay(10);
+}
+
+
+void init_sensors() {
+  for (int i = 0; i < 4; i++) {
+    tca_select(SENSOR_BUSES[i]);
+    sensor.setTimeout(500);
+    if (!sensor.init()) {
+      Serial.print("Sensor ");
+      Serial.print(i);
+      Serial.println(" failed to initialize.");
+      while (1);
+    }
+    sensor.setDistanceMode(VL53L1X::Medium);
+    sensor.setMeasurementTimingBudget(140000);
+    sensor.startContinuous(100);
+  }
+}
+
+int read_sensor(uint8_t index) {
+  tca_select(SENSOR_BUSES[index]);
+  return sensor.read();
+}
+
+
+void timer_callback(rcl_timer_t * timer, int64_t last_call_time) {
+  RCLC_UNUSED(timer);
+  for (int i = 0; i < 4; i++) {
+    sensor_msgs[i].data = read_sensor(i);
+    rcl_publish(&sensor_pubs[i], &sensor_msgs[i], NULL);
+  }
+}
+
+
+void pwm_callback(const void *msgin) {
+  const std_msgs__msg__Int32 *msg = (const std_msgs__msg__Int32 *)msgin;
+  int pwm = msg->data;
+
+  digitalWrite(FL_DIR, LOW);
+  digitalWrite(FR_DIR, LOW);
+  digitalWrite(BL_DIR, HIGH);
+  digitalWrite(BR_DIR, HIGH);
+
+  ledcWrite(CH_FR, pwm);
+  ledcWrite(CH_BR, pwm);
+  ledcWrite(CH_FL, pwm);
+  ledcWrite(CH_BL, pwm);
+
+  Serial.print("Received PWM: ");
+  Serial.println(pwm);
+}
+
+
+void setup() {
+  Serial.begin(115200);
+  delay(2000);
+
+  // motor pins
+  pinMode(FL_DIR, OUTPUT);
+  pinMode(FR_DIR, OUTPUT);
+  pinMode(BL_DIR, OUTPUT);
+  pinMode(BR_DIR, OUTPUT);
+
+  ledcSetup(CH_FR, 1000, 8); ledcAttachPin(FR_PWM, CH_FR);
+  ledcSetup(CH_BR, 1000, 8); ledcAttachPin(BR_PWM, CH_BR);
+  ledcSetup(CH_FL, 1000, 8); ledcAttachPin(FL_PWM, CH_FL);
+  ledcSetup(CH_BL, 1000, 8); ledcAttachPin(BL_PWM, CH_BL);
+
+  Wire.begin();
+  set_microros_transports();
+
+  allocator = rcl_get_default_allocator();
+  rclc_support_init(&support, 0, NULL, &allocator);
+  rclc_node_init_default(&node, "robot_node", "", &support);
+
+  // Sensor publishers
+  const char *topic_names[4] = {
+    "sensor/right_front_side",
+    "sensor/left_front_side",
+    "sensor/unused_sensor",
+    "sensor/right_front_direct"
+  };
+
+  for (int i = 0; i < 4; i++) {
+    rclc_publisher_init_default(
+      &sensor_pubs[i],
+      &node,
+      ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32),
+      topic_names[i]
+    );
+  }
+
+  // PWM subscriber
+  rclc_subscription_init_default(
+    &pwm_subscriber,
+    &node,
+    ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32),
+    "motor_pwm");
+
+  // Init sensors
+  init_sensors();
+
+  
+  rclc_timer_init_default(&timer, &support, RCL_MS_TO_NS(500), timer_callback);
+  rclc_executor_init(&executor, &support.context, 2, &allocator);
+  rclc_executor_add_timer(&executor, &timer);
+  rclc_executor_add_subscription(&executor, &pwm_subscriber, &pwm_msg, &pwm_callback, ON_NEW_DATA);
+}
+
+
+void loop() {
+  rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100));
+}
+
