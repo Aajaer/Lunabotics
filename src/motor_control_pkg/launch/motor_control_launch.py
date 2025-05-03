@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
@@ -7,13 +5,12 @@ from launch_ros.actions import Node
 from launch.substitutions import LaunchConfiguration
 
 def generate_launch_description():
-    # Launch configuration
+    
     channel_type = LaunchConfiguration('channel_type', default='serial')
     serial_port = LaunchConfiguration('serial_port', default='/dev/ttyUSB0')
     serial_baudrate = LaunchConfiguration('serial_baudrate', default='1000000')
     frame_id = LaunchConfiguration('frame_id', default='laser')
 
-    # Paths
     rviz_config = os.path.join(
         get_package_share_directory('sllidar_ros2'),
         'rviz',
@@ -26,7 +23,6 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-        # Lidar node
         Node(
             package='sllidar_ros2',
             executable='sllidar_node',
@@ -40,7 +36,7 @@ def generate_launch_description():
             output='screen'
         ),
 
-        # Relay scan topic
+        
         Node(
             package='topic_tools',
             executable='relay',
@@ -49,7 +45,7 @@ def generate_launch_description():
             output='screen'
         ),
 
-        # Scan filter node
+        
         Node(
             package='motor_control_pkg',
             executable='scan_filter_node',
@@ -57,7 +53,7 @@ def generate_launch_description():
             output='screen'
         ),
 
-        # Updated motor control node
+        
         Node(
             package='motor_control_pkg',
             executable='lidar_motor_control',
@@ -65,7 +61,7 @@ def generate_launch_description():
             output='screen'
         ),
 
-        # Static TF: base_link -> laser
+        
         Node(
             package='tf2_ros',
             executable='static_transform_publisher',
@@ -74,7 +70,7 @@ def generate_launch_description():
             output='screen'
         ),
 
-        # Cartographer SLAM
+        # Cartographer
         Node(
             package='cartographer_ros',
             executable='cartographer_node',
@@ -92,7 +88,7 @@ def generate_launch_description():
             output='screen'
         ),
 
-        # Map generation
+        # Map
         Node(
             package='cartographer_ros',
             executable='occupancy_grid_node',
@@ -108,7 +104,7 @@ def generate_launch_description():
             output='screen'
         ),
 
-        # RViz
+        
         Node(
             package='rviz2',
             executable='rviz2',
