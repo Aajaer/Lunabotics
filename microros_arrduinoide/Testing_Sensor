@@ -1,0 +1,69 @@
+#include <micro_ros_arduino.h>
+#include <rcl/rcl.h>
+#include <rclc/rclc.h>
+#include <rclc/executor.h>
+#include <std_msgs/msg/int32.h>
+
+#include "VL53L1X.h"
+
+VL53L1X sensor;
+
+rcl_node_t node;
+rcl_publisher_t publisher;
+rclc_support_t support;
+rcl_allocator_t allocator;
+rclc_executor_t executor;
+rcl_timer_t timer;
+
+std_msgs__msg__Int32 distance_msg;
+
+void timer_callback(rcl_timer_t * timer, int64_t last_call_time) {
+  (void) last_call_time;
+  if (timer != NULL) {
+    int distance = sensor.readRangeSingleMillimeters();
+    distance_msg.data = distance;
+    rcl_publish(&publisher, &distance_msg, NULL);
+  }
+}
+
+void sensor_init(VL53L1X::DistanceMode range_mode, bool high_speed) {
+  sensor.setTimeout(500);
+  sensor.init();
+  sensor.setDistanceMode(range_mode);
+  int budget = high_speed ? 33000 : 140000;
+  sensor.setMeasurementTimingBudget(budget);
+}
+
+void setup() {
+  set_microros_transports();
+
+  Wire.begin();  
+
+  delay(2000); 
+
+  allocator = rcl_get_default_allocator();
+  rclc_support_init(&support, 0, NULL, &allocator);
+  rclc_node_init_default(&node, "distance_sensor_node", "", &support);
+  rclc_publisher_init_default(
+    &publisher,
+    &node,
+    ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32),
+    "distance_mm"
+  );
+
+  rclc_executor_init(&executor, &support.context, 1, &allocator);
+  rclc_timer_init_default(
+    &timer,
+    &support,
+    RCL_MS_TO_NS(1000),
+    timer_callback
+  );
+  rclc_executor_add_timer(&executor, &timer);
+
+  sensor_init(VL53L1X::Medium, false); 
+}
+
+void loop() {
+  rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100)); 
+}
+
