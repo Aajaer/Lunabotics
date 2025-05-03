@@ -5,7 +5,7 @@ from launch.actions import TimerAction
 def generate_launch_description():
     return LaunchDescription([
 
-        # Delay TF: odom → base_link
+        # Delay TF
         TimerAction(
             period=1.0,
             actions=[
@@ -19,7 +19,7 @@ def generate_launch_description():
             ]
         ),
 
-        # Delay TF: base_link → laser
+        # Delay TF
         TimerAction(
             period=2.0,
             actions=[
@@ -33,7 +33,7 @@ def generate_launch_description():
             ]
         ),
 
-        # RPLidar S2L node
+        
         Node(
             package='sllidar_ros2',
             executable='sllidar_node',
@@ -47,7 +47,6 @@ def generate_launch_description():
             output='screen'
         ),
 
-        # Relay scan topic
         Node(
             package='topic_tools',
             executable='relay',
@@ -56,7 +55,7 @@ def generate_launch_description():
             output='screen'
         ),
 
-        # Delay SLAM Toolbox
+        
         TimerAction(
             period=6.0,
             actions=[
@@ -78,7 +77,6 @@ def generate_launch_description():
             ]
         ),
 
-        # RViz
         Node(
             package='rviz2',
             executable='rviz2',
@@ -86,7 +84,6 @@ def generate_launch_description():
             output='screen'
         ),
 
-        # Scan filter node
         Node(
             package='motor_control_pkg',
             executable='scan_filter_node',
